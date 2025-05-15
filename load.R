@@ -2,8 +2,14 @@ library(tidyverse)
 library(fs)
 library(readxl)
 
+
+# Source files ------------------------------------------------------------
+
 # Source data file to import
 source_dataset_file <- "input/20250515/YG_Open_Gov_DKAN_dataset_export.xlsx"
+
+
+# Helper functions --------------------------------------------------------
 
 # Note: DKAN currently expects CRLF line endings (not LF) and so those have been specified in the project-specific R settings.
 # TODO: Confirm what line endings are needed by Link Digital's CKAN infrastructure.
@@ -23,6 +29,9 @@ write_out_csv <- function(df, filename, na = "") {
   df
   
 }
+
+
+# Dataset processing ------------------------------------------------------
 
 xlsx_dataset_nodes <- read_excel(source_dataset_file)
 
@@ -55,15 +64,120 @@ datasets <- datasets |>
   filter(is_published == 1)
 
 
-# x. Update languages to match the new possible values
+# 3. Update languages to match the new possible values
+# english / french / multiple_languages / other / ""
+# TODO - review if we can use ISO language codes while also supporting Yukon First Nations languages
+# datasets |> select(languages) |> distinct()
 
-# x. Update license to use "OGL-Yukon-2.0" reference
+datasets <- datasets |>
+  mutate(
+    language = case_when(
+      languages == "en-CA" ~ "english",
+      languages == "en" ~ "english",
+      languages == "en-CA,fr-CA" ~ "multiple_languages",
+      languages == "fr-CA" ~ "french",
+      .default = ""
+    )
+  ) |> 
+  relocate(
+    language, .before = "languages"
+  )
 
-# x. Update update frequency and confirm valid input
+# datasets |> count(languages)
+# datasets |> count(language)
+# datasets |> filter(languages != "und") |> View()
 
-# x. Update temporal coverage to exclude "Wednesday, December 31, 1969 - 16:00" entries
+# 4. Update license to use "OGL-Yukon-2.0" reference
+# datasets |> filter(licence != "ogly") |> View()
 
-# x. Update temporal coverage to be by year rather than by date
+datasets <- datasets |> mutate(
+  license_id	 = "OGL-Yukon-2.0"
+) |> 
+  relocate(
+    license_id, .before = "licence"
+  )
+
+
+# 5. Update update frequency and confirm valid input
+# none / ad_hoc / annual / annual / semiannual / quarterly / monthly / weekly / daily / hourly / real_time
+# datasets |> count(how_often_updated) 
+datasets |> count(frequency)
+# 
+# datasets |> filter(update_frequency == "R/PT1S") |> View()
+
+
+# with help from
+# https://resources.data.gov/schemas/dcat-us/v1.1/iso8601_guidance/
+datasets <- datasets |>
+  mutate(
+    original_update_frequency = frequency,
+    update_frequency	 = case_when(
+      is.na(how_often_updated) & frequency == "R/P1D" ~ "daily",
+      is.na(how_often_updated) & frequency == "R/P1M" ~ "monthly",
+      is.na(how_often_updated) & frequency == "R/P1W" ~ "weekly",
+      is.na(how_often_updated) & frequency == "R/P1Y" ~ "annual",
+      is.na(how_often_updated) & frequency == "R/P3M" ~ "quarterly",
+      is.na(how_often_updated) & frequency == "R/P5Y" ~ "none", # every 5 years
+      is.na(how_often_updated) & frequency == "R/PT1S" ~ "daily", # continuously updated
+      is.na(how_often_updated) & frequency == "irregular" ~ "ad_hoc",
+      
+      how_often_updated == "Annually" ~ "annual",
+      how_often_updated == "Irregularly" ~ "ad_hoc",
+      how_often_updated == "Monthly" ~ "monthly",
+      how_often_updated == "Quarterly" ~ "quarterly",
+      how_often_updated == "Semiannual" ~ "semiannual",
+      .default = NA_character_
+    )
+  ) |> 
+  relocate(
+    update_frequency, .before = "how_often_updated",
+  ) |> 
+  relocate(
+    original_update_frequency, .before = "how_often_updated",
+  ) 
+
+# 6. Update temporal coverage to exclude "Wednesday, December 31, 1969 - 16:00" entries
+datasets |> select(temporal_coverage_from) |> arrange(temporal_coverage_from) |> distinct()
+datasets |> select(temporal_coverage_to) |> arrange(temporal_coverage_to) |> distinct()
+
+datasets <- datasets |>
+  mutate(
+    temporal_coverage_from = case_when(
+      temporal_coverage_from == "1969-12-31 16:00:00" ~ NA_character_,
+      .default = temporal_coverage_from
+    ),
+    temporal_coverage_to = case_when(
+      temporal_coverage_to == "1969-12-31 16:00:00" ~ NA_character_,
+      .default = temporal_coverage_to
+    ),
+  )
+
+
+
+# 7. Update temporal coverage to be by year rather than by date
+datasets <- datasets |> 
+  mutate(
+    temporal_coverage_from = str_sub(temporal_coverage_from, 0L, 10L),
+    temporal_coverage_to = str_sub(temporal_coverage_to, 0L, 10L),
+  )
+
+# 8. Combine geographic coverage that's just "Yukon" or "YUKON"
+datasets |> select(geographical_coverage_location) |> arrange(geographical_coverage_location) |> distinct()
+
+spatial_coverage_yukon_variants <- c(
+  "YUKON",
+  "Yukon",
+  "Yukon Territory"
+)
+
+datasets <- datasets |>
+  mutate(
+    geographical_coverage_location = case_when(
+      geographical_coverage_location %in% spatial_coverage_yukon_variants ~ "Yukon",
+      .default = geographical_coverage_location
+    )
+  )
+
 
 # x. Exclude active Harvest sources
 
@@ -82,7 +196,6 @@ field_mapping <- c(
   internal_contact_email = "contact_email",
   metadata_created = "authored",
   metadata_modified = "last_revised",
-  update_frequency = "frequency",
   temporal_coverage_start_date = "temporal_coverage_from",
   temporal_coverage_end_date = "temporal_coverage_to",
   spatial_coverage_locations = "geographical_coverage_location",
@@ -108,6 +221,7 @@ datasets_export <- datasets |>
     schema_type,
     title,
     notes,
+    license_id,
     metadata_created,
     metadata_modified,
     update_frequency,
@@ -120,3 +234,20 @@ datasets_export <- datasets |>
     temporal_coverage_end_date,
     dkan_url_path
   )
+
+
+# Completed ATIPP Requests processing -------------------------------------
+
+
+
+# PIA Summaries processing ------------------------------------------------
+
+
+
+# Dataset resources processing --------------------------------------------
+
+
+
+# Completed ATIPP Requests resources processing ---------------------------
+
+
