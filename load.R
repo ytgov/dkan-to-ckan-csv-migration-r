@@ -180,12 +180,56 @@ datasets <- datasets |>
 
 
 # x. Exclude active Harvest sources
+# This includes 
+# -	GeoYukon layers / CSW items
+# -	Yukon Geological Survey publications and data
+# -	YBS Community Statistics items
+# - Yukon Register of Historic Places
+
+# The sources to remove also includes harvested documents that have already been removed, as indicated below.
+# datasets |> select(harvest_source, harvest_source_modified) |> arrange(harvest_source_modified) |> distinct() |> View()
+xlsx_dataset_nodes |> count(harvest_source) |> arrange(desc(n)) |> View()
+
+active_harvest_sources_to_remove <- c(
+  "GEOMATICS 43_08052019",
+  "YGS_Comp_21_08052019",
+  "YGS_PUB_OTHER_97_10052019",
+  "YGS_Pub_559_10052019",
+  "Geomatics layers_10052019",
+  "HERITAGE 27_17062019", 
+  "CommunityServices_49", # All removed and replaced with redirects to a newer geo application
+  "ATIPP AIR", # Replaced by newer ATIPP Registry documents
+  "Geomatics Metadata"
+  
+)
+
+datasets <- datasets |>
+  mutate(
+    is_active_harvest_source = case_when(
+      harvest_source %in% active_harvest_sources_to_remove ~ TRUE,
+      .default = FALSE
+    )
+  )
+
+# Remove datasets that are part of active harvest sources from the export
+datasets <- datasets |>
+  filter(is_active_harvest_source == FALSE)
+
+# x. Check for recent updates that are newer than expected (via mystery DKAN cron job?)
+datasets |> 
+  filter(title == "Registered Trapping Concessions") |> 
+  View()
 
 # x. Set canonical publisher organizations
 # (remove multiple entries; consolidate across related DKAN fields)
 
 # x. Add a "atipp_registry" tag to open information entries that originated from the Access to Information registry
 
+
+
+# x. Reset authored or last_revised dates that are "1969-12-31"
+
+# x. Remove any tags that aren't used more than 2 times
 
 # x. Rename columns to match the field names in the CKAN schema
 
@@ -246,6 +290,7 @@ datasets_export <- datasets |>
 
 # Dataset resources processing --------------------------------------------
 
+# x. Update file types to match filenames or use HTML for URLs (rather than "data")
 
 
 # Completed ATIPP Requests resources processing ---------------------------
