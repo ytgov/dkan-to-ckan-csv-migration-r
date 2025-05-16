@@ -7,6 +7,7 @@ library(readxl)
 
 # Source data file to import
 source_dataset_file <- "input/20250515/YG_Open_Gov_DKAN_dataset_export.xlsx"
+source_atipp_requests_file <- "input/20250515/YG_Open_Gov_DKAN_ATIPP_export.xlsx"
 
 
 # Helper functions --------------------------------------------------------
@@ -27,6 +28,43 @@ write_out_csv <- function(df, filename, na = "") {
     )
   
   df
+  
+}
+
+filter_is_published <- function(df) {
+  
+  df |> 
+    filter(is_published == 1)
+  
+}
+
+mutate_languages <- function(df) {
+  
+  df |> 
+    mutate(
+      language = case_when(
+        languages == "en-CA" ~ "english",
+        languages == "en" ~ "english",
+        languages == "en-CA,fr-CA" ~ "multiple_languages",
+        languages == "fr-CA" ~ "french",
+        .default = ""
+      )
+    ) |> 
+    relocate(
+      language, .before = "languages"
+    )
+  
+}
+
+mutate_license_id <- function(df) {
+  
+  df |> 
+    mutate(
+      license_id	 = "OGL-Yukon-2.0"
+    ) |> 
+    relocate(
+      license_id, .before = "licence"
+    )
   
 }
 
@@ -61,7 +99,7 @@ datasets <- datasets |>
 # 2. Exclude datasets that were never published
 
 datasets <- datasets |> 
-  filter(is_published == 1)
+  filter_is_published()
 
 
 # 3. Update languages to match the new possible values
@@ -70,18 +108,7 @@ datasets <- datasets |>
 # datasets |> select(languages) |> distinct()
 
 datasets <- datasets |>
-  mutate(
-    language = case_when(
-      languages == "en-CA" ~ "english",
-      languages == "en" ~ "english",
-      languages == "en-CA,fr-CA" ~ "multiple_languages",
-      languages == "fr-CA" ~ "french",
-      .default = ""
-    )
-  ) |> 
-  relocate(
-    language, .before = "languages"
-  )
+  mutate_languages()
 
 # datasets |> count(languages)
 # datasets |> count(language)
@@ -90,18 +117,14 @@ datasets <- datasets |>
 # 4. Update license to use "OGL-Yukon-2.0" reference
 # datasets |> filter(licence != "ogly") |> View()
 
-datasets <- datasets |> mutate(
-  license_id	 = "OGL-Yukon-2.0"
-) |> 
-  relocate(
-    license_id, .before = "licence"
-  )
+datasets <- datasets |> 
+  mutate_license_id()
 
 
 # 5. Update update frequency and confirm valid input
 # none / ad_hoc / annual / annual / semiannual / quarterly / monthly / weekly / daily / hourly / real_time
 # datasets |> count(how_often_updated) 
-datasets |> count(frequency)
+# datasets |> count(frequency)
 # 
 # datasets |> filter(update_frequency == "R/PT1S") |> View()
 
@@ -411,6 +434,9 @@ datasets_export <- datasets |>
 write_out_csv(datasets_export, "output/datasets")
 
 # Completed ATIPP Requests processing -------------------------------------
+
+xlsx_atipp_requests_nodes <- read_excel(source_atipp_requests_file)
+
 
 
 
