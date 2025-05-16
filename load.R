@@ -495,13 +495,27 @@ access_requests <- access_requests |>
   )
 
 # Update response_type format
+# not_specified granted_in_full granted_in_part withheld_in_full no_records_found excluded_information
+access_requests <- access_requests |> 
+  mutate(
+    response_type = str_replace_all(str_to_lower(response_type), " ", "_")
+  )
 
 # Update is_fees format
+access_requests <- access_requests |> 
+  mutate(
+    is_fees = case_when(
+      is_fees == 1 ~ "Yes",
+      is_fees == 0 ~ "No",
+      .default = ""
+    )
+  )
 
 
 # Used by rename(), where new = "old"
 field_mapping <- c(
   notes = "description",
+  fees = "is_fees",
   metadata_created = "authored",
   metadata_modified = "last_revised",
   dkan_url_path = "uri"
@@ -522,7 +536,7 @@ access_requests_export <- access_requests |>
     organization_title,
     date_of_request,
     response_type,
-    is_fees,
+    fees,
     language,
     license_id,
     metadata_created,
