@@ -407,6 +407,8 @@ datasets_export <- datasets |>
     dkan_url_path
   )
 
+# Write export to CSV
+write_out_csv(datasets_export, "output/datasets")
 
 # Completed ATIPP Requests processing -------------------------------------
 
