@@ -382,6 +382,31 @@ datasets <- datasets |>
     )
   )
 
+# 12. Formatting for open information ATIPP columns
+datasets <- datasets |> 
+  mutate(
+    required_atipp_compliance = case_when(
+      required_atipp_compliance == 1 ~ "Yes",
+      required_atipp_compliance == 0 ~ "No",
+      .default = ""
+    )
+  )
+
+# datasets |> count(publication_type)
+
+datasets <- datasets |> 
+  mutate(
+    publication_type = case_when(
+      publication_type == "Auditor final reports" ~ "auditor_final_reports",
+      publication_type == "Departmental Manuals and Policy Statements" ~ "departmental_manuals_and_policy_statements",
+      publication_type == "Final reports providing advice or recommendations to the public body" ~ "final_reports_providing_advice_or_recommendations_to_public_body",
+      publication_type == "Information or a record available to the public without requiring an access request" ~ "information_or_record_available_to_public_without_access_request",
+      publication_type == "Organizational responsibilities and functions" ~ "organizational_responsibilities_and_functions",
+      publication_type == "Organizational structures" ~ "organizational_structures",
+      .default = ""
+    )
+  )
+
 
 # x. Check for recent updates that are newer than expected (via mystery DKAN cron job?)
 # TODO - come back to this
@@ -403,12 +428,16 @@ field_mapping <- c(
   organization_title = "publishers_groups",
   internal_contact_name = "contact_name",
   internal_contact_email = "contact_email",
+  internal_notes = "additional_info_items",
   metadata_created = "authored",
   metadata_modified = "last_revised",
   temporal_coverage_start_date = "temporal_coverage_from",
   temporal_coverage_end_date = "temporal_coverage_to",
   spatial_coverage_locations = "geographical_coverage_location",
-  dkan_url_path = "uri"
+  publication_required_under_atipp_act = "required_atipp_compliance",
+  publication_type_under_atipp_act = "publication_type",
+  dkan_uri = "uri",
+  dkan_node_id = "node_id"
   
 )
 
@@ -416,30 +445,65 @@ datasets <- datasets |>
   rename(all_of(field_mapping))
 
 # Select actually-used columns for export
+# Do this in 2 parts: data, and information
+# since these both have slightly different schemas.
 
-datasets_export <- datasets |> 
+data_export <- datasets |> 
+  filter(
+    schema_type == "data"
+  ) |> 
   select(
     schema_type,
     title,
     notes,
+    topics,
     tags,
-    language,
-    license_id,
-    metadata_created,
-    metadata_modified,
-    update_frequency,
-    custodian,
     internal_contact_name,
     internal_contact_email,
+    organization_title,
+    custodian,
     homepage_url,
+    internal_notes,
+    language,
+    license_id,
+    update_frequency,
+    metadata_created,
+    metadata_modified,
     spatial_coverage_locations,
     temporal_coverage_start_date,
     temporal_coverage_end_date,
-    dkan_url_path
+    dkan_uri,
+    dkan_node_id
+  )
+
+information_export <- datasets |> 
+  filter(
+    schema_type == "information"
+  ) |> 
+  select(
+    schema_type,
+    title,
+    notes,
+    topics,
+    tags,
+    internal_contact_name,
+    internal_contact_email,
+    organization_title,
+    custodian,
+    homepage_url,
+    language,
+    license_id,
+    publication_required_under_atipp_act,
+    publication_type_under_atipp_act,
+    metadata_created,
+    metadata_modified,
+    dkan_uri,
+    dkan_node_id
   )
 
 # Write export to CSV
-write_out_csv(datasets_export, "output/datasets")
+write_out_csv(data_export, "output/data")
+write_out_csv(information_export, "output/information")
 
 # Completed ATIPP Requests processing -------------------------------------
 
