@@ -68,6 +68,12 @@ mutate_license_id <- function(df) {
   
 }
 
+str_datetime_to_time <- function(str) {
+  
+  str_sub(str, 0L, 10L)
+  
+}
+
 
 # Dataset processing ------------------------------------------------------
 
@@ -160,8 +166,8 @@ datasets <- datasets |>
   ) 
 
 # 6. Update temporal coverage to exclude "Wednesday, December 31, 1969 - 16:00" entries
-datasets |> select(temporal_coverage_from) |> arrange(temporal_coverage_from) |> distinct()
-datasets |> select(temporal_coverage_to) |> arrange(temporal_coverage_to) |> distinct()
+# datasets |> select(temporal_coverage_from) |> arrange(temporal_coverage_from) |> distinct()
+# datasets |> select(temporal_coverage_to) |> arrange(temporal_coverage_to) |> distinct()
 
 datasets <- datasets |>
   mutate(
@@ -394,6 +400,7 @@ datasets <- datasets |>
 # Used by rename(), where new = "old"
 field_mapping <- c(
   notes = "description",
+  organization_title = "publishers_groups",
   internal_contact_name = "contact_name",
   internal_contact_email = "contact_email",
   metadata_created = "authored",
@@ -416,6 +423,7 @@ datasets_export <- datasets |>
     title,
     notes,
     tags,
+    language,
     license_id,
     metadata_created,
     metadata_modified,
@@ -437,8 +445,93 @@ write_out_csv(datasets_export, "output/datasets")
 
 xlsx_atipp_requests_nodes <- read_excel(source_atipp_requests_file)
 
+access_requests <- xlsx_atipp_requests_nodes
+
+access_requests <- access_requests |> 
+  filter_is_published() |> 
+  mutate_languages() |> 
+  mutate(
+    licence = "ogly"
+  ) |> 
+  mutate_license_id()
+
+access_requests <- access_requests |> 
+  mutate(
+    schema_type = "access-requests"
+  )
+
+access_requests <- access_requests |> 
+  mutate(
+    organization_title = case_when(
+      is.na(public_body_name) ~ publishers_groups,
+      .default = public_body_name
+    )
+  ) |> 
+  relocate(
+    organization_title, .before = "public_body_name"
+  )
+
+# access_requests |> count(organization_title) |> arrange(desc(n)) |> View()
+
+# Manual organization name cleanup
+access_requests <- access_requests |> 
+  mutate(
+    organization_title = case_when(
+      organization_title == "Women’s Directorate" ~ "Women and Gender Equity Directorate",
+      organization_title == "Workers’ Compensation Health and Safety Board, Workers’ Compensation Act" ~ "Yukon Workers’ Compensation Health and Safety Board",
+      organization_title == "Workers’ Compensation, Health and Safety Board" ~ "Yukon Workers’ Compensation Health and Safety Board",
+      organization_title == "Yukon Hospital Corporation Board of Trustees, Hospital Act" ~ "Yukon Hospital Corporation",
+      organization_title == "Yukon Liquor Corporation Board of Directors" ~ "Yukon Liquor Corporation",
+      organization_title == "ATIPP Office" ~ "Public Service Commission",
+      .default = organization_title
+      
+    )
+  )
+
+access_requests <- access_requests |> 
+  mutate(
+    date_of_request = str_datetime_to_time(date_of_request),
+    file_id = str_c(str_sub(file_number_year, 3L, 4L), "-", file_number_sequence)
+  )
+
+# Update response_type format
+
+# Update is_fees format
 
 
+# Used by rename(), where new = "old"
+field_mapping <- c(
+  notes = "description",
+  metadata_created = "authored",
+  metadata_modified = "last_revised",
+  dkan_url_path = "uri"
+  
+)
+
+access_requests <- access_requests |> 
+  rename(all_of(field_mapping))
+
+# Select actually-used columns for export
+
+access_requests_export <- access_requests |> 
+  select(
+    schema_type,
+    title,
+    file_id,
+    notes,
+    organization_title,
+    date_of_request,
+    response_type,
+    is_fees,
+    language,
+    license_id,
+    metadata_created,
+    metadata_modified,
+    dkan_url_path
+  )
+
+# Write export to CSV
+write_out_csv(access_requests_export, "output/access_requests")
 
 # PIA Summaries processing ------------------------------------------------
 
