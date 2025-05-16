@@ -409,6 +409,29 @@ datasets <- datasets |>
 
 
 # x. Check for recent updates that are newer than expected (via mystery DKAN cron job?)
+# Include harvest information in the internal notes (for harvests that haven't been excluded above.)
+datasets <- datasets |> 
+  mutate(
+    internal_notes = case_when(
+      ! is.na(harvest_source) ~ str_c("Harvest source: ", harvest_source, ". ", "Harvest source modified: ", harvest_source_modified, ". "),
+      .default = ""
+    ),
+    internal_notes = case_when(
+      ! is.na(additional_info_items) ~ str_c(internal_notes, additional_info_items),
+      .default = internal_notes
+    )
+  )
+
+# Manual fix for Education enrolment data, which seems to have an incomplete harvest cron that keeps updating its metadata:
+datasets <- datasets |> 
+  mutate(
+    last_revised = case_when(
+      description == "Enrolment by school and grade for all Yukon schools" ~ authored,
+      .default = last_revised
+    )
+  )
+
+
 # TODO - come back to this
 # datasets |> 
 #   filter(title == "Registered Trapping Concessions") |> 
@@ -428,7 +451,6 @@ field_mapping <- c(
   organization_title = "publishers_groups",
   internal_contact_name = "contact_name",
   internal_contact_email = "contact_email",
-  internal_notes = "additional_info_items",
   metadata_created = "authored",
   metadata_modified = "last_revised",
   temporal_coverage_start_date = "temporal_coverage_from",
