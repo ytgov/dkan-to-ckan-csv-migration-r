@@ -179,7 +179,7 @@ datasets <- datasets |>
   )
 
 
-# x. Exclude active Harvest sources
+# 9. Exclude active Harvest sources
 # This includes 
 # -	GeoYukon layers / CSW items
 # -	Yukon Geological Survey publications and data
@@ -188,7 +188,7 @@ datasets <- datasets |>
 
 # The sources to remove also includes harvested documents that have already been removed, as indicated below.
 # datasets |> select(harvest_source, harvest_source_modified) |> arrange(harvest_source_modified) |> distinct() |> View()
-xlsx_dataset_nodes |> count(harvest_source) |> arrange(desc(n)) |> View()
+# xlsx_dataset_nodes |> count(harvest_source) |> arrange(desc(n)) |> View()
 
 active_harvest_sources_to_remove <- c(
   "GEOMATICS 43_08052019",
@@ -215,21 +215,156 @@ datasets <- datasets |>
 datasets <- datasets |>
   filter(is_active_harvest_source == FALSE)
 
-# x. Check for recent updates that are newer than expected (via mystery DKAN cron job?)
-datasets |> 
-  filter(title == "Registered Trapping Concessions") |> 
-  View()
-
-# x. Set canonical publisher organizations
+# 10. Set canonical publisher organizations
 # (remove multiple entries; consolidate across related DKAN fields)
+# (also reset "Government of Yukon" to either Education or HPW as required)
 
-# x. Add a "atipp_registry" tag to open information entries that originated from the Access to Information registry
+# Sub-departmental level organizations that we're keeping (since they act in a government-wide role):
+# ATIPP Office
+# Yukon Bureau of Statistics
+# Procurement Support Centre
+# Geomatics Yukon
 
+# datasets |> count(publishers_groups) |> arrange(desc(n)) |> View()
+# datasets |> filter(str_detect(publishers_groups, ",")) |> count(publishers_groups) |> arrange(desc(n)) |> View()
+
+# Updating "Government of Yukon" entries
+datasets <- datasets |>
+  mutate(
+    publishers_groups = case_when(
+      publishers_groups == "Government of Yukon" & topics == "Education and training" ~ "Education",
+      publishers_groups == "Government of Yukon" & topics != "Education and training" ~ "ATIPP Office",
+      .default = publishers_groups
+    )
+  )
+
+# Manually updating multiple entries to a single department
+# Also cleaning up one-off branch organizations and switching to departmental level
+datasets <- datasets |>
+  mutate(
+    publishers_groups = case_when(
+      publishers_groups == "Community Services,Geomatics Yukon" ~ "Community Services",
+      publishers_groups == "Education,Highways and Public Works" ~ "Highways and Public Works",
+      publishers_groups == "Energy, Mines and Resources,Government of Yukon" ~ "Energy, Mines and Resources",
+      
+      publishers_groups == "Compliance Monitoring and Inspection branch" ~ "Energy, Mines and Resources",
+      publishers_groups == "Client Monitoring and Inspections branch" ~ "Energy, Mines and Resources",
+      publishers_groups == "Energy branch" ~ "Energy, Mines and Resources",
+      publishers_groups == "Forestry Management branch" ~ "Energy, Mines and Resources",
+      
+      publishers_groups == "Lands branch" ~ "Energy, Mines and Resources",
+      publishers_groups == "Mineral Resources branch" ~ "Energy, Mines and Resources",
+      publishers_groups == "Oil and Gas branch" ~ "Energy, Mines and Resources",
+      publishers_groups == "Policy and Communications" ~ "Justice",
+      
+      publishers_groups == "Transportation Maintenance Branch" ~ "Highways and Public Works",
+      
+      publishers_groups == "Water Resources branch" ~ "Environment",
+      publishers_groups == "Wildland Fire Management branch" ~ "Community Services",
+      
+      publishers_groups == "Women's Directorate" ~ "Women and Gender Equity Directorate",
+      
+      publishers_groups == "" ~ "Yukon Geological Survey",
+      
+      .default = publishers_groups
+    )
+  )
+
+
+# 11. Remove any tags that aren't used more than 2 times
+
+# Confirm that title is unique; it is.
+# datasets |> 
+#   count(title) |> 
+#   arrange(desc(n))
+
+# Replace "–" with "-" for consistency
+# Then separate into rows
+dataset_tags <- datasets |> 
+  select(title, tags) |> 
+  mutate(
+    tags = str_replace(tags, "–", "-")
+  ) |> 
+  separate_longer_delim(tags, ",")
+
+# Filter out tags with strange punctuation
+dataset_tags <- dataset_tags |> 
+  mutate(
+    tags = str_to_lower(str_replace(tags, " no. ", " "))
+  ) |> 
+  filter(! str_detect(tags, "[:.()]"))
+  
+# Testing regex here:
+# dataset_tags |> 
+#   filter(str_detect(tags, "[:.()]")) |> 
+#   View()
+  
+dataset_tags <- dataset_tags |> 
+  group_by(tags) |> 
+  add_count(tags) |> 
+  arrange(desc(n))
+
+# dataset_tags |>
+#   select(tags, n) |>
+#   distinct() |>
+#   View()
+
+reduced_dataset_tags <- dataset_tags |> 
+  filter(n >= 2)
+
+# Already grouped by `tags` from add_count() above
+# We need to instead group by title to re-merge tags by publication
+# str_flatten_comma() adds spaces, so we'll use the normal str_flatten()
+reduced_dataset_tags <- reduced_dataset_tags |> 
+  ungroup() |> 
+  group_by(title) |> 
+  mutate(
+    tags_combined = str_flatten(tags, collapse = ",")
+  )
+
+reduced_dataset_tags <- reduced_dataset_tags |> 
+  select(title, tags_combined) |> 
+  distinct()
+
+# Re-merge with the datasets frame
+datasets <- datasets |> 
+  left_join(reduced_dataset_tags, by = "title") |> 
+  relocate(
+    tags_combined, .before = "tags"
+  )
+
+# Remove the original tags column and rename so that the tags-related functions below continue as normal.
+datasets <- datasets |> 
+  select(! tags) |> 
+  rename(
+    tags = "tags_combined"
+  )
+
+# 11. Add a "atipp_registry" tag to open information entries that originated from the Access to Information registry
+# information_type = "Access information registry"
+# datasets |> count(tags) |> arrange(desc(n)) |> View()
+
+datasets <- datasets |>
+  mutate(
+    tags = case_when(
+      information_type == "Access information registry" & is.na(tags) ~ "atipp_registry",
+      information_type == "Access information registry" ~ str_c("atipp_registry", ",", tags),
+      .default = tags
+    )
+  )
+
+
+# x. Check for recent updates that are newer than expected (via mystery DKAN cron job?)
+# TODO - come back to this
+# datasets |> 
+#   filter(title == "Registered Trapping Concessions") |> 
+#   View()
 
 
 # x. Reset authored or last_revised dates that are "1969-12-31"
-
-# x. Remove any tags that aren't used more than 2 times
+# Note: there aren't any, at least after filtering out active harvest sources above.
+# datasets |> count(authored) |> arrange(authored) |> View()
+# datasets |> count(last_revised) |> arrange(last_revised) |> View()
 
 # x. Rename columns to match the field names in the CKAN schema
 
@@ -250,14 +385,6 @@ field_mapping <- c(
 datasets <- datasets |> 
   rename(all_of(field_mapping))
 
-# Check specific fields:
-# datasets[22] |> filter(! is.na(data_dictionary)) |> distinct()
-
-# data_standard_url
-
-
-# datasets[40] |> filter(! is.na(data_standard_url)) |> distinct()
-
 # Select actually-used columns for export
 
 datasets_export <- datasets |> 
@@ -265,6 +392,7 @@ datasets_export <- datasets |>
     schema_type,
     title,
     notes,
+    tags,
     license_id,
     metadata_created,
     metadata_modified,
