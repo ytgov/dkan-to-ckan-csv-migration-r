@@ -427,6 +427,9 @@ datasets <- datasets |>
   mutate(
     last_revised = case_when(
       description == "Enrolment by school and grade for all Yukon schools" ~ authored,
+      harvest_source == "Environment_54" ~ authored,
+      harvest_source == "Environment_48" ~ authored,
+      title == "Baseline Science Review" ~ authored,
       .default = last_revised
     )
   )
@@ -513,6 +516,7 @@ information_export <- datasets |>
     organization_title,
     custodian,
     homepage_url,
+    internal_notes,
     language,
     license_id,
     publication_required_under_atipp_act,
