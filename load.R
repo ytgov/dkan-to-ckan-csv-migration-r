@@ -8,6 +8,7 @@ library(readxl)
 # Source data file to import
 source_dataset_file <- "input/20250515/YG_Open_Gov_DKAN_dataset_export.xlsx"
 source_atipp_requests_file <- "input/20250515/YG_Open_Gov_DKAN_ATIPP_export.xlsx"
+source_pia_summaries_file <- "input/20250515/YG_Open_Gov_DKAN_PIA_export.xlsx"
 
 
 # Helper functions --------------------------------------------------------
@@ -602,7 +603,8 @@ field_mapping <- c(
   fees = "is_fees",
   metadata_created = "authored",
   metadata_modified = "last_revised",
-  dkan_url_path = "uri"
+  dkan_uri = "uri",
+  dkan_node_id = "node_id"
   
 )
 
@@ -610,7 +612,6 @@ access_requests <- access_requests |>
   rename(all_of(field_mapping))
 
 # Select actually-used columns for export
-
 access_requests_export <- access_requests |> 
   select(
     schema_type,
@@ -625,7 +626,8 @@ access_requests_export <- access_requests |>
     license_id,
     metadata_created,
     metadata_modified,
-    dkan_url_path
+    dkan_uri,
+    dkan_node_id
   )
 
 # Write export to CSV
@@ -633,7 +635,67 @@ write_out_csv(access_requests_export, "output/access_requests")
 
 # PIA Summaries processing ------------------------------------------------
 
+xlsx_pia_summaries_nodes <- read_excel(source_pia_summaries_file)
 
+pia_summaries <- xlsx_pia_summaries_nodes
+
+pia_summaries <- pia_summaries |> 
+  filter_is_published() |> 
+  mutate_languages() |> 
+  mutate(
+    licence = "ogly"
+  ) |> 
+  mutate_license_id()
+
+pia_summaries <- pia_summaries |> 
+  mutate(
+    schema_type = "pia-summaries"
+  ) |> 
+  mutate(
+    date_of_approval = str_datetime_to_time(date_of_approval),
+  )
+
+# Filter out the one redundant entry (missing a public_body_name, and also a duplicate of a later entry)
+pia_summaries <- pia_summaries |> 
+  filter(! is.na(public_body_name))
+
+# pia_summaries |> count(public_body_name) |> arrange(desc(n)) |> View()
+
+# Used by rename(), where new = "old"
+field_mapping <- c(
+  notes = "description",
+  privacy_impact_assessment_number = "pia_number",
+  organization_title = "public_body_name",
+  metadata_created = "authored",
+  metadata_modified = "last_revised",
+  dkan_uri = "uri",
+  dkan_node_id = "node_id"
+  
+)
+
+pia_summaries <- pia_summaries |> 
+  rename(all_of(field_mapping))
+
+# Select actually-used columns for export
+
+pia_summaries_export <- pia_summaries |> 
+  select(
+    schema_type,
+    title,
+    notes,
+    organization_title,
+    language,
+    license_id,
+    privacy_impact_assessment_number,
+    date_of_approval,
+    metadata_created,
+    metadata_modified,
+    dkan_uri,
+    dkan_node_id
+  )
+
+# Write export to CSV
+write_out_csv(pia_summaries_export, "output/pia_summaries")
 
 # Dataset resources processing --------------------------------------------
 
