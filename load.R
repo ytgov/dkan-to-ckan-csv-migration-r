@@ -503,6 +503,16 @@ datasets <- datasets |>
     topics = "topics_combined"
   )
 
+# x. Update homepage_url for YBS SEWP entries, as well as WGED
+datasets <- datasets |> 
+  mutate(
+    homepage_url = case_when(
+      homepage_url == "http://sewp.gov.yk.ca/home" ~ "https://community-statistics.service.yukon.ca/",
+      homepage_url == "https://yukon.ca/en/womens-directorate" ~ "https://yukon.ca/en/women-gender-equity-directorate",
+      .default = homepage_url
+    )
+  )
+
 # x. Reset authored or last_revised dates that are "1969-12-31"
 # Note: there aren't any, at least after filtering out active harvest sources above.
 # datasets |> count(authored) |> arrange(authored) |> View()
