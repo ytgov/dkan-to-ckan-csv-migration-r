@@ -447,6 +447,62 @@ datasets <- datasets |>
     topics = str_replace_all(topics, "Arts, music, literature", "Arts music and literature")
   )
 
+topics <- datasets |> 
+  select(title, topics) |> 
+  separate_longer_delim(cols = topics, delim = ",") |> 
+  filter(! is.na(topics))
+
+topics <- topics |> 
+  group_by(topics) |> 
+  add_count(topics)
+
+# topics |>
+#   select(topics, n) |>
+#   distinct() |> 
+#   arrange(desc(n)) |>
+#   View()
+
+
+topics_to_remove = c(
+  "Access",
+  "Compliance",
+  "Manual",
+  "Annual Reports",
+  "ATIPP office",
+  "Forms and templates",
+  "Guidance"
+)
+
+reduced_topics <- topics |> 
+  filter(! topics %in% topics_to_remove)
+
+# Similar approach to tags above
+reduced_topics <- reduced_topics |> 
+  ungroup() |> 
+  arrange(title, topics) |>
+  group_by(title) |> 
+  mutate(
+    topics_combined = str_flatten(topics, collapse = ",")
+  )
+
+reduced_topics <- reduced_topics |> 
+  select(title, topics_combined) |> 
+  distinct()
+
+# Re-merge with the datasets frame
+datasets <- datasets |> 
+  left_join(reduced_topics, by = "title") |> 
+  relocate(
+    topics_combined, .before = "topics"
+  )
+
+# Remove the original tags column and rename so that the tags-related functions below continue as normal.
+datasets <- datasets |> 
+  select(! topics) |> 
+  rename(
+    topics = "topics_combined"
+  )
+
 # x. Reset authored or last_revised dates that are "1969-12-31"
 # Note: there aren't any, at least after filtering out active harvest sources above.
 # datasets |> count(authored) |> arrange(authored) |> View()
@@ -1057,47 +1113,12 @@ organizations <- organizations_datasets |>
 write_out_csv(organizations, "output/organizations")
 
 # Get topics from datasets (not present for PIA summaries or access requests)
-# TODO - move this up into dataset processing so that datasets aren't exported with topics
-# that no longer exist.
 
 topics <- datasets |> 
   select(topics) |> 
   separate_longer_delim(cols = topics, delim = ",") |> 
   arrange(topics) |> 
-  # distinct() |> 
+  distinct() |>
   filter(! is.na(topics))
-
-topics <- topics |> 
-  group_by(topics) |> 
-  add_count(topics) |> 
-  arrange(desc(n))
-
-# topics |>
-#   select(topics, n) |>
-#   distinct() |>
-#   View()
-
-# topics <- topics |> 
-#   filter(n >= 2)
-
-
-
-topics_to_remove = c(
-  "Access",
-  "Compliance",
-  "Manual",
-  "Annual Reports",
-  "ATIPP office",
-  "Forms and templates",
-  "Guidance"
-)
-
-topics <- topics |> 
-  filter(! topics %in% topics_to_remove)
-
-topics <- topics |> 
-  select(topics) |> 
-  arrange(topics) |> 
-  distinct()
 
 write_out_csv(topics, "output/topics")
