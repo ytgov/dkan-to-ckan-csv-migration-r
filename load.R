@@ -10,6 +10,9 @@ source_dataset_file <- "input/20250515/YG_Open_Gov_DKAN_dataset_export.xlsx"
 source_atipp_requests_file <- "input/20250515/YG_Open_Gov_DKAN_ATIPP_export.xlsx"
 source_pia_summaries_file <- "input/20250515/YG_Open_Gov_DKAN_PIA_export.xlsx"
 
+source_dataset_resources_file <- "input/20250515/YG_Open_Gov_DKAN_resource_export.xlsx"
+
+
 
 # Helper functions --------------------------------------------------------
 
@@ -699,9 +702,229 @@ write_out_csv(pia_summaries_export, "output/pia_summaries")
 
 # Dataset resources processing --------------------------------------------
 
-# x. Update file types to match filenames or use HTML for URLs (rather than "data")
+# There are a bunch of initial resources without dataset_node_id entries,
+# so we'll manually set column types here.
+dkan_files_base_url <- "https://open.yukon.ca/sites/default/files/"
+
+xlsx_dataset_resources_nodes <- read_excel(
+  source_dataset_resources_file,
+  col_types = c(
+    "numeric", # node_id 
+    "numeric", # dataset_node_id 
+    "text", # content_type 
+    "text", # title   
+    "text", # description  
+    "text", # uri    
+    "text", # publishers_groups  
+    "numeric", # local_file_id 
+    "text", # local_file_name   
+    "text", # local_file_path  
+    "guess",
+    "guess",
+    "guess",
+    "guess",
+    "guess",
+    "guess",
+    "guess",
+    "guess",
+    "guess",
+    "guess",
+    "guess",
+    "text", # category
+    "guess",
+    "guess",
+    "text", # last_radioactivity_emission
+    "numeric", # resource_hits
+    "guess",
+    "guess",
+    "guess",
+    "text", # eliminated_node_comment
+    "guess",
+    "guess",
+    "guess",
+    "guess")
+  )
+
+dataset_resources <- xlsx_dataset_resources_nodes
+
+dataset_resources <- dataset_resources |> 
+  filter_is_published() |> 
+  mutate_languages()
+
+# 1. Filter to just resources that have a current dataset_node_id
+# (which should eliminate resources attached to deleted entries)
+dataset_resources <- dataset_resources |> 
+  filter(! is.na(dataset_node_id))
+
+# dataset_resources |> count(dataset_node_id) |> View()
+
+# 2. Filter again to just resources whose DKAN node IDs are included above (!)
+# to exclude resources from active-harvest sources that we'll bring back in later.
+# (Also simultaneously add missing publishers_groups via the dataset DKAN node IDs of the parent dataset)
+
+dataset_resource_parents <- datasets |> 
+  select(schema_type, dkan_node_id, title, organization_title) |> 
+  rename(
+    dataset_node_id = "dkan_node_id",
+    dataset_title = "title"
+  )
+
+dataset_resources <- dataset_resources |> 
+  left_join(dataset_resource_parents, by = "dataset_node_id")
+
+dataset_resources <- dataset_resources |> 
+  filter(! is.na(schema_type))
+
+# 3. Filter out files that are local but that have a file size of 0 (upload errors, it appears).
+dataset_resources <- dataset_resources |> 
+  filter(! (! is.na(local_file_name) & local_file_bytes == 0))
+
+# 4. Differentiate uploads from remote files/URLs.
+dataset_resources <- dataset_resources |> 
+  mutate(
+    url_type = case_when(
+      ! is.na(local_file_name) ~ "upload",
+      .default = NA_character_
+    )
+  ) |> 
+  relocate(
+    url_type, .before = "local_file_name"
+  )
+
+# 5. Create a public URL from the local_file_name
+# https://open.yukon.ca/sites/default/files/ + local_file_name
+dataset_resources <- dataset_resources |> 
+  mutate(
+    url = case_when(
+      ! is.na(local_file_name) ~ str_c(dkan_files_base_url, local_file_name),
+      ! is.na(remote_uri) ~ remote_uri,
+      ! is.na(linked_file_uri) ~ linked_file_uri,
+      .default = NA_character_
+    )
+  ) |> 
+  relocate(
+    url, .before = "local_file_name"
+  )
+
+# 6. Set format based on existing file names (including missing entries)
+# Update file types to match filenames or use HTML for URLs (rather than "data")
+# TODO - confirm if we need to also set mimetype for CKAN import (e.g. "text/csv" or "application/pdf", etc.)
+dataset_resources <- dataset_resources |> 
+  mutate(
+    format_raw = case_when(
+      ! is.na(local_file_name) ~ path_ext(local_file_name),
+      ! is.na(remote_uri) ~ path_ext(remote_uri),
+      ! is.na(linked_file_uri) ~ path_ext(linked_file_uri),
+      .default = "html" # If not set, likely a webpage with a URL that ends without a file extension.
+    )
+  ) |> 
+  mutate(
+    format_raw = str_to_upper(format_raw) # Don't forget to capitalize any comparisons from here on in.
+  ) |> 
+  relocate(
+    format_raw, .before = "local_file_name"
+  )
+
+# Based on the current resources export
+valid_format_types = c(
+  "PDF",
+  "HTML",
+  "CSV",
+  "ZIP",
+  "DOCX",
+  "XLSX",
+  "XLS",
+  "DOC",
+  "KMZ",
+  "TXT"
+)
+
+dataset_resources <- dataset_resources |> 
+  mutate(
+    format = case_when(
+      format_raw %in% valid_format_types ~ format_raw,
+      is.na(format_raw) ~ "HTML",
+      .default = "HTML"
+    )
+  ) |> 
+  relocate(
+    format, .before = "format_raw"
+  )
+
+# dataset_resources |> count(format_raw) |> arrange(desc(n)) |> View()
+# dataset_resources |> count(format) |> arrange(desc(n)) |> View()
+
+# 7. Include size for local files (TODO)
+
+
+# 8. Split into data and information resource exports separately
+# Used by rename(), where new = "old"
+field_mapping <- c(
+  # notes = "description",
+  name = "title",
+  size = "local_file_bytes", # TODO - if this is from remote files, it's also available.
+  created = "authored",
+  last_modified = "last_revised",
+  dkan_uri = "uri",
+  dkan_resource_node_id = "node_id",
+  dkan_parent_dataset_node_id = "dataset_node_id",
+  dkan_parent_dataset_title = "dataset_title"
+  
+)
+
+dataset_resources <- dataset_resources |> 
+  rename(all_of(field_mapping))
+
+data_resources_export <- dataset_resources |> 
+  filter(
+    schema_type == "data"
+  ) |> 
+  select(
+    schema_type,
+    name,
+    description,
+    format,
+    created,
+    last_modified,
+    size,
+    url,
+    url_type,
+    dkan_parent_dataset_node_id,
+    dkan_parent_dataset_title,
+    dkan_resource_node_id,
+    dkan_uri
+  )
+
+information_resources_export <- dataset_resources |> 
+  filter(
+    schema_type == "information"
+  ) |> 
+  select(
+    schema_type,
+    name,
+    description,
+    format,
+    created,
+    last_modified,
+    size,
+    url,
+    url_type,
+    dkan_parent_dataset_node_id,
+    dkan_parent_dataset_title,
+    dkan_resource_node_id,
+    dkan_uri
+  )
+
+# 9. Write export to CSV
+write_out_csv(data_resources_export, "output/resources_data")
+write_out_csv(information_resources_export, "output/resources_information")
+
 
 
 # Completed ATIPP Requests resources processing ---------------------------
+
+
+# Export all organization_title entries, and all topics -------------------
+
 
 
