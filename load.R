@@ -509,6 +509,9 @@ datasets <- datasets |>
     homepage_url = case_when(
       homepage_url == "http://sewp.gov.yk.ca/home" ~ "https://community-statistics.service.yukon.ca/",
       homepage_url == "https://yukon.ca/en/womens-directorate" ~ "https://yukon.ca/en/women-gender-equity-directorate",
+      homepage_url == "http://www.atipp.gov.yk.ca/ati-requests.html" ~ "https://yukon.ca/en/request-access-information-records",
+      homepage_url == "https://hss.yukon.ca/medicaltravel.php" ~ "https://yukon.ca/en/medical-treatment-travel",
+      homepage_url == "yukon.ca/libraries" ~ "https://yukon.ca/en/yukon-public-libraries",
       .default = homepage_url
     )
   )
