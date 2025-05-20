@@ -934,6 +934,24 @@ atipp_requests_resources <- xlsx_atipp_requests_resources_nodes
 #   filter_is_published() |> 
 #   mutate_languages()
 
+# For this data frame, per Dave:
+# "the node_id column is the foreign key of the parent request’s node ID"
+
+atipp_requests_resource_parents <- access_requests |> 
+  select(schema_type, dkan_node_id, dkan_uri, title, organization_title) |> 
+  rename(
+    node_id = "dkan_node_id",
+    access_request_title = "title",
+    dkan_access_request_uri = "dkan_uri",
+  )
+
+atipp_requests_resources <- atipp_requests_resources |> 
+  left_join(atipp_requests_resource_parents, by = "node_id")
+
+atipp_requests_resources <- atipp_requests_resources |> 
+  filter(! is.na(schema_type))
+
+
 atipp_requests_resources <- atipp_requests_resources |> 
   mutate(
     url_type = case_when(
@@ -967,27 +985,44 @@ atipp_requests_resources <- atipp_requests_resources |>
   mutate(
     title = path_ext_remove(response_file_name),
     authored = response_file_timestamp,
-    last_revised = response_file_timestamp
+    last_revised = response_file_timestamp,
+    description = ""
   )
 
 # Used by rename(), where new = "old"
 field_mapping <- c(
-  # notes = "description",
   name = "title",
-  size = "response_file_bytes", # TODO - if this is from remote files, it's also available.
+  size = "response_file_bytes",
   created = "authored",
   last_modified = "last_revised",
-  # dkan_uri = "uri",
-  dkan_resource_node_id = "node_id"
-  # dkan_parent_access_request_node_id = "response_file_id", # TODO - this is missing from the SQL update; we'll need to add it in to associate these.
-  # dkan_parent_dataset_title = "dataset_title"
+  dkan_parent_dataset_uri = "dkan_access_request_uri",
+  dkan_parent_dataset_node_id = "node_id",
+  dkan_parent_dataset_title = "access_request_title"
   
 )
 
 atipp_requests_resources <- atipp_requests_resources |> 
   rename(all_of(field_mapping))
 
-write_out_csv(atipp_requests_resources, "output/resources_access_requests")
+atipp_requests_resources_export <- atipp_requests_resources |> 
+  select(
+    schema_type,
+    name,
+    description,
+    format,
+    created,
+    last_modified,
+    size,
+    url,
+    url_type,
+    dkan_parent_dataset_node_id,
+    dkan_parent_dataset_title,
+    dkan_parent_dataset_uri
+    # dkan_resource_node_id,
+    # dkan_uri
+  )
+
+write_out_csv(atipp_requests_resources_export, "output/resources_access_requests")
 
 
 # Export all organization_title entries, and all topics -------------------
