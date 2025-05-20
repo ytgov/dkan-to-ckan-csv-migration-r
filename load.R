@@ -440,6 +440,12 @@ datasets <- datasets |>
     )
   )
 
+# x. Update the "Arts, music, literature" topic to remove commas
+# to help with topics exports later
+datasets <- datasets |> 
+  mutate(
+    topics = str_replace_all(topics, "Arts, music, literature", "Arts music and literature")
+  )
 
 # x. Reset authored or last_revised dates that are "1969-12-31"
 # Note: there aren't any, at least after filtering out active harvest sources above.
@@ -1027,5 +1033,71 @@ write_out_csv(atipp_requests_resources_export, "output/resources_access_requests
 
 # Export all organization_title entries, and all topics -------------------
 
+# Gather organization_title entries from all 4 schema types.
+
+# Covers both open data and open information
+organizations_datasets <- datasets |> 
+  select(organization_title) |> 
+  distinct()
+
+organizations_access_requests <- access_requests |> 
+  select(organization_title) |> 
+  distinct()
+
+organizations_pia_summaries <- pia_summaries |> 
+  select(organization_title) |> 
+  distinct()
+
+organizations <- organizations_datasets |> 
+  bind_rows(organizations_access_requests) |> 
+  bind_rows(organizations_pia_summaries) |> 
+  distinct() |> 
+  arrange(organization_title)
+
+write_out_csv(organizations, "output/organizations")
+
+# Get topics from datasets (not present for PIA summaries or access requests)
+# TODO - move this up into dataset processing so that datasets aren't exported with topics
+# that no longer exist.
+
+topics <- datasets |> 
+  select(topics) |> 
+  separate_longer_delim(cols = topics, delim = ",") |> 
+  arrange(topics) |> 
+  # distinct() |> 
+  filter(! is.na(topics))
+
+topics <- topics |> 
+  group_by(topics) |> 
+  add_count(topics) |> 
+  arrange(desc(n))
+
+# topics |>
+#   select(topics, n) |>
+#   distinct() |>
+#   View()
+
+# topics <- topics |> 
+#   filter(n >= 2)
 
 
+
+topics_to_remove = c(
+  "Access",
+  "Compliance",
+  "Manual",
+  "Annual Reports",
+  "ATIPP office",
+  "Forms and templates",
+  "Guidance"
+)
+
+topics <- topics |> 
+  filter(! topics %in% topics_to_remove)
+
+topics <- topics |> 
+  select(topics) |> 
+  arrange(topics) |> 
+  distinct()
+
+write_out_csv(topics, "output/topics")
