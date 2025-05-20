@@ -11,6 +11,8 @@ source_atipp_requests_file <- "input/20250515/YG_Open_Gov_DKAN_ATIPP_export.xlsx
 source_pia_summaries_file <- "input/20250515/YG_Open_Gov_DKAN_PIA_export.xlsx"
 
 source_dataset_resources_file <- "input/20250515/YG_Open_Gov_DKAN_resource_export.xlsx"
+source_atipp_requests_resources_file <- "input/20250515/YG_Open_Gov_DKAN_ATIPP_response_export.xlsx"
+
 
 
 
@@ -922,6 +924,70 @@ write_out_csv(information_resources_export, "output/resources_information")
 
 
 # Completed ATIPP Requests resources processing ---------------------------
+
+xlsx_atipp_requests_resources_nodes <- read_excel(source_atipp_requests_resources_file)
+
+atipp_requests_resources <- xlsx_atipp_requests_resources_nodes
+
+# atipp_requests_resources doesn't include is_published nor languages columns
+# atipp_requests_resources <- atipp_requests_resources |> 
+#   filter_is_published() |> 
+#   mutate_languages()
+
+atipp_requests_resources <- atipp_requests_resources |> 
+  mutate(
+    url_type = case_when(
+      ! is.na(response_file_name) ~ "upload",
+      .default = NA_character_
+    )
+  ) |> 
+  relocate(
+    url_type, .before = "response_file_name"
+  )
+
+atipp_requests_resources <- atipp_requests_resources |> 
+  mutate(
+    url = str_c(dkan_files_base_url, response_file_name)
+  ) |> 
+  relocate(
+    url, .before = "response_file_name"
+  )
+
+
+atipp_requests_resources <- atipp_requests_resources |> 
+  mutate(
+    format = path_ext(response_file_name)
+  ) |> 
+  relocate(
+    format, .before = "response_file_name"
+  )
+
+# ATIPP request resources don't have a file title, so we'll just re-use the file name minus the extension
+atipp_requests_resources <- atipp_requests_resources |> 
+  mutate(
+    title = path_ext_remove(response_file_name),
+    authored = response_file_timestamp,
+    last_revised = response_file_timestamp
+  )
+
+# Used by rename(), where new = "old"
+field_mapping <- c(
+  # notes = "description",
+  name = "title",
+  size = "response_file_bytes", # TODO - if this is from remote files, it's also available.
+  created = "authored",
+  last_modified = "last_revised",
+  # dkan_uri = "uri",
+  dkan_resource_node_id = "node_id"
+  # dkan_parent_access_request_node_id = "response_file_id", # TODO - this is missing from the SQL update; we'll need to add it in to associate these.
+  # dkan_parent_dataset_title = "dataset_title"
+  
+)
+
+atipp_requests_resources <- atipp_requests_resources |> 
+  rename(all_of(field_mapping))
+
+write_out_csv(atipp_requests_resources, "output/resources_access_requests")
 
 
 # Export all organization_title entries, and all topics -------------------
