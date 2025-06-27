@@ -234,7 +234,8 @@ active_harvest_sources_to_remove <- c(
   "HERITAGE 27_17062019", 
   "CommunityServices_49", # All removed and replaced with redirects to a newer geo application
   "ATIPP AIR", # Replaced by newer ATIPP Registry documents
-  "Geomatics Metadata"
+  "Geomatics Metadata",
+  "YBS 105_18092018" # Re-assigned to newer consolidated dataset entries in SC01 below
   
 )
 
@@ -834,6 +835,26 @@ dataset_resources <- dataset_resources |>
   filter(! is.na(dataset_node_id))
 
 # dataset_resources |> count(dataset_node_id) |> View()
+
+# SC01. Special case for YBS historical resources, which we want to re-assign to single datasets for e.g. Census 2001, Census 2006, etc.
+
+# Census 2001 = 61168
+# Census 2006 = 61170
+# National Household Survey 2011 = 61172
+# Census 2011 = 61174
+# Census 2016 = 61176 (Community Statistics website)
+# Census 2021 = 61178 (Community Statistics website)
+dataset_resources <- dataset_resources |> 
+  mutate(
+    dataset_node_id = case_when(
+      str_detect(title, "Census 2001") ~ 61168,
+      str_detect(title, "Census 2006") ~ 61170,
+      str_detect(title, "National Household Survey 2011") ~ 61172,
+      str_detect(title, "Census 2011") ~ 61174,
+      .default = dataset_node_id
+    )
+  )
+
 
 # 2. Filter again to just resources whose DKAN node IDs are included above (!)
 # to exclude resources from active-harvest sources that we'll bring back in later.
