@@ -35,9 +35,63 @@ data,Yukon Government Open Tenders,Includes information on open tenders for Yuko
 data,Yukon Government Tender Forecast,Planned procurements by Yukon Government,"Economics and industry,Government and politics","business,tenders",Procurement Support Centre,contracts@yukon.ca,Procurement Support Centre,HPW,,,english,OGL-Yukon-2.0,,2021-07-22 16:19:33,2021-07-27 14:55:14,,,,https://open.yukon.ca/data/datasets/yukon-government-tender-forecast-0,54356
 data,List of registered Yukon societies,This is a list of all registered non-profits in the Yukon.,Society and culture,registry,Kara Johancsik,kara.johancsik@yukon.ca,Community Services,CS - Societies,https://yukon.ca/en/yukon-societies,,english,OGL-Yukon-2.0,quarterly,2023-11-01 15:41:40,2025-05-23 17:07:42,Yukon,2023-04-01,2024-03-31,https://open.yukon.ca/data/datasets/list-registered-yukon-societies,59322
 data,Government of Yukon Human Resources (HR) metrics,"Time-based (yearly) metrics of Government of Yukon-wide Human Resources (HR) information. Produced by the People Metrics, Analytics and Projects branch of the Public Service Commission.",,,Public Service Commission,pscwebsite@yukon.ca,Public Service Commission,"PSC - People Metrics, Analytics and Projects branch",,,,OGL-Yukon-2.0,,2024-08-29 14:09:23,2024-08-29 14:13:09,,,,https://open.yukon.ca/data/datasets/government-yukon-human-resources-hr-metrics,60214
-data,Teslin flood hazard maps,"<p>The <a href=""https://flood-atlas.service.yukon.ca/pages/final-flood-maps"">Teslin flood hazard mapping study</a> was completed between May 2023 and October 2024. Learn more by visiting the <a href=""https://flood-atlas.service.yukon.ca/pages/final-flood-maps"">Yukon Flood Atlas</a>.</p><p>In the Resources section below, you can find the project summary, technical report, “What We Heard” report, GIS data files, and flood maps for specific areas.</p><p>“AEP” in the flood map filenames below refers to “Annual Exceedance Probability”, the annual likelihood of a flood occurring, expressed as a percentage.</p><p>The flood scenarios used for mapping in the Yukon are the following:</p><ul><li>0.5% event (1-in-200 chance of occurring in any year),</li><li>1% event (1-in-100 chance of occurring in any year), and</li><li>5% event (1-in-20 chance of occurring in any year).</li></ul><p>For more information see <a href=""https://flood-atlas.service.yukon.ca/pages/flood-mapping"">What is flood mapping?</a> or email <a href=""mailto:floodmapping@yukon.ca"">FloodMapping@yukon.ca</a>.</p><h3>See also</h3><ul><li><a href=""https://open.yukon.ca/data/datasets/carmacks-flood-hazard-maps"">Carmacks flood hazard maps</a></li><li><a href=""https://open.yukon.ca/data/datasets/southern-lakes-flood-hazard-maps"">Southern Lakes flood hazard maps</a></li></ul>","Nature and environment,Science and technology","flood atlas,flood mapping,flood maps,flooding",Geomatics Yukon,Geomatics.Help@yukon.ca,Geomatics Yukon,Geomatics Yukon,https://flood-atlas.service.yukon.ca/pages/final-flood-maps,Harvest source: Flood mapping 20241212. Harvest source modified: 2024-12-02. ,,OGL-Yukon-2.0,,2024-12-12 09:55:51,2024-12-12 09:58:53,"Teslin, Yukon",,,https://open.yukon.ca/data/datasets/teslin-flood-hazard-maps,60359
-data,Southern Lakes flood hazard maps,"<p>The <a href=""https://flood-atlas.service.yukon.ca/pages/final-flood-maps"">Southern Lakes flood hazard mapping study</a> was completed between November 2022 and April 2024. Learn more by visiting the <a href=""https://flood-atlas.service.yukon.ca/pages/final-flood-maps"">Yukon Flood Atlas</a>.</p><p>In the Resources section below, you can find the project summary, technical report, “What We Heard” report, GIS data files, and flood maps for specific areas.</p><p>“AEP” in the flood map filenames below refers to “Annual Exceedance Probability”, the annual likelihood of a flood occurring, expressed as a percentage.</p><p>The flood scenarios used for mapping in the Yukon are the following:</p><ul><li>0.5% event (1-in-200 chance of occurring in any year),</li><li>1% event (1-in-100 chance of occurring in any year), and</li><li>5% event (1-in-20 chance of occurring in any year).</li></ul><p>For more information see <a href=""https://flood-atlas.service.yukon.ca/pages/flood-mapping"">What is flood mapping?</a> or email <a href=""mailto:floodmapping@yukon.ca"">FloodMapping@yukon.ca</a>.</p><h3>See also</h3><ul><li><a href=""https://open.yukon.ca/data/datasets/carmacks-flood-hazard-maps"">Carmacks flood hazard maps</a></li><li><a href=""https://open.yukon.ca/data/datasets/teslin-flood-hazard-maps"">Teslin flood hazard maps</a></li></ul>","Nature and environment,Science and technology","flood atlas,flood mapping,flood maps,flooding",Geomatics Yukon,Geomatics.Help@yukon.ca,Geomatics Yukon,Geomatics Yukon,https://flood-atlas.service.yukon.ca/pages/final-flood-maps,Harvest source: Flood mapping 20241212. Harvest source modified: 2024-12-02. ,,OGL-Yukon-2.0,,2024-12-12 09:55:51,2024-12-12 09:58:34,"Southern Lakes, Yukon",,,https://open.yukon.ca/data/datasets/southern-lakes-flood-hazard-maps,60396
-data,Carmacks flood hazard maps,"<p>The <a href=""https://flood-atlas.service.yukon.ca/pages/final-flood-maps"">Carmacks flood hazard mapping study</a> was completed between April 2023 and May 2024. Learn more by visiting the <a href=""https://flood-atlas.service.yukon.ca/pages/final-flood-maps"">Yukon Flood Atlas</a>.</p><p>In the Resources section below, you can find the project summary, technical report, “What We Heard” report, GIS data files, and flood maps for specific areas.</p><p>“AEP” in the flood map filenames below refers to “Annual Exceedance Probability”, the annual likelihood of a flood occurring, expressed as a percentage.</p><p>The flood scenarios used for mapping in the Yukon are the following:</p><ul><li>0.5% event (1-in-200 chance of occurring in any year),</li><li>1% event (1-in-100 chance of occurring in any year), and</li><li>5% event (1-in-20 chance of occurring in any year).</li></ul><p>For more information see <a href=""https://flood-atlas.service.yukon.ca/pages/flood-mapping"">What is flood mapping?</a> or email <a href=""mailto:floodmapping@yukon.ca"">FloodMapping@yukon.ca</a>.</p><h3>See also</h3><ul><li><a href=""https://open.yukon.ca/data/datasets/southern-lakes-flood-hazard-maps"">Southern Lakes flood hazard maps</a></li><li><a href=""https://open.yukon.ca/data/datasets/teslin-flood-hazard-maps"">Teslin flood hazard maps</a></li></ul>","Nature and environment,Science and technology","flood atlas,flood mapping,flood maps,flooding",Geomatics Yukon,Geomatics.Help@yukon.ca,Geomatics Yukon,Geomatics Yukon,https://flood-atlas.service.yukon.ca/pages/final-flood-maps,Harvest source: Flood mapping 20241212. Harvest source modified: 2024-12-02. ,,OGL-Yukon-2.0,,2024-12-12 09:55:51,2024-12-12 09:58:01,"Carmacks, Yukon",,,https://open.yukon.ca/data/datasets/carmacks-flood-hazard-maps,60429
+data,Teslin flood hazard maps,"The [Teslin flood hazard mapping study](https://flood-atlas.service.yukon.ca/pages/final-flood-maps) was completed between May 2023 and October 2024. Learn more by visiting the [Yukon Flood Atlas](https://flood-atlas.service.yukon.ca/pages/final-flood-maps).
+
+In the Resources section below, you can find the project summary, technical report, ""What We Heard"" report, GIS data files, and flood maps for specific areas.
+
+""AEP"" in the flood map filenames below refers to ""Annual Exceedance Probability"", the annual likelihood of a flood occurring, expressed as a percentage.
+
+The flood scenarios used for mapping in the Yukon are the following:
+
+-   0.5% event (1-in-200 chance of occurring in any year),
+-   1% event (1-in-100 chance of occurring in any year), and
+-   5% event (1-in-20 chance of occurring in any year).
+
+For more information see [What is flood mapping?](https://flood-atlas.service.yukon.ca/pages/flood-mapping) or email [FloodMapping@yukon.ca](mailto:floodmapping@yukon.ca).
+
+### See also
+
+-   [Carmacks flood hazard maps](https://open.yukon.ca/data/datasets/carmacks-flood-hazard-maps)
+-   [Southern Lakes flood hazard maps](https://open.yukon.ca/data/datasets/southern-lakes-flood-hazard-maps)
+","Nature and environment,Science and technology","flood atlas,flood mapping,flood maps,flooding",Geomatics Yukon,Geomatics.Help@yukon.ca,Geomatics Yukon,Geomatics Yukon,https://flood-atlas.service.yukon.ca/pages/final-flood-maps,Harvest source: Flood mapping 20241212. Harvest source modified: 2024-12-02. ,,OGL-Yukon-2.0,,2024-12-12 09:55:51,2024-12-12 09:58:53,"Teslin, Yukon",,,https://open.yukon.ca/data/datasets/teslin-flood-hazard-maps,60359
+data,Southern Lakes flood hazard maps,"The [Southern Lakes flood hazard mapping study](https://flood-atlas.service.yukon.ca/pages/final-flood-maps) was completed between November 2022 and April 2024. Learn more by visiting the [Yukon Flood Atlas](https://flood-atlas.service.yukon.ca/pages/final-flood-maps).
+
+In the Resources section below, you can find the project summary, technical report, ""What We Heard"" report, GIS data files, and flood maps for specific areas.
+
+""AEP"" in the flood map filenames below refers to ""Annual Exceedance Probability"", the annual likelihood of a flood occurring, expressed as a percentage.
+
+The flood scenarios used for mapping in the Yukon are the following:
+
+-   0.5% event (1-in-200 chance of occurring in any year),
+-   1% event (1-in-100 chance of occurring in any year), and
+-   5% event (1-in-20 chance of occurring in any year).
+
+For more information see [What is flood mapping?](https://flood-atlas.service.yukon.ca/pages/flood-mapping) or email [FloodMapping@yukon.ca](mailto:floodmapping@yukon.ca).
+
+### See also
+
+-   [Carmacks flood hazard maps](https://open.yukon.ca/data/datasets/carmacks-flood-hazard-maps)
+-   [Teslin flood hazard maps](https://open.yukon.ca/data/datasets/teslin-flood-hazard-maps)
+","Nature and environment,Science and technology","flood atlas,flood mapping,flood maps,flooding",Geomatics Yukon,Geomatics.Help@yukon.ca,Geomatics Yukon,Geomatics Yukon,https://flood-atlas.service.yukon.ca/pages/final-flood-maps,Harvest source: Flood mapping 20241212. Harvest source modified: 2024-12-02. ,,OGL-Yukon-2.0,,2024-12-12 09:55:51,2024-12-12 09:58:34,"Southern Lakes, Yukon",,,https://open.yukon.ca/data/datasets/southern-lakes-flood-hazard-maps,60396
+data,Carmacks flood hazard maps,"The [Carmacks flood hazard mapping study](https://flood-atlas.service.yukon.ca/pages/final-flood-maps) was completed between April 2023 and May 2024. Learn more by visiting the [Yukon Flood Atlas](https://flood-atlas.service.yukon.ca/pages/final-flood-maps).
+
+In the Resources section below, you can find the project summary, technical report, ""What We Heard"" report, GIS data files, and flood maps for specific areas.
+
+""AEP"" in the flood map filenames below refers to ""Annual Exceedance Probability"", the annual likelihood of a flood occurring, expressed as a percentage.
+
+The flood scenarios used for mapping in the Yukon are the following:
+
+-   0.5% event (1-in-200 chance of occurring in any year),
+-   1% event (1-in-100 chance of occurring in any year), and
+-   5% event (1-in-20 chance of occurring in any year).
+
+For more information see [What is flood mapping?](https://flood-atlas.service.yukon.ca/pages/flood-mapping) or email [FloodMapping@yukon.ca](mailto:floodmapping@yukon.ca).
+
+### See also
+
+-   [Southern Lakes flood hazard maps](https://open.yukon.ca/data/datasets/southern-lakes-flood-hazard-maps)
+-   [Teslin flood hazard maps](https://open.yukon.ca/data/datasets/teslin-flood-hazard-maps)
+","Nature and environment,Science and technology","flood atlas,flood mapping,flood maps,flooding",Geomatics Yukon,Geomatics.Help@yukon.ca,Geomatics Yukon,Geomatics Yukon,https://flood-atlas.service.yukon.ca/pages/final-flood-maps,Harvest source: Flood mapping 20241212. Harvest source modified: 2024-12-02. ,,OGL-Yukon-2.0,,2024-12-12 09:55:51,2024-12-12 09:58:01,"Carmacks, Yukon",,,https://open.yukon.ca/data/datasets/carmacks-flood-hazard-maps,60429
 data,Yukon tourism indicators,"These datasets provide the data displayed in the interactive [Yukon tourism indicators dashboard](https://open-data-static-files.service.yukon.ca/tourism-indicators/). 
 
 These datasets are automatically updated on [update cycles specific to each data source](https://open-data-static-files.service.yukon.ca/tourism-indicators/data.html). [Learn more about the dashboard or see a glossary of terms used on the dashboard's about page](https://open-data-static-files.service.yukon.ca/tourism-indicators/about.html).

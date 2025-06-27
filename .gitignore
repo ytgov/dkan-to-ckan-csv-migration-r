@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
+html_conversion/html/*.html
+html_conversion/md/*.md
