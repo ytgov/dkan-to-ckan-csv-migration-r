@@ -1,0 +1,1165 @@
+DATASET_ID,COMMENT,FIELD,FORMAT,LINK,MIME_TYPE,TITLE
+1,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=6ba342eddd38481d9d24e1b51d71bdb5,,Placer Grouping - 50k
+1,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Placer_Grouping_50k/,,Placer Grouping - 50k
+1,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/6ba342eddd38481d9d24e1b51d71bdb5/info/metadata/metadata.xml?format=default&amp;output=html,,Placer Grouping - 50k
+2,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=79be9778cc0c43a4a0702db11dc7b8b9,,Quartz Grouping - 50k
+2,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Quartz_Grouping_50k/,,Quartz Grouping - 50k
+2,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/79be9778cc0c43a4a0702db11dc7b8b9/info/metadata/metadata.xml?format=default&amp;output=html,,Quartz Grouping - 50k
+3,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=38bc07bba2114236bb20c0e4178752c8,,Fire Regions
+3,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Administrative_Boundaries/Fire_Regions/,,Fire Regions
+3,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/38bc07bba2114236bb20c0e4178752c8/info/metadata/metadata.xml?format=default&amp;output=html,,Fire Regions
+4,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=340b32e7791b4db6b19519a7f916600b,,First Nation Traditional Territories Core Area
+4,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/First_Nations/First_Nation_Traditional_Territories_Core_Area/,,First Nation Traditional Territories Core Area
+4,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/340b32e7791b4db6b19519a7f916600b/info/metadata/metadata.xml?format=default&amp;output=html,,First Nation Traditional Territories Core Area
+5,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=38c054b836ec4df4adb6d69e30aa90d9,,Mining districts - 50k
+5,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Mining_Districts_50k/,,Mining districts - 50k
+5,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/38c054b836ec4df4adb6d69e30aa90d9/info/metadata/metadata.xml?format=default&amp;output=html,,Mining districts - 50k
+6,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=7bbcd017ffdc45b194ec4bb491aa95aa,,Mining districts - 1M
+6,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Mining_Districts_1M/,,Mining districts - 1M
+6,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/7bbcd017ffdc45b194ec4bb491aa95aa/info/metadata/metadata.xml?format=default&amp;output=html,,Mining districts - 1M
+7,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=2e25caf0eee54fa1b28ba5453cd7bc89,,Natural Resource Officer Districts - 1M
+7,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Administrative_Boundaries/Natural_Resource_Officer_Districts_1M/,,Natural Resource Officer Districts - 1M
+7,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/2e25caf0eee54fa1b28ba5453cd7bc89/info/metadata/metadata.xml?format=default&amp;output=html,,Natural Resource Officer Districts - 1M
+8,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c6e08b7c4a8243aaabbc8b4e38e5c9ff,,Natural Resource Officer Subdistricts - 1M
+8,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Administrative_Boundaries/Natural_Resource_Officer_Subdistricts_1M/,,Natural Resource Officer Subdistricts - 1M
+8,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/c6e08b7c4a8243aaabbc8b4e38e5c9ff/info/metadata/metadata.xml?format=default&amp;output=html,,Natural Resource Officer Subdistricts - 1M
+9,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=ef08a0acd77d4e5a9eaa2ff0703697c9,,Whitehorse Contours - 10k
+9,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Elevation/Whitehorse_Contours_10k/,,Whitehorse Contours - 10k
+9,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/ef08a0acd77d4e5a9eaa2ff0703697c9/info/metadata/metadata.xml?format=default&amp;output=html,,Whitehorse Contours - 10k
+10,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=248864234af54b4e80e4979ab500f85b,,YESAA Mapped Communities - 50k
+10,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Administrative_Boundaries/YESAA_Mapped_Communities_50k/,,YESAA Mapped Communities - 50k
+10,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/248864234af54b4e80e4979ab500f85b/info/metadata/metadata.xml?format=default&amp;output=html,,YESAA Mapped Communities - 50k
+11,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=ee272fcb3bcd4c65bd2f572c6d95e98a,,Yukon Electoral Districts 2015
+11,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Administrative_Boundaries/Yukon_Electoral_Districts_2015/,,Yukon Electoral Districts 2015
+11,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/ee272fcb3bcd4c65bd2f572c6d95e98a/info/metadata/metadata.xml?format=default&amp;output=html,,Yukon Electoral Districts 2015
+12,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=6d27e9facf7843e1a7b51241832dede9,,Parks and Protected Areas Line - Surveyed
+12,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Parks_and_Protected_Areas/Parks_and_Protected_Areas_Line_Surveyed/,,Parks and Protected Areas Line - Surveyed
+12,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/6d27e9facf7843e1a7b51241832dede9/info/metadata/metadata.xml?format=default&amp;output=html,,Parks and Protected Areas Line - Surveyed
+13,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=15101df562e64e279dcc7c1119c0f417,,Communities and subdivisions - surveyed
+13,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/Communities_and_Subdivisions_Surveyed/,,Communities and subdivisions - surveyed
+13,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/15101df562e64e279dcc7c1119c0f417/info/metadata/metadata.xml?format=default&amp;output=html,,Communities and subdivisions - surveyed
+14,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=2a65ccced3a2421783eeddae32b7d58b,,Yukon Borders - Surveyed
+14,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Administrative_Boundaries/Yukon_Borders_Surveyed/,,Yukon Borders - Surveyed
+14,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/2a65ccced3a2421783eeddae32b7d58b/info/metadata/metadata.xml?format=default&amp;output=html,,Yukon Borders - Surveyed
+15,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f5ab25ca2f3f4b958ee16a47ff006488,,Contours - 1M
+15,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Elevation/Contours_1M/,,Contours - 1M
+15,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/f5ab25ca2f3f4b958ee16a47ff006488/info/metadata/metadata.xml?format=default&amp;output=html,,Contours - 1M
+16,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=d4de4755ca60446f8693e866c8a85a7a,,Cultural Features Line - 50k
+16,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Culture_and_Heritage/Cultural_Features_Line_50k/,,Cultural Features Line - 50k
+16,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/d4de4755ca60446f8693e866c8a85a7a/info/metadata/metadata.xml?format=default&amp;output=html,,Cultural Features Line - 50k
+17,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=e2bfbeec4fd6444d9e6afad3069c1ff4,,Cultural Features Polygon - 50k
+17,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Culture_and_Heritage/Cultural_Features_Polygon_50k/,,Cultural Features Polygon - 50k
+17,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/e2bfbeec4fd6444d9e6afad3069c1ff4/info/metadata/metadata.xml?format=default&amp;output=html,,Cultural Features Polygon - 50k
+18,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=fc0f3c1c07c141b9809f0b6bfdbbc512,,Cultural Features Polygon - 250k
+18,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Culture_and_Heritage/Cultural_Features_Polygon_250k/,,Cultural Features Polygon - 250k
+18,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/fc0f3c1c07c141b9809f0b6bfdbbc512/info/metadata/metadata.xml?format=default&amp;output=html,,Cultural Features Polygon - 250k
+19,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=18e180272dae4d91b9f85182f026bf3b,,Cultural Features Point - 50k
+19,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Culture_and_Heritage/Cultural_Features_Point_50k/,,Cultural Features Point - 50k
+19,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/18e180272dae4d91b9f85182f026bf3b/info/metadata/metadata.xml?format=default&amp;output=html,,Cultural Features Point - 50k
+20,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=b9ed83aadb414a9aa1c9df49d1e980cb,,Cultural Features Point - 250k
+20,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Culture_and_Heritage/Cultural_Features_Point_250k/,,Cultural Features Point - 250k
+20,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/b9ed83aadb414a9aa1c9df49d1e980cb/info/metadata/metadata.xml?format=default&amp;output=html,,Cultural Features Point - 250k
+21,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=1daba096b36444f487542140caf233f4,,Railroads - 50k - Canvec
+21,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Railroads_50k_Canvec/,,Railroads - 50k - Canvec
+21,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/1daba096b36444f487542140caf233f4/info/metadata/metadata.xml?format=default&amp;output=html,,Railroads - 50k - Canvec
+22,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=1e00aa3e7deb400e9d0dcfbcc66ac218,,Geographic Graticules
+22,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Geographic_Graticules/,,Geographic Graticules
+22,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/1e00aa3e7deb400e9d0dcfbcc66ac218/info/metadata/metadata.xml?format=default&amp;output=html,,Geographic Graticules
+23,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=27989fb1cd1c4f4f8844d313d61c1b0d,,Ice and Snow - 1M
+23,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Ice_and_Snow_1M/,,Ice and Snow - 1M
+23,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/27989fb1cd1c4f4f8844d313d61c1b0d/info/metadata/metadata.xml?format=default&amp;output=html,,Ice and Snow - 1M
+24,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=9c4d07e833174628be55f69bdb220336,,NTS Index - 10k
+24,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/NTS_Index_10k/,,NTS Index - 10k
+24,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/9c4d07e833174628be55f69bdb220336/info/metadata/metadata.xml?format=default&amp;output=html,,NTS Index - 10k
+25,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=4cbb7e7c005c4633b122714878059c17,,NTS Index - 50k
+25,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/NTS_Index_50k/,,NTS Index - 50k
+25,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/4cbb7e7c005c4633b122714878059c17/info/metadata/metadata.xml?format=default&amp;output=html,,NTS Index - 50k
+26,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=48efee5b15db4547bb4c60a1db5614ad,,NTS Index - 250k
+26,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/NTS_Index_250k/,,NTS Index - 250k
+26,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/48efee5b15db4547bb4c60a1db5614ad/info/metadata/metadata.xml?format=default&amp;output=html,,NTS Index - 250k
+27,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=57ed1ea4673d4ad2ab47c091df6a3fdc,,Places - 1M
+27,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Places_1M/,,Places - 1M
+27,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/57ed1ea4673d4ad2ab47c091df6a3fdc/info/metadata/metadata.xml?format=default&amp;output=html,,Places - 1M
+28,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=322b6cf3fa1444c289a1d611a4778ead,,Roads - 1M
+28,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Roads_1M/,,Roads - 1M
+28,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/322b6cf3fa1444c289a1d611a4778ead/info/metadata/metadata.xml?format=default&amp;output=html,,Roads - 1M
+29,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=cb8fc7968b774670a8496b2f1f112a36,,Trails - 50k
+29,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Trails_50k/,,Trails - 50k
+29,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/cb8fc7968b774670a8496b2f1f112a36/info/metadata/metadata.xml?format=default&amp;output=html,,Trails - 50k
+30,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=3773f83d11324c039a44c37b22b88bdb,,Trails - 250k
+30,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Trails_250k/,,Trails - 250k
+30,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/3773f83d11324c039a44c37b22b88bdb/info/metadata/metadata.xml?format=default&amp;output=html,,Trails - 250k
+31,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=488c3876d6bf47599c19d60f56b1cf20,,UTM Zones
+31,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/UTM_Zones/,,UTM Zones
+31,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/488c3876d6bf47599c19d60f56b1cf20/info/metadata/metadata.xml?format=default&amp;output=html,,UTM Zones
+32,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=7ed2f56f8ab24732aa569fb5e5c37cc6,,Water - 2M
+32,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Water_2M/,,Water - 2M
+32,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/7ed2f56f8ab24732aa569fb5e5c37cc6/info/metadata/metadata.xml?format=default&amp;output=html,,Water - 2M
+33,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=280637d18eb449cd883f1a668f49f145,,Waterbodies - 1M
+33,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Waterbodies_1M/,,Waterbodies - 1M
+33,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/280637d18eb449cd883f1a668f49f145/info/metadata/metadata.xml?format=default&amp;output=html,,Waterbodies - 1M
+34,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=764bebddc400438cafd1cf34ccdccf01,,Watercourses - 1M
+34,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Watercourses_1M/,,Watercourses - 1M
+34,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/764bebddc400438cafd1cf34ccdccf01/info/metadata/metadata.xml?format=default&amp;output=html,,Watercourses - 1M
+35,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=d98f5450702245708a7f90b38840b01a,,Watercourses - Whitehorse - 10k
+35,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Watercourses_Whitehorse_10k/,,Watercourses - Whitehorse - 10k
+35,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/d98f5450702245708a7f90b38840b01a/info/metadata/metadata.xml?format=default&amp;output=html,,Watercourses - Whitehorse - 10k
+36,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=315d9f7048554bb8b91ad18cb27ec14e,,Watersheds - 1M
+36,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biophysical/Watersheds_1M/,,Watersheds - 1M
+36,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/315d9f7048554bb8b91ad18cb27ec14e/info/metadata/metadata.xml?format=default&amp;output=html,,Watersheds - 1M
+37,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f99d1dbabc4e4ee3896952e663088d43,,Whitehorse Trails - 10k
+37,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Whitehorse_Trails_10k/,,Whitehorse Trails - 10k
+37,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/f99d1dbabc4e4ee3896952e663088d43/info/metadata/metadata.xml?format=default&amp;output=html,,Whitehorse Trails - 10k
+38,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=62e008b08f864bd68a0d9e9507cf3090,,Attack bases
+38,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Emergency_Management/Attack_Bases/,,Attack bases
+38,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/62e008b08f864bd68a0d9e9507cf3090/info/metadata/metadata.xml?format=default&amp;output=html,,Attack bases
+39,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f91870062ef2413eb3b0a642eeaba28d,,Ecoregions 1995 - 1M
+39,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biophysical/Ecoregions_1995_1M/,,Ecoregions 1995 - 1M
+39,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/f91870062ef2413eb3b0a642eeaba28d/info/metadata/metadata.xml?format=default&amp;output=html,,Ecoregions 1995 - 1M
+40,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f9588f95c62e4bf69ef02145d91c92ab,,Fire history
+40,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Emergency_Management/Fire_History/,,Fire history
+40,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/f9588f95c62e4bf69ef02145d91c92ab/info/metadata/metadata.xml?format=default&amp;output=html,,Fire history
+41,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=8d8e0dbd229544b8bcec3492e345d933,,Fire Management Zones
+41,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Emergency_Management/Fire_Management_Zones/,,Fire Management Zones
+41,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/8d8e0dbd229544b8bcec3492e345d933/info/metadata/metadata.xml?format=default&amp;output=html,,Fire Management Zones
+42,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=180410825beb4086ab562b54989e1339,,Hydro Energy
+42,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Utilities_and_Communication/Hydro_Energy/,,Hydro Energy
+42,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/180410825beb4086ab562b54989e1339/info/metadata/metadata.xml?format=default&amp;output=html,,Hydro Energy
+43,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=fb2b1c480def4c0a8ad6706f6c9c9a4a,,Spot Heights - 1M
+43,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Elevation/Spot_Heights_1M/,,Spot Heights - 1M
+43,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/fb2b1c480def4c0a8ad6706f6c9c9a4a/info/metadata/metadata.xml?format=default&amp;output=html,,Spot Heights - 1M
+44,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=79fa18184ca74b7f870859af0f86801f,,Wind Energy
+44,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Utilities_and_Communication/Wind_Energy/,,Wind Energy
+44,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/79fa18184ca74b7f870859af0f86801f/info/metadata/metadata.xml?format=default&amp;output=html,,Wind Energy
+45,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c271094c3c4a4c949fec8230130b5601,,YEC Power distribution lines
+45,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Utilities_and_Communication/YEC_Power_Distribution_Lines/,,YEC Power distribution lines
+45,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/c271094c3c4a4c949fec8230130b5601/info/metadata/metadata.xml?format=default&amp;output=html,,YEC Power distribution lines
+46,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=0adbe1965c154e4dbec92e81e3969dfd,,YEC Power generating stations
+46,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Utilities_and_Communication/YEC_Power_Generating_Stations/,,YEC Power generating stations
+46,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/0adbe1965c154e4dbec92e81e3969dfd/info/metadata/metadata.xml?format=default&amp;output=html,,YEC Power generating stations
+47,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=1322ee9fef1c40559e5ac5ec2f2dc3ea,,YEC Power lines
+47,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Utilities_and_Communication/YEC_Power_Lines/,,YEC Power lines
+47,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/1322ee9fef1c40559e5ac5ec2f2dc3ea/info/metadata/metadata.xml?format=default&amp;output=html,,YEC Power lines
+48,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=373c74ec6b294361964eac7b6b63c37b,,YEC Power substations
+48,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Utilities_and_Communication/YEC_Power_Substations/,,YEC Power substations
+48,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/373c74ec6b294361964eac7b6b63c37b/info/metadata/metadata.xml?format=default&amp;output=html,,YEC Power substations
+49,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=902878e3b38b4b6ca8c93d5f1d024ca7,,Yukon Communities
+49,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Yukon_Communities/,,Yukon Communities
+49,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/902878e3b38b4b6ca8c93d5f1d024ca7/info/metadata/metadata.xml?format=default&amp;output=html,,Yukon Communities
+50,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=71d5b453a69b4e85b790f9fb9cc94663,,Trails - 50k - Canvec
+50,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Trails_50k_Canvec/,,Trails - 50k - Canvec
+50,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/71d5b453a69b4e85b790f9fb9cc94663/info/metadata/metadata.xml?format=default&amp;output=html,,Trails - 50k - Canvec
+51,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=884c18e921a04adfb038bcb5483cb0a5,,Waterbodies - 250k - Canvec
+51,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Waterbodies_250k_Canvec/,,Waterbodies - 250k - Canvec
+51,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/884c18e921a04adfb038bcb5483cb0a5/info/metadata/metadata.xml?format=default&amp;output=html,,Waterbodies - 250k - Canvec
+52,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=a97d253ed410451ea27c2dcea8cc8c4c,,Watercourses - 250k - Canvec
+52,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Watercourses_250k_Canvec/,,Watercourses - 250k - Canvec
+52,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/a97d253ed410451ea27c2dcea8cc8c4c/info/metadata/metadata.xml?format=default&amp;output=html,,Watercourses - 250k - Canvec
+53,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=7d2acc6ce21c4a8faf2459669ba8d1b9,,Watercourses - 50k - Canvec
+53,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Watercourses_50k_Canvec/,,Watercourses - 50k - Canvec
+53,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/7d2acc6ce21c4a8faf2459669ba8d1b9/info/metadata/metadata.xml?format=default&amp;output=html,,Watercourses - 50k - Canvec
+54,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=5a89c3fdd4ab47e181d44f18a257cf41,,Roads - 250k - Canvec
+54,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Roads_250k_Canvec/,,Roads - 250k - Canvec
+54,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/5a89c3fdd4ab47e181d44f18a257cf41/info/metadata/metadata.xml?format=default&amp;output=html,,Roads - 250k - Canvec
+55,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=3e2a57f85072456598461f36a77286c7,,Roads - 50k - Canvec
+55,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Roads_50k_Canvec/,,Roads - 50k - Canvec
+55,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/de584e8a567b469595d7593709b1a10e/info/metadata/metadata.xml?format=default&amp;output=html,,Roads - 50k - Canvec
+56,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=96f8bdd9ee40490bb7d6f726afc6032d,,Trails - 250k - Canvec
+56,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Trails_250k_Canvec/,,Trails - 250k - Canvec
+56,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/96f8bdd9ee40490bb7d6f726afc6032d/info/metadata/metadata.xml?format=default&amp;output=html,,Trails - 250k - Canvec
+57,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=6aadb762687a4f23890d8ab2a8397720,,Geographic Place Names Point - 50k - Canvec
+57,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Geographic_Place_Names_Point_50k_Canvec/,,Geographic Place Names Point - 50k - Canvec
+57,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/6aadb762687a4f23890d8ab2a8397720/info/metadata/metadata.xml?format=default&amp;output=html,,Geographic Place Names Point - 50k - Canvec
+58,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=e3c16ab482c44fbbbc5608368939416e,,Ice and Snow - 50k - Canvec
+58,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Ice_and_Snow_50k_Canvec/,,Ice and Snow - 50k - Canvec
+58,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/e3c16ab482c44fbbbc5608368939416e/info/metadata/metadata.xml?format=default&amp;output=html,,Ice and Snow - 50k - Canvec
+59,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=0a1bf60e7d9b437abb4f422dc62a9fe1,,Railroads - 250k - Canvec
+59,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Railroads_250k_Canvec/,,Railroads - 250k - Canvec
+59,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/0a1bf60e7d9b437abb4f422dc62a9fe1/info/metadata/metadata.xml?format=default&amp;output=html,,Railroads - 250k - Canvec
+60,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c37de6eb6c74438a82a5242ec0ba2e9c,,Contours - 50k - Canvec
+60,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Elevation/Contours_50k_Canvec/,,Contours - 50k - Canvec
+60,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/c37de6eb6c74438a82a5242ec0ba2e9c/info/metadata/metadata.xml?format=default&amp;output=html,,Contours - 50k - Canvec
+61,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=e09f12c2a9924eb79150efceccf7b639,,Water Obstacles Line - 50k - Canvec
+61,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Water_Obstacles_Line_50k_Canvec/,,Water Obstacles Line - 50k - Canvec
+61,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/e09f12c2a9924eb79150efceccf7b639/info/metadata/metadata.xml?format=default&amp;output=html,,Water Obstacles Line - 50k - Canvec
+62,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=a8229d2a59fe4e0496bbec32daf31b71,,Landform Features Polygon - 50k - Canvec
+62,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Landform_Features_Polygon_50k_Canvec/,,Landform Features Polygon - 50k - Canvec
+62,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/a8229d2a59fe4e0496bbec32daf31b71/info/metadata/metadata.xml?format=default&amp;output=html,,Landform Features Polygon - 50k - Canvec
+63,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=ecdc5eeaa84c48e59317f5a7a8fbcc1a,,Ice and Snow - 250k - Canvec
+63,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Ice_and_Snow_250k_Canvec/,,Ice and Snow - 250k - Canvec
+63,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/ecdc5eeaa84c48e59317f5a7a8fbcc1a/info/metadata/metadata.xml?format=default&amp;output=html,,Ice and Snow - 250k - Canvec
+64,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=53090c39a91f4eb4a470afd6ba7a516f,,Wetlands - 50k - Canvec
+64,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Wetlands_50k_Canvec/,,Wetlands - 50k - Canvec
+64,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/53090c39a91f4eb4a470afd6ba7a516f/info/metadata/metadata.xml?format=default&amp;output=html,,Wetlands - 50k - Canvec
+65,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=16936352ada3400b85efe0c466620579,,Contours - 250k - Canvec
+65,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Elevation/Contours_250k_Canvec/,,Contours - 250k - Canvec
+65,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/16936352ada3400b85efe0c466620579/info/metadata/metadata.xml?format=default&amp;output=html,,Contours - 250k - Canvec
+66,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=3fed023b933343d887ae95f1039b915b,,Cut Lines - 50k - Canvec
+66,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Cut_Lines_50k_Canvec/,,Cut Lines - 50k - Canvec
+66,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/3fed023b933343d887ae95f1039b915b/info/metadata/metadata.xml?format=default&amp;output=html,,Cut Lines - 50k - Canvec
+67,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=2a6a16f3fd2b4c309682b9241441e71b,,Waterbody Lines - 250k - Canvec
+67,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Waterbody_Lines_250k_Canvec/,,Waterbody Lines - 250k - Canvec
+67,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/2a6a16f3fd2b4c309682b9241441e71b/info/metadata/metadata.xml?format=default&amp;output=html,,Waterbody Lines - 250k - Canvec
+68,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=b3f2989b5ac748dcad3828dcf8163c25,,Land Cover - 50k - Canvec
+68,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Land_Cover_50k_Canvec/,,Land Cover - 50k - Canvec
+68,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/b3f2989b5ac748dcad3828dcf8163c25/info/metadata/metadata.xml?format=default&amp;output=html,,Land Cover - 50k - Canvec
+69,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f53dd71acab44a90b8652e01d8721ce5,,Land Cover - 250k - Canvec
+69,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Land_Cover_250k_Canvec/,,Land Cover - 250k - Canvec
+69,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/f53dd71acab44a90b8652e01d8721ce5/info/metadata/metadata.xml?format=default&amp;output=html,,Land Cover - 250k - Canvec
+70,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=2fab9dae147a424b9cc66dad708fff27,,Water Flow - 50k - Canvec
+70,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Water_Flow_50k_Canvec/,,Water Flow - 50k - Canvec
+70,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/2fab9dae147a424b9cc66dad708fff27/info/metadata/metadata.xml?format=default&amp;output=html,,Water Flow - 50k - Canvec
+71,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=e8ee7f9393db450eac4106432948f10e,,Roads Blocked - 50k - Canvec
+71,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Roads_Blocked_50k_Canvec/,,Roads Blocked - 50k - Canvec
+71,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/e8ee7f9393db450eac4106432948f10e/info/metadata/metadata.xml?format=default&amp;output=html,,Roads Blocked - 50k - Canvec
+72,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=849b0e7d027748da87cc1d73b31e29cf,,Road Junctions - 50k - Canvec
+72,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Road_Junctions_50k_Canvec/,,Road Junctions - 50k - Canvec
+72,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/849b0e7d027748da87cc1d73b31e29cf/info/metadata/metadata.xml?format=default&amp;output=html,,Road Junctions - 50k - Canvec
+73,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=861dcc249e614fffa32c3798961d3343,,Waterbody Lines - 50k - Canvec
+73,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Waterbody_Lines_50k_Canvec/,,Waterbody Lines - 50k - Canvec
+73,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/861dcc249e614fffa32c3798961d3343/info/metadata/metadata.xml?format=default&amp;output=html,,Waterbody Lines - 50k - Canvec
+74,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=57a7f9cbdf8741b08dd23b37c7955779,,Wetlands - 250k - Canvec
+74,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Wetlands_250k_Canvec/,,Wetlands - 250k - Canvec
+74,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/57a7f9cbdf8741b08dd23b37c7955779/info/metadata/metadata.xml?format=default&amp;output=html,,Wetlands - 250k - Canvec
+75,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=266aa986aa7e4dd19296bf5a196f6617,,Roads Ferry - 50k - Canvec
+75,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Roads_Ferry_50k_Canvec/,,Roads Ferry - 50k - Canvec
+75,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/266aa986aa7e4dd19296bf5a196f6617/info/metadata/metadata.xml?format=default&amp;output=html,,Roads Ferry - 50k - Canvec
+76,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=79b04047412840979df4fe7cd49b4003,,Geographic Place Names Poly - 50k - Canvec
+76,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Geographic_Place_Names_Poly_50k_Canvec/,,Geographic Place Names Poly - 50k - Canvec
+76,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/79b04047412840979df4fe7cd49b4003/info/metadata/metadata.xml?format=default&amp;output=html,,Geographic Place Names Poly - 50k - Canvec
+77,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=a26d188f9a414f918c473c34474d4790,,Railroad Station - 250k - Canvec
+77,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Railroad_Station_250k_Canvec/,,Railroad Station - 250k - Canvec
+77,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/a26d188f9a414f918c473c34474d4790/info/metadata/metadata.xml?format=default&amp;output=html,,Railroad Station - 250k - Canvec
+78,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=b7773d0fb6d2416bb42fe1fc8905aab5,,Elevation Points - 50k - Canvec
+78,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Elevation/Elevation_Points_50k_Canvec/,,Elevation Points - 50k - Canvec
+78,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/b7773d0fb6d2416bb42fe1fc8905aab5/info/metadata/metadata.xml?format=default&amp;output=html,,Elevation Points - 50k - Canvec
+79,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=187c6bebc364482f86e59d540f6e9d17,,Water Obstacles Poly - 250k - Canvec
+79,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Water_Obstacles_Poly_250k_Canvec/,,Water Obstacles Poly - 250k - Canvec
+79,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/187c6bebc364482f86e59d540f6e9d17/info/metadata/metadata.xml?format=default&amp;output=html,,Water Obstacles Poly - 250k - Canvec
+80,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=509c1a626dbe43ff9106ce4dfd1a5adb,,Landform Features Line - 50k - Canvec
+80,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Landform_Features_Line_50k_Canvec/,,Landform Features Line - 50k - Canvec
+80,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/509c1a626dbe43ff9106ce4dfd1a5adb/info/metadata/metadata.xml?format=default&amp;output=html,,Landform Features Line - 50k - Canvec
+81,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c4c6b41da30d4b738c721d2b8af85587,,Waterbody Islands - 50k - Canvec
+81,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Waterbody_Islands_50k_Canvec/,,Waterbody Islands - 50k - Canvec
+81,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/c4c6b41da30d4b738c721d2b8af85587/info/metadata/metadata.xml?format=default&amp;output=html,,Waterbody Islands - 50k - Canvec
+82,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=9f9f025cd81b407fadde8275d685ef55,,Water Obstacles Poly - 50k - Canvec
+82,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Water_Obstacles_Poly_50k_Canvec/,,Water Obstacles Poly - 50k - Canvec
+82,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/9f9f025cd81b407fadde8275d685ef55/info/metadata/metadata.xml?format=default&amp;output=html,,Water Obstacles Poly - 50k - Canvec
+83,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f87b644d5b484c19af5e39ef4c14bc90,,Water Obstacles Point - 50k - Canvec
+83,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Water_Obstacles_Point_50k_Canvec/,,Water Obstacles Point - 50k - Canvec
+83,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/f87b644d5b484c19af5e39ef4c14bc90/info/metadata/metadata.xml?format=default&amp;output=html,,Water Obstacles Point - 50k - Canvec
+84,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=505ecf24da7d4f66bb027f88dce57615,,Geographic Place Names Line - 50k - Canvec
+84,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Geographic_Place_Names_Line_50k_Canvec/,,Geographic Place Names Line - 50k - Canvec
+84,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/505ecf24da7d4f66bb027f88dce57615/info/metadata/metadata.xml?format=default&amp;output=html,,Geographic Place Names Line - 50k - Canvec
+85,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=49bd95d009e642369c2a51505f9c2871,,Elevation Points - 250k - Canvec
+85,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Elevation/Elevation_Points_250k_Canvec/,,Elevation Points - 250k - Canvec
+85,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/49bd95d009e642369c2a51505f9c2871/info/metadata/metadata.xml?format=default&amp;output=html,,Elevation Points - 250k - Canvec
+86,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=85c32a46759948bbbc42e4d4cb3b6d09,,Water Obstacles Point - 250k - Canvec
+86,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Water_Obstacles_Point_250k_Canvec/,,Water Obstacles Point - 250k - Canvec
+86,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/85c32a46759948bbbc42e4d4cb3b6d09/info/metadata/metadata.xml?format=default&amp;output=html,,Water Obstacles Point - 250k - Canvec
+87,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=5d29a616771c414a9e142a26d5955aa1,,Landform Features Polygon - 250k - Canvec
+87,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Landform_Features_Polygon_250k_Canvec/,,Landform Features Polygon - 250k - Canvec
+87,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/5d29a616771c414a9e142a26d5955aa1/info/metadata/metadata.xml?format=default&amp;output=html,,Landform Features Polygon - 250k - Canvec
+88,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=0af99104f30d4bb2b9a4b3bb1d250150,,Cut Lines - 250k - Canvec
+88,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Cut_Lines_250k_Canvec/,,Cut Lines - 250k - Canvec
+88,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/0af99104f30d4bb2b9a4b3bb1d250150/info/metadata/metadata.xml?format=default&amp;output=html,,Cut Lines - 250k - Canvec
+89,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=515bfdd4c6bd4c3597d98f9ac4ea0343,,Water Obstacles Line - 250k - Canvec
+89,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Water_Obstacles_Line_250k_Canvec/,,Water Obstacles Line - 250k - Canvec
+89,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/515bfdd4c6bd4c3597d98f9ac4ea0343/info/metadata/metadata.xml?format=default&amp;output=html,,Water Obstacles Line - 250k - Canvec
+90,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=371eba96d6fc4b90876d49dc9b223b5b,,Landform Features Line - 250k - Canvec
+90,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Landform_Features_Line_250k_Canvec/,,Landform Features Line - 250k - Canvec
+90,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/371eba96d6fc4b90876d49dc9b223b5b/info/metadata/metadata.xml?format=default&amp;output=html,,Landform Features Line - 250k - Canvec
+91,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f2808688e27f42908815157b0f44a256,,Railroad Station - 50k - Canvec
+91,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Railroad_Station_50k_Canvec/,,Railroad Station - 50k - Canvec
+91,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/f2808688e27f42908815157b0f44a256/info/metadata/metadata.xml?format=default&amp;output=html,,Railroad Station - 50k - Canvec
+92,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=49cc2473b4904ced9dbd530944f5d2e1,,Assessment report footprints
+92,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Assessment_Report_Footprints/,,Assessment report footprints
+92,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/49cc2473b4904ced9dbd530944f5d2e1/info/metadata/metadata.xml?format=default&amp;output=html,,Assessment report footprints
+93,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=3d6dfa39e7294516b0896adc29b384c9,,Earthquake Epicentres - 250k
+93,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Earthquake_Epicentres_250k/,,Earthquake Epicentres - 250k
+93,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/3d6dfa39e7294516b0896adc29b384c9/info/metadata/metadata.xml?format=default&amp;output=html,,Earthquake Epicentres - 250k
+94,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=cfccf35445aa4c4686fabca8363f981a,,Folds - 250k
+94,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Folds_250k/,,Folds - 250k
+94,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/cfccf35445aa4c4686fabca8363f981a/info/metadata/metadata.xml?format=default&amp;output=html,,Folds - 250k
+95,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=60dca6ef4b5848faa27aeb216c40154c,,Forest Health Aerial Overview - 50k
+95,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Forest_Health_Aerial_Overview_50k/,,Forest Health Aerial Overview - 50k
+95,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/60dca6ef4b5848faa27aeb216c40154c/info/metadata/metadata.xml?format=default&amp;output=html,,Forest Health Aerial Overview - 50k
+96,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=840b9090fec942ce8fd9219fc7ec40e3,,Forest Resources Management Plans - 250k
+96,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Forest_Resources_Management_Plans_250k/,,Forest Resources Management Plans - 250k
+96,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/840b9090fec942ce8fd9219fc7ec40e3/info/metadata/metadata.xml?format=default&amp;output=html,,Forest Resources Management Plans - 250k
+97,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=64f3d9e89076452aa2f15e72630e7d9d,,Geochemical Provinces - 250k
+97,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Geochemical_Provinces_250k/,,Geochemical Provinces - 250k
+97,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/64f3d9e89076452aa2f15e72630e7d9d/info/metadata/metadata.xml?format=default&amp;output=html,,Geochemical Provinces - 250k
+98,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=ee0ee9c3bddb439c9b415e5dbff2af8c,,Lithogeochemistry
+98,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Lithogeochemistry/,,Lithogeochemistry
+98,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/ee0ee9c3bddb439c9b415e5dbff2af8c/info/metadata/metadata.xml?format=default&amp;output=html,,Lithogeochemistry
+99,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=327b9e18d66940b4b11b78ae7ec04e25,,Harvest Licences - 50k
+99,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Harvest_Licences_50k/,,Harvest Licences - 50k
+99,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/327b9e18d66940b4b11b78ae7ec04e25/info/metadata/metadata.xml?format=default&amp;output=html,,Harvest Licences - 50k
+100,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=a03ec7e78f1c4a5293199634b9df8f6e,,Major Faults
+100,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Major_Faults/,,Major Faults
+100,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/a03ec7e78f1c4a5293199634b9df8f6e/info/metadata/metadata.xml?format=default&amp;output=html,,Major Faults
+101,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=4df5a1520e8a497b8d64a2c744a06f33,,Mineral Occurrences - 250k
+101,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Mineral_Occurrences_250k/,,Mineral Occurrences - 250k
+101,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/4df5a1520e8a497b8d64a2c744a06f33/info/metadata/metadata.xml?format=default&amp;output=html,,Mineral Occurrences - 250k
+102,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=45240218c3d34f329d85e9e892216910,,Permanent Sampling Plots
+102,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Permanent_Sampling_Plots/,,Permanent Sampling Plots
+102,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/45240218c3d34f329d85e9e892216910/info/metadata/metadata.xml?format=default&amp;output=html,,Permanent Sampling Plots
+103,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=9f87df3606aa476dae9653871f2f8d76,,Regional Geochemical Surveys - RGS - AAS - 250k
+103,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Regional_Geochemical_Surveys_RGS_AAS_250k/,,Regional Geochemical Surveys - RGS - AAS - 250k
+103,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/9f87df3606aa476dae9653871f2f8d76/info/metadata/metadata.xml?format=default&amp;output=html,,Regional Geochemical Surveys - RGS - AAS - 250k
+104,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=5920059e9c1b48bfba26e70e988f6d93,,Regional Geochemical Surveys - RGS - All - 250k
+104,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Regional_Geochemical_Surveys_RGS_All_250k/,,Regional Geochemical Surveys - RGS - All - 250k
+104,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/5920059e9c1b48bfba26e70e988f6d93/info/metadata/metadata.xml?format=default&amp;output=html,,Regional Geochemical Surveys - RGS - All - 250k
+105,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=54e71d67d7ac41318d7f973204a87af5,,Regional Geochemical Surveys - RGS - Heon - 250k
+105,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Regional_Geochemical_Surveys_RGS_Heon_250k/,,Regional Geochemical Surveys - RGS - Heon - 250k
+105,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/54e71d67d7ac41318d7f973204a87af5/info/metadata/metadata.xml?format=default&amp;output=html,,Regional Geochemical Surveys - RGS - Heon - 250k
+106,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=caf52e0e578743af985017e7ffde2287,,Regional Geochemical Surveys - RGS - ICPMS - 250k
+106,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Regional_Geochemical_Surveys_RGS_ICPMS_250k/,,Regional Geochemical Surveys - RGS - ICPMS - 250k
+106,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/caf52e0e578743af985017e7ffde2287/info/metadata/metadata.xml?format=default&amp;output=html,,Regional Geochemical Surveys - RGS - ICPMS - 250k
+107,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=19c74766f7644b67b2c0394376fd04b7,,Regional Geochemical Surveys - RGS - INAA - 250k
+107,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Regional_Geochemical_Surveys_RGS_INAA_250k/,,Regional Geochemical Surveys - RGS - INAA - 250k
+107,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/19c74766f7644b67b2c0394376fd04b7/info/metadata/metadata.xml?format=default&amp;output=html,,Regional Geochemical Surveys - RGS - INAA - 250k
+108,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=58921af571e94770afd6d13cfcba4f17,,Regional Geochemical Surveys - RGS - Site Water - 250k
+108,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Regional_Geochemical_Surveys_RGS_Site_Water_250k/,,Regional Geochemical Surveys - RGS - Site Water - 250k
+108,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/58921af571e94770afd6d13cfcba4f17/info/metadata/metadata.xml?format=default&amp;output=html,,Regional Geochemical Surveys - RGS - Site Water - 250k
+109,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=883915d3f7b543dab45204f63a7fceb6,,Timber harvest plans - 50k
+109,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Timber_Harvest_Plans_50k/,,Timber harvest plans - 50k
+109,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/883915d3f7b543dab45204f63a7fceb6/info/metadata/metadata.xml?format=default&amp;output=html,,Timber harvest plans - 50k
+110,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=4c7d7873ce9f40fd9aecbb7a734dc1d8,,Vegetation Inventory - 5k - Land Cover
+110,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Vegetation_Inventory_5k/,,Vegetation Inventory - 5k - Land Cover
+110,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/4c7d7873ce9f40fd9aecbb7a734dc1d8/info/metadata/metadata.xml?format=default&amp;output=html,,Vegetation Inventory - 5k - Land Cover
+111,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=98a1b613f81c489cb4173f4976419f23,,Vegetation Inventory - 40k
+111,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Vegetation_Inventory_40k/,,Vegetation Inventory - 40k
+111,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/98a1b613f81c489cb4173f4976419f23/info/metadata/metadata.xml?format=default&amp;output=html,,Vegetation Inventory - 40k
+112,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=7afb727b4ab94b1b955699807f845b59,,Vegetation Inventory Photo Points - Whitehorse - 10k
+112,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Vegetation_Inventory_Photo_Points_Whitehorse_10k/,,Vegetation Inventory Photo Points - Whitehorse - 10k
+112,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/7afb727b4ab94b1b955699807f845b59/info/metadata/metadata.xml?format=default&amp;output=html,,Vegetation Inventory Photo Points - Whitehorse - 10k
+113,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=48f1a110f59a4560ab1b58000250715e,,Vegetation Inventory Roads - 40k
+113,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Vegetation_Inventory_Roads_40k/,,Vegetation Inventory Roads - 40k
+113,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/48f1a110f59a4560ab1b58000250715e/info/metadata/metadata.xml?format=default&amp;output=html,,Vegetation Inventory Roads - 40k
+114,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=e0b2bf4f43b84bccbea91f8f313ac791,,Vegetation Inventory - Whitehorse - 10k
+114,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Vegetation_Inventory_Whitehorse_10k/,,Vegetation Inventory - Whitehorse - 10k
+114,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/e0b2bf4f43b84bccbea91f8f313ac791/info/metadata/metadata.xml?format=default&amp;output=html,,Vegetation Inventory - Whitehorse - 10k
+115,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=4c7d7873ce9f40fd9aecbb7a734dc1d8,,Vegetation Inventory - 5k - Leading Species
+115,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Vegetation_Inventory_5k/,,Vegetation Inventory - 5k - Leading Species
+115,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/8ba77d63e92a4e9d863224e4767cc8d4/info/metadata/metadata.xml?format=default&amp;output=html,,Vegetation Inventory - 5k - Leading Species
+116,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=4c7d7873ce9f40fd9aecbb7a734dc1d8,,Vegetation Inventory - 5k - Soil Moisture Regime
+116,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Vegetation_Inventory_5k/,,Vegetation Inventory - 5k - Soil Moisture Regime
+116,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/2c0499f2b9834c70b0776473e6ce8abc/info/metadata/metadata.xml?format=default&amp;output=html,,Vegetation Inventory - 5k - Soil Moisture Regime
+117,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=4c7d7873ce9f40fd9aecbb7a734dc1d8,,Vegetation Inventory - 5k - Soil Nutrient Regime
+117,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Vegetation_Inventory_5k/,,Vegetation Inventory - 5k - Soil Nutrient Regime
+117,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/968a6db0236640ed82fdb18c6306e68f/info/metadata/metadata.xml?format=default&amp;output=html,,Vegetation Inventory - 5k - Soil Nutrient Regime
+118,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=d852e3f7beef4a2bb753f50ecdd5a784,,Community Hazards - Burwash Destruction Bay - 25k
+118,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Community_Hazards_Burwash_Destruction_Bay_25k/,,Community Hazards - Burwash Destruction Bay - 25k
+118,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/d852e3f7beef4a2bb753f50ecdd5a784/info/metadata/metadata.xml?format=default&amp;output=html,,Community Hazards - Burwash Destruction Bay - 25k
+119,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=5fca20188bfc4cea9b74ddea3a76c3a5,,Community Hazards - Dawson - 30m
+119,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Community_Hazards_Dawson_30m/,,Community Hazards - Dawson - 30m
+119,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/5fca20188bfc4cea9b74ddea3a76c3a5/info/metadata/metadata.xml?format=default&amp;output=html,,Community Hazards - Dawson - 30m
+120,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f6ead3e1959b4c908a791e541a489e8d,,Community Hazards - Faro - 20k
+120,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Community_Hazards_Faro_20k/,,Community Hazards - Faro - 20k
+120,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/f6ead3e1959b4c908a791e541a489e8d/info/metadata/metadata.xml?format=default&amp;output=html,,Community Hazards - Faro - 20k
+121,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=3e05e075371d4b0aacc91db493ba8d14,,Community Hazards - Mayo - 20k
+121,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Community_Hazards_Mayo_20k/,,Community Hazards - Mayo - 20k
+121,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/3e05e075371d4b0aacc91db493ba8d14/info/metadata/metadata.xml?format=default&amp;output=html,,Community Hazards - Mayo - 20k
+122,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=954a9cb54d444e9db0ea875f7a8a8f51,,Community Hazards - Old Crow - 30m
+122,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Community_Hazards_Old_Crow_30m/,,Community Hazards - Old Crow - 30m
+122,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/954a9cb54d444e9db0ea875f7a8a8f51/info/metadata/metadata.xml?format=default&amp;output=html,,Community Hazards - Old Crow - 30m
+123,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c40baaeeadbb4f8d8f0fb5b50e2c0412,,Community Hazards - Pelly Crossing - 20k
+123,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Community_Hazards_Pelly_Crossing_20k/,,Community Hazards - Pelly Crossing - 20k
+123,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/c40baaeeadbb4f8d8f0fb5b50e2c0412/info/metadata/metadata.xml?format=default&amp;output=html,,Community Hazards - Pelly Crossing - 20k
+124,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=6281b90e380049ee9558ee92b77d61c3,,Community Hazards - Ross River - 12k
+124,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Community_Hazards_Ross_River_12k/,,Community Hazards - Ross River - 12k
+124,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/6281b90e380049ee9558ee92b77d61c3/info/metadata/metadata.xml?format=default&amp;output=html,,Community Hazards - Ross River - 12k
+125,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=7825eb836a334a4c849403f58bafa741,,Yukon tourism regions
+125,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Culture_and_Heritage/Yukon_Tourism_Regions/,,Yukon tourism regions
+125,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/7825eb836a334a4c849403f58bafa741/info/metadata/metadata.xml?format=default&amp;output=html,,Yukon tourism regions
+126,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=108a2e9ecb9d4a618292814a2a892445,,Areas withdrawn from staking - 50k
+126,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Areas_Withdrawn_from_Staking_50k/,,Areas withdrawn from staking - 50k
+126,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/108a2e9ecb9d4a618292814a2a892445/info/metadata/metadata.xml?format=default&amp;output=html,,Areas withdrawn from staking - 50k
+127,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=d09a117e3f424d1a8fbf060e9411270d,,Community Boundaries
+127,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Planning/Community_Boundaries/,,Community Boundaries
+127,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/d09a117e3f424d1a8fbf060e9411270d/info/metadata/metadata.xml?format=default&amp;output=html,,Community Boundaries
+128,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=838705a6bcd1485abf64dce2e9ba6662,,Community Zoning
+128,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Planning/Community_Zoning/,,Community Zoning
+128,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/838705a6bcd1485abf64dce2e9ba6662/info/metadata/metadata.xml?format=default&amp;output=html,,Community Zoning
+129,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=e82cfb06be8946409359c7f699e75a64,,Condos - Surveyed
+129,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/Condos_Surveyed/,,Condos - Surveyed
+129,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/e82cfb06be8946409359c7f699e75a64/info/metadata/metadata.xml?format=default&amp;output=html,,Condos - Surveyed
+130,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=8d766afd829b4014bb89cb367c9aaad1,,First Nation Settlement Lands - 250k
+130,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/First_Nations/First_Nation_Settlement_Lands_250k/,,First Nation Settlement Lands - 250k
+130,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/8d766afd829b4014bb89cb367c9aaad1/info/metadata/metadata.xml?format=default&amp;output=html,,First Nation Settlement Lands - 250k
+131,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=75a58fd079654a0aaa31914f801dbe73,,First Nation Settlement Lands - Surveyed
+131,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/First_Nations/First_Nation_Settlement_Lands_Surveyed/,,First Nation Settlement Lands - Surveyed
+131,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/75a58fd079654a0aaa31914f801dbe73/info/metadata/metadata.xml?format=default&amp;output=html,,First Nation Settlement Lands - Surveyed
+132,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=79179f369f4a4c89a55f42e7fd6f1300,,Development Areas
+132,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Planning/Development_Areas/,,Development Areas
+132,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/79179f369f4a4c89a55f42e7fd6f1300/info/metadata/metadata.xml?format=default&amp;output=html,,Development Areas
+133,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f075c8cdab584c99bf10e5992a2d3163,,Development Hold Areas
+133,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/Development_Hold_Areas/,,Development Hold Areas
+133,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/f075c8cdab584c99bf10e5992a2d3163/info/metadata/metadata.xml?format=default&amp;output=html,,Development Hold Areas
+134,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=cbd1b0f12c8240689cbd88cb67c199ff,,Easements Line - Surveyed
+134,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/Easements_Line_Surveyed/,,Easements Line - Surveyed
+134,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/cbd1b0f12c8240689cbd88cb67c199ff/info/metadata/metadata.xml?format=default&amp;output=html,,Easements Line - Surveyed
+135,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=2a06d8bf051e445aad7615e0aaeb6a0f,,Easements Polygon - Surveyed
+135,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/Easements_Polygon_Surveyed/,,Easements Polygon - Surveyed
+135,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/2a06d8bf051e445aad7615e0aaeb6a0f/info/metadata/metadata.xml?format=default&amp;output=html,,Easements Polygon - Surveyed
+136,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c6ac4772657148369c613f967bd24c39,,First Nation Heritage Routes
+136,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Culture_and_Heritage/First_Nation_Heritage_Routes/,,First Nation Heritage Routes
+136,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/c6ac4772657148369c613f967bd24c39/info/metadata/metadata.xml?format=default&amp;output=html,,First Nation Heritage Routes
+137,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f5c15b0117924445a32413bc1be705d4,,Land Dispositions
+137,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/Land_Dispositions/,,Land Dispositions
+137,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/f5c15b0117924445a32413bc1be705d4/info/metadata/metadata.xml?format=default&amp;output=html,,Land Dispositions
+138,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=21d1864479f945c7821b7429acd83d1e,,Mineral claim adjoining parcels - 50k
+138,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Mineral_Claim_Adjoining_Parcels_50k/,,Mineral claim adjoining parcels - 50k
+138,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/21d1864479f945c7821b7429acd83d1e/info/metadata/metadata.xml?format=default&amp;output=html,,Mineral claim adjoining parcels - 50k
+139,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=21125af26d494839a6680ee9457159ed,,Local Area Plans
+139,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Planning/Local_Area_Plans/,,Local Area Plans
+139,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/21125af26d494839a6680ee9457159ed/info/metadata/metadata.xml?format=default&amp;output=html,,Local Area Plans
+140,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=357eb1ad60344806b5e47fec229eacbf,,Local Advisory Areas
+140,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Planning/Local_Advisory_Areas/,,Local Advisory Areas
+140,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/357eb1ad60344806b5e47fec229eacbf/info/metadata/metadata.xml?format=default&amp;output=html,,Local Advisory Areas
+141,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=0c4e25756c044a838950d3bb9f6eb8c0,,First Nation Settlement Lands - 1M
+141,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/First_Nations/First_Nation_Settlement_Lands_1M/,,First Nation Settlement Lands - 1M
+141,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/0c4e25756c044a838950d3bb9f6eb8c0/info/metadata/metadata.xml?format=default&amp;output=html,,First Nation Settlement Lands - 1M
+142,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=dc4c08d189dc4d53a1be2a4dd102e96a,,Historical Land Use Permits Line - 50k
+142,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/Historical_Land_Use_Permits_Line_50k/,,Historical Land Use Permits Line - 50k
+142,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/dc4c08d189dc4d53a1be2a4dd102e96a/info/metadata/metadata.xml?format=default&amp;output=html,,Historical Land Use Permits Line - 50k
+143,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=63ccb072429745dea0ed6c557d0bb78c,,Historical Land Use Permits Polygon - 50k
+143,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/Historical_Land_Use_Permits_Polygon_50k/,,Historical Land Use Permits Polygon - 50k
+143,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/63ccb072429745dea0ed6c557d0bb78c/info/metadata/metadata.xml?format=default&amp;output=html,,Historical Land Use Permits Polygon - 50k
+144,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=06a831f0188e423ab705c8dd756e1914,,Land Claim MOU Boundaries
+144,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Planning/Land_Claim_MOU_Boundaries/,,Land Claim MOU Boundaries
+144,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/06a831f0188e423ab705c8dd756e1914/info/metadata/metadata.xml?format=default&amp;output=html,,Land Claim MOU Boundaries
+145,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c135f219543d4b2fa3dff1a5b6a3e797,,Land Parcels Line - Surveyed
+145,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/Land_Parcels_Line_Surveyed/,,Land Parcels Line - Surveyed
+145,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/c135f219543d4b2fa3dff1a5b6a3e797/info/metadata/metadata.xml?format=default&amp;output=html,,Land Parcels Line - Surveyed
+146,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=527935ad5d1144c780a7d882e69dfee4,,Shaded Relief - 300m
+146,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Elevation/Shaded_Relief_300m/,,Shaded Relief - 300m
+146,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/527935ad5d1144c780a7d882e69dfee4/info/metadata/metadata.xml?format=default&amp;output=html,,Shaded Relief - 300m
+147,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=e294d4c5622647f5ac5125631e11a625,,Shaded Relief - 500m
+147,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Elevation/Shaded_Relief_500m/,,Shaded Relief - 500m
+147,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/e294d4c5622647f5ac5125631e11a625/info/metadata/metadata.xml?format=default&amp;output=html,,Shaded Relief - 500m
+148,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=4d2a6fa758284818be7b3eb2017260a6,,Terranes
+148,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Terranes/,,Terranes
+148,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/4d2a6fa758284818be7b3eb2017260a6/info/metadata/metadata.xml?format=default&amp;output=html,,Terranes
+149,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=179b5ce38a73423a9a2b6f048be37bcd,,OIC - Territorial Lands Act
+149,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/OIC_Territorial_Lands_Act/,,OIC - Territorial Lands Act
+149,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/179b5ce38a73423a9a2b6f048be37bcd/info/metadata/metadata.xml?format=default&amp;output=html,,OIC - Territorial Lands Act
+150,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=86e1a78c9bd441dfa50c4b91e6a8ed10,,Yukon canadian heritage rivers
+150,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Culture_and_Heritage/Yukon_Canadian_Heritage_Rivers/,,Yukon canadian heritage rivers
+150,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/86e1a78c9bd441dfa50c4b91e6a8ed10/info/metadata/metadata.xml?format=default&amp;output=html,,Yukon canadian heritage rivers
+151,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=15f652b7566e47d39ad7c2ba9812fd32,,Wilderness tourism trails
+151,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Culture_and_Heritage/Wilderness_Tourism_Trails/,,Wilderness tourism trails
+151,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/15f652b7566e47d39ad7c2ba9812fd32/info/metadata/metadata.xml?format=default&amp;output=html,,Wilderness tourism trails
+152,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=b8e17739ac2a402e81bf710eda88d687,,Wilderness tourism activities
+152,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Culture_and_Heritage/Wilderness_Tourism_Activities/,,Wilderness tourism activities
+152,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/b8e17739ac2a402e81bf710eda88d687/info/metadata/metadata.xml?format=default&amp;output=html,,Wilderness tourism activities
+153,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=bb5461ebad7e438399c81d9ad8bc8602,,Placer Baseline - Surveyed
+153,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Placer_Baseline_Surveyed/,,Placer Baseline - Surveyed
+153,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/bb5461ebad7e438399c81d9ad8bc8602/info/metadata/metadata.xml?format=default&amp;output=html,,Placer Baseline - Surveyed
+154,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=2688f817ce6d4853a0ce70ed55251f5c,,Placer Baseline Unsurveyed - 50k
+154,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Placer_Baseline_Unsurveyed_50k/,,Placer Baseline Unsurveyed - 50k
+154,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/2688f817ce6d4853a0ce70ed55251f5c/info/metadata/metadata.xml?format=default&amp;output=html,,Placer Baseline Unsurveyed - 50k
+155,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=7d50401a286a4e9e97e78faff688fefc,,Land Use Designations Line
+155,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Planning/Land_Use_Designations_Line/,,Land Use Designations Line
+155,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/7d50401a286a4e9e97e78faff688fefc/info/metadata/metadata.xml?format=default&amp;output=html,,Land Use Designations Line
+156,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c3497dbec5f74be4bef8767cb2ca3e90,,Land Use Designations Polygon
+156,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Planning/Land_Use_Designations_Polygon/,,Land Use Designations Polygon
+156,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/c3497dbec5f74be4bef8767cb2ca3e90/info/metadata/metadata.xml?format=default&amp;output=html,,Land Use Designations Polygon
+157,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=92515e04f90c45a1846fea66dd74c1d9,,Municipal Boundaries
+157,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Planning/Municipal_Boundaries/,,Municipal Boundaries
+157,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/92515e04f90c45a1846fea66dd74c1d9/info/metadata/metadata.xml?format=default&amp;output=html,,Municipal Boundaries
+158,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=918d361ba57040bfa4b59bf6e470588e,,Land Use Permits Polygon - 50k
+158,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/Land_Use_Permits_Polygon_50k/,,Land Use Permits Polygon - 50k
+158,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/918d361ba57040bfa4b59bf6e470588e/info/metadata/metadata.xml?format=default&amp;output=html,,Land Use Permits Polygon - 50k
+159,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=93009ae9fcc14b9c938bd8a84364b539,,OIC - Wildlife Act
+159,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/OIC_Wildlife_Act/,,OIC - Wildlife Act
+159,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/93009ae9fcc14b9c938bd8a84364b539/info/metadata/metadata.xml?format=default&amp;output=html,,OIC - Wildlife Act
+160,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=b6b5daceb3cf4cf4a03333d76e5ab584,,OIC - Quartz Mining Act
+160,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/OIC_Quartz_Mining_Act/,,OIC - Quartz Mining Act
+160,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/b6b5daceb3cf4cf4a03333d76e5ab584/info/metadata/metadata.xml?format=default&amp;output=html,,OIC - Quartz Mining Act
+161,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=fc34bb574a5d4e59967d947f7034f298,,OIC - Lands Act
+161,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/OIC_Lands_Act/,,OIC - Lands Act
+161,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/fc34bb574a5d4e59967d947f7034f298/info/metadata/metadata.xml?format=default&amp;output=html,,OIC - Lands Act
+162,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=58fd58120cea43318d3a19fc91821eb9,,OIC - Forest Protection Act
+162,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/OIC_Forest_Protection_Act/,,OIC - Forest Protection Act
+162,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/58fd58120cea43318d3a19fc91821eb9/info/metadata/metadata.xml?format=default&amp;output=html,,OIC - Forest Protection Act
+163,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=da56e2c4808646c59da527a3cffbe4dd,,OIC - Historic Resources Act
+163,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/OIC_Historic_Resources_Act/,,OIC - Historic Resources Act
+163,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/da56e2c4808646c59da527a3cffbe4dd/info/metadata/metadata.xml?format=default&amp;output=html,,OIC - Historic Resources Act
+164,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=6c263f7c597b460598637d2a0df55d28,,OIC - Park and Land Certainty Act
+164,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/OIC_Park_and_Land_Certainty_Act/,,OIC - Park and Land Certainty Act
+164,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/6c263f7c597b460598637d2a0df55d28/info/metadata/metadata.xml?format=default&amp;output=html,,OIC - Park and Land Certainty Act
+165,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=114c2d3b9c3443d499f2442084c6757f,,OIC - Placer Mining Act
+165,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/OIC_Placer_Mining_Act/,,OIC - Placer Mining Act
+165,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/114c2d3b9c3443d499f2442084c6757f/info/metadata/metadata.xml?format=default&amp;output=html,,OIC - Placer Mining Act
+166,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=bb27fb59b7284fafa494302b8fe59ff1,,Mineral claims polygon - surveyed
+166,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Mineral_Claims_Polygon_Surveyed/,,Mineral claims polygon - surveyed
+166,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/bb27fb59b7284fafa494302b8fe59ff1/info/metadata/metadata.xml?format=default&amp;output=html,,Mineral claims polygon - surveyed
+167,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=53b235486fa24229a9366356970efea7,,Mineral claims line - surveyed
+167,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Mineral_Claims_Line_Surveyed/,,Mineral claims line - surveyed
+167,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/53b235486fa24229a9366356970efea7/info/metadata/metadata.xml?format=default&amp;output=html,,Mineral claims line - surveyed
+168,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=8d6170db21e6418585ca85c9b3a4863a,,Aquatic health monitoring sites
+168,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Aquatic_Health_Monitoring_Sites/,,Aquatic health monitoring sites
+168,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/8d6170db21e6418585ca85c9b3a4863a/info/metadata/metadata.xml?format=default&amp;output=html,,Aquatic health monitoring sites
+169,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=79c92d6cbd3643ba9dfccc36edec9375,,Areas withdrawn from oil and gas disposition
+169,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Oil_and_Gas/Areas_Withdrawn_from_Oil_and_Gas_Disposition/,,Areas withdrawn from oil and gas disposition
+169,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/79c92d6cbd3643ba9dfccc36edec9375/info/metadata/metadata.xml?format=default&amp;output=html,,Areas withdrawn from oil and gas disposition
+170,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=682d535bf46d4d50937426d80141c65b,,CMI Water Quality Sampling Sites
+170,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/CMI_Water_Quality_Sampling_Sites/,,CMI Water Quality Sampling Sites
+170,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/682d535bf46d4d50937426d80141c65b/info/metadata/metadata.xml?format=default&amp;output=html,,CMI Water Quality Sampling Sites
+171,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=4c69d7908442468e87633c96cc63860f,,Drainage Culverts - 25k
+171,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Drainage_Culverts_25k/,,Drainage Culverts - 25k
+171,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/4c69d7908442468e87633c96cc63860f/info/metadata/metadata.xml?format=default&amp;output=html,,Drainage Culverts - 25k
+172,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=0d84f305d1634f9598e377b1065fede1,,Gravel Pits - 25k
+172,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Gravel_Pits_25k/,,Gravel Pits - 25k
+172,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/0d84f305d1634f9598e377b1065fede1/info/metadata/metadata.xml?format=default&amp;output=html,,Gravel Pits - 25k
+173,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=78d4b812446f4bb38ad01032b89b7c8f,,Highway Kilometre Posts
+173,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Highway_Kilometre_Posts/,,Highway Kilometre Posts
+173,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/78d4b812446f4bb38ad01032b89b7c8f/info/metadata/metadata.xml?format=default&amp;output=html,,Highway Kilometre Posts
+174,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=bc5a6c35e2dd444e961e9d656fada280,,Oil and Gas Bid Locations - 50k
+174,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Oil_and_Gas/Oil_and_Gas_Bid_Locations_50k/,,Oil and Gas Bid Locations - 50k
+174,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/bc5a6c35e2dd444e961e9d656fada280/info/metadata/metadata.xml?format=default&amp;output=html,,Oil and Gas Bid Locations - 50k
+175,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=a2524c665a0c403198c2a0f761f49d0b,,Maintenance Camps - 25k
+175,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Maintenance_Camps_25k/,,Maintenance Camps - 25k
+175,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/a2524c665a0c403198c2a0f761f49d0b/info/metadata/metadata.xml?format=default&amp;output=html,,Maintenance Camps - 25k
+176,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=eaa71370aeb14d1e9a6ce5a761d11976,,Weather Stations
+176,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Weather_Stations/,,Weather Stations
+176,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/eaa71370aeb14d1e9a6ce5a761d11976/info/metadata/metadata.xml?format=default&amp;output=html,,Weather Stations
+177,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=af2104d0ff884b9c9929e9efc0286178,,Oil and Gas Dispositions - 50k
+177,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Oil_and_Gas/Oil_and_Gas_Dispositions_50k/,,Oil and Gas Dispositions - 50k
+177,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/af2104d0ff884b9c9929e9efc0286178/info/metadata/metadata.xml?format=default&amp;output=html,,Oil and Gas Dispositions - 50k
+178,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=1a6f1badda264d169cc54bdcb022813b,,Oil and Gas Grid Areas
+178,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Oil_and_Gas/Oil_and_Gas_Grid_Areas/,,Oil and Gas Grid Areas
+178,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/1a6f1badda264d169cc54bdcb022813b/info/metadata/metadata.xml?format=default&amp;output=html,,Oil and Gas Grid Areas
+179,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=cc761a15b5ef4244b02ee651eebf5fd5,,Oil and Gas Grid Sections
+179,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Oil_and_Gas/Oil_and_Gas_Grid_Sections/,,Oil and Gas Grid Sections
+179,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/cc761a15b5ef4244b02ee651eebf5fd5/info/metadata/metadata.xml?format=default&amp;output=html,,Oil and Gas Grid Sections
+180,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=416685fd312f41bfba892ad7f57e94a3,,Oil and Gas Grid Units
+180,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Oil_and_Gas/Oil_and_Gas_Grid_Units/,,Oil and Gas Grid Units
+180,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/416685fd312f41bfba892ad7f57e94a3/info/metadata/metadata.xml?format=default&amp;output=html,,Oil and Gas Grid Units
+181,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=4e4a178be1ef4f689e39d36638e9d8d1,,Oil and Gas Request for Postings - 50k
+181,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Oil_and_Gas/Oil_and_Gas_Request_for_Postings_50k/,,Oil and Gas Request for Postings - 50k
+181,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/4e4a178be1ef4f689e39d36638e9d8d1/info/metadata/metadata.xml?format=default&amp;output=html,,Oil and Gas Request for Postings - 50k
+182,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=0d65c92b1d0744fbb504a53f88e8f1e4,,Placer Lakes Classification - 50k
+182,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Placer_Lakes_Classification_50k/,,Placer Lakes Classification - 50k
+182,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/0d65c92b1d0744fbb504a53f88e8f1e4/info/metadata/metadata.xml?format=default&amp;output=html,,Placer Lakes Classification - 50k
+183,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=928d967b4a4b494bb1d96af49258822a,,Placer Land Use Permits - 50k
+183,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Placer_Land_Use_Permits_50k/,,Placer Land Use Permits - 50k
+183,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/928d967b4a4b494bb1d96af49258822a/info/metadata/metadata.xml?format=default&amp;output=html,,Placer Land Use Permits - 50k
+184,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=88fadfbd933d4b20974f5c891f876940,,Placer Leases - 50k
+184,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Placer_Leases_50k/,,Placer Leases - 50k
+184,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/88fadfbd933d4b20974f5c891f876940/info/metadata/metadata.xml?format=default&amp;output=html,,Placer Leases - 50k
+185,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=bc38fddb8e1140e995e25bf91354bc21,,Placer Streams - 250k
+185,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Placer_Streams_250k/,,Placer Streams - 250k
+185,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/bc38fddb8e1140e995e25bf91354bc21/info/metadata/metadata.xml?format=default&amp;output=html,,Placer Streams - 250k
+186,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=2fd99b0a9180489bb48266bd196de151,,Placer Watersheds - 50k
+186,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Placer_Watersheds_50k/,,Placer Watersheds - 50k
+186,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/2fd99b0a9180489bb48266bd196de151/info/metadata/metadata.xml?format=default&amp;output=html,,Placer Watersheds - 50k
+187,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=46979633b91f47a9a58f8195104d96bc,,Structural Culverts - 25k
+187,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Structural_Culverts_25k/,,Structural Culverts - 25k
+187,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/46979633b91f47a9a58f8195104d96bc/info/metadata/metadata.xml?format=default&amp;output=html,,Structural Culverts - 25k
+188,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=7ed5939deac443d8810217c6408cf998,,Sedimentary Extents - 1M
+188,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Oil_and_Gas/Sedimentary_Extents_1M/,,Sedimentary Extents - 1M
+188,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/7ed5939deac443d8810217c6408cf998/info/metadata/metadata.xml?format=default&amp;output=html,,Sedimentary Extents - 1M
+189,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=1c9aa6f4378740eda2cbab50820a4b59,,Sedimentary Basins - 250k
+189,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Oil_and_Gas/Sedimentary_Basins_250k/,,Sedimentary Basins - 250k
+189,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/1c9aa6f4378740eda2cbab50820a4b59/info/metadata/metadata.xml?format=default&amp;output=html,,Sedimentary Basins - 250k
+190,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=48fd1cb27fe74eb4a0e4b4a268fdd638,,Runway Points - 25k
+190,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Runway_Points_25k/,,Runway Points - 25k
+190,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/48fd1cb27fe74eb4a0e4b4a268fdd638/info/metadata/metadata.xml?format=default&amp;output=html,,Runway Points - 25k
+191,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=1adca4086ebf451db0259f892da01f77,,Runways - 25k
+191,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Runways_25k/,,Runways - 25k
+191,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/1adca4086ebf451db0259f892da01f77/info/metadata/metadata.xml?format=default&amp;output=html,,Runways - 25k
+192,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=8e7bb5a29a0043c6b61f8e0ae02df1d6,,Quartz Staking Directions - 50k
+192,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Quartz_Staking_Directions_50k/,,Quartz Staking Directions - 50k
+192,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/8e7bb5a29a0043c6b61f8e0ae02df1d6/info/metadata/metadata.xml?format=default&amp;output=html,,Quartz Staking Directions - 50k
+193,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=d4d8088b967041298e1bd128db5520b7,,Quartz Leases - 50k
+193,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Quartz_Leases_50k/,,Quartz Leases - 50k
+193,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/d4d8088b967041298e1bd128db5520b7/info/metadata/metadata.xml?format=default&amp;output=html,,Quartz Leases - 50k
+194,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=dfa7a2e1968f47479e7e427939093aa0,,Hypsometry - 1M
+194,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Elevation/Hypsometry_1M/,,Hypsometry - 1M
+194,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/dfa7a2e1968f47479e7e427939093aa0/info/metadata/metadata.xml?format=default&amp;output=html,,Hypsometry - 1M
+195,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=de024bc9c1b74582a50f147362ffead1,,Coal Leases - 50k
+195,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Coal_Leases_50k/,,Coal Leases - 50k
+195,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/de024bc9c1b74582a50f147362ffead1/info/metadata/metadata.xml?format=default&amp;output=html,,Coal Leases - 50k
+196,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=4b1a7bb3fd3843a4bb2a77c31039019a,,Oil and Gas Seismic Lines
+196,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Oil_and_Gas/Oil_and_Gas_Seismic_Lines/,,Oil and Gas Seismic Lines
+196,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/4b1a7bb3fd3843a4bb2a77c31039019a/info/metadata/metadata.xml?format=default&amp;output=html,,Oil and Gas Seismic Lines
+197,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=51d3f3b761e546db864accb02b5ae5e1,,First Nation Heritage Sites
+197,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Culture_and_Heritage/First_Nation_Heritage_Sites/,,First Nation Heritage Sites
+197,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/51d3f3b761e546db864accb02b5ae5e1/info/metadata/metadata.xml?format=default&amp;output=html,,First Nation Heritage Sites
+198,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=51676018ee1e421ba0491d2aa6fd1563,,Vegetation Inventory Field Plots - Whitehorse - 10k
+198,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Vegetation_Inventory_Field_Plots_Whitehorse_10k/,,Vegetation Inventory Field Plots - Whitehorse - 10k
+198,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/51676018ee1e421ba0491d2aa6fd1563/info/metadata/metadata.xml?format=default&amp;output=html,,Vegetation Inventory Field Plots - Whitehorse - 10k
+199,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=a49e93e6430d4773b169ad1450e72bea,,Placer claims - 50k
+199,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Placer_Claims_50k/,,Placer claims - 50k
+199,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/a49e93e6430d4773b169ad1450e72bea/info/metadata/metadata.xml?format=default&amp;output=html,,Placer claims - 50k
+200,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=5b26e5172fee4c25b6104ab089fb4048,,ORV Management areas - 250k
+200,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Administrative_Boundaries/ORV_Management_Areas_250k/,,ORV Management areas - 250k
+200,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/5b26e5172fee4c25b6104ab089fb4048/info/metadata/metadata.xml?format=default&amp;output=html,,ORV Management areas - 250k
+201,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=9050d78b5d5647e3a415512a284de0c6,,ORV Trail plans - 50k
+201,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Administrative_Boundaries/ORV_Trail_plans_50k/,,ORV Trail plans - 50k
+201,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/9050d78b5d5647e3a415512a284de0c6/info/metadata/metadata.xml?format=default&amp;output=html,,ORV Trail plans - 50k
+202,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c23a5f55cc734f34ae99ddfc8b133d0a,,Fire Districts
+202,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Administrative_Boundaries/Fire_Districts/,,Fire Districts
+202,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/c23a5f55cc734f34ae99ddfc8b133d0a/info/metadata/metadata.xml?format=default&amp;output=html,,Fire Districts
+203,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=48efee5b15db4547bb4c60a1db5614ad,,Forest Inventory Label Additional Table
+203,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/NTS_Index_250k/,,Forest Inventory Label Additional Table
+203,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/46fa66d927ed4caf8daee29a9f38588a/info/metadata/metadata.xml?format=default&amp;output=html,,Forest Inventory Label Additional Table
+204,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=42f16c31fcc74dae92d1f750cc791f4b,,Flight Lines 1946 to 1950
+204,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Air_Photo_Flight_Lines/,,Flight Lines 1946 to 1950
+204,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/42f16c31fcc74dae92d1f750cc791f4b/info/metadata/metadata.xml?format=default&amp;output=html,,Flight Lines 1946 to 1950
+205,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=28c20832e5a14269be78c459b0123893,,Photo Locations 1951 to 1960
+205,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Air_Photo_Locations/,,Photo Locations 1951 to 1960
+205,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/28c20832e5a14269be78c459b0123893/info/metadata/metadata.xml?format=default&amp;output=html,,Photo Locations 1951 to 1960
+206,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c95164d32a824069abb458cf433cff06,,Flight Lines 1951 to 1960
+206,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Air_Photo_Flight_Lines/,,Flight Lines 1951 to 1960
+206,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/c95164d32a824069abb458cf433cff06/info/metadata/metadata.xml?format=default&amp;output=html,,Flight Lines 1951 to 1960
+207,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=456ce90495604cb191c2d496a15bb14d,,Air photo locations 1951 to 1960
+207,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Air_Photo_Locations/,,Air photo locations 1951 to 1960
+207,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/456ce90495604cb191c2d496a15bb14d/info/metadata/metadata.xml?format=default&amp;output=html,,Air photo locations 1951 to 1960
+208,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=18db6ed88f3c4457891b7058205cf557,,Flight Lines 1961 to 1970
+208,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Air_Photo_Flight_Lines/,,Flight Lines 1961 to 1970
+208,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/18db6ed88f3c4457891b7058205cf557/info/metadata/metadata.xml?format=default&amp;output=html,,Flight Lines 1961 to 1970
+209,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=e81ab64f72414fb8b6acd6e9111eba56,,Air photo locations 1971 to 1980
+209,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Air_Photo_Locations/,,Air photo locations 1971 to 1980
+209,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/e81ab64f72414fb8b6acd6e9111eba56/info/metadata/metadata.xml?format=default&amp;output=html,,Air photo locations 1971 to 1980
+210,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=02e2c9afb5e64f7db4e2cbd1ee36dc92,,Flight Lines 1971 to 1980
+210,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Air_Photo_Flight_Lines/,,Flight Lines 1971 to 1980
+210,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/02e2c9afb5e64f7db4e2cbd1ee36dc92/info/metadata/metadata.xml?format=default&amp;output=html,,Flight Lines 1971 to 1980
+211,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=7640c84d18ad4e18bd3f11b07e378813,,Air photo locations 1981 to 1990
+211,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Air_Photo_Locations/,,Air photo locations 1981 to 1990
+211,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/7640c84d18ad4e18bd3f11b07e378813/info/metadata/metadata.xml?format=default&amp;output=html,,Air photo locations 1981 to 1990
+212,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=eb6ca1eb66114ad3b97c5446eb126cc1,,Flight Lines 1981 to 1990
+212,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Air_Photo_Flight_Lines/,,Flight Lines 1981 to 1990
+212,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/eb6ca1eb66114ad3b97c5446eb126cc1/info/metadata/metadata.xml?format=default&amp;output=html,,Flight Lines 1981 to 1990
+213,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=96339b059e624791967e17371714e198,,Air photo locations 1991 to 2000
+213,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Air_Photo_Locations/,,Air photo locations 1991 to 2000
+213,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/96339b059e624791967e17371714e198/info/metadata/metadata.xml?format=default&amp;output=html,,Air photo locations 1991 to 2000
+214,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=73c9129ad6294089be270f8950038fac,,Flight Lines 1991 to 2000
+214,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Air_Photo_Flight_Lines/,,Flight Lines 1991 to 2000
+214,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/73c9129ad6294089be270f8950038fac/info/metadata/metadata.xml?format=default&amp;output=html,,Flight Lines 1991 to 2000
+215,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=780cb53e662b4fe48f31f89bf43aee6d,,Air photo locations 2001 to 2010
+215,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Air_Photo_Locations/,,Air photo locations 2001 to 2010
+215,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/780cb53e662b4fe48f31f89bf43aee6d/info/metadata/metadata.xml?format=default&amp;output=html,,Air photo locations 2001 to 2010
+216,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c66e009020324cc190b42edcfc2afdfb,,Flight Lines 2001 to 2010
+216,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Air_Photo_Flight_Lines/,,Flight Lines 2001 to 2010
+216,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/c66e009020324cc190b42edcfc2afdfb/info/metadata/metadata.xml?format=default&amp;output=html,,Flight Lines 2001 to 2010
+217,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=985c257732144dcb99bfb43375c14ca4,,Photo locations 2011 to current
+217,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Air_Photo_Locations/,,Photo locations 2011 to current
+217,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/985c257732144dcb99bfb43375c14ca4/info/metadata/metadata.xml?format=default&amp;output=html,,Photo locations 2011 to current
+218,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=483cbca7728d4380820186c7c530e27c,,Flight lines 2011 to current
+218,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Air_Photo_Flight_Lines/,,Flight lines 2011 to current
+218,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/483cbca7728d4380820186c7c530e27c/info/metadata/metadata.xml?format=default&amp;output=html,,Flight lines 2011 to current
+219,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c6eb4985abde4fa39531397080be6ca3,,Physiographic regions - 250k
+219,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Physiographic_Regions_250k/,,Physiographic regions - 250k
+219,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/c6eb4985abde4fa39531397080be6ca3/info/metadata/metadata.xml?format=default&amp;output=html,,Physiographic regions - 250k
+220,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c8b6136503fa4ce6aa24df4744e8c6f3,,Drillhole Locations - 250k
+220,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Drillhole_Locations_250k,,Drillhole Locations - 250k
+220,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/c8b6136503fa4ce6aa24df4744e8c6f3/info/metadata/metadata.xml?format=default&amp;output=html,,Drillhole Locations - 250k
+221,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=35d7bfb59fa74624bb614989c523cb84,,Yukon Electoral Polling Divisions 2021
+221,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Administrative_Boundaries/Yukon_Electoral_Polling_Divisions_2021/,,Yukon Electoral Polling Divisions 2021
+221,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/35d7bfb59fa74624bb614989c523cb84/info/metadata/metadata.xml?format=default&amp;output=html,,Yukon Electoral Polling Divisions 2021
+222,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=32e6051f1d494ba1b20531de47a031a2,,Historic silviculture activities - 50k
+222,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Historic_Silviculture_Activities_50k,,Historic silviculture activities - 50k
+222,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/32e6051f1d494ba1b20531de47a031a2/info/metadata/metadata.xml?format=default&amp;output=html,,Historic silviculture activities - 50k
+223,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=cc0ca69a74884790b292962b238a01dd,,Outfitting Concessions - 250k
+223,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Administrative_Boundaries/Outfitting_Concessions_250k/,,Outfitting Concessions - 250k
+223,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/cc0ca69a74884790b292962b238a01dd/info/metadata/metadata.xml?format=default&amp;output=html,,Outfitting Concessions - 250k
+224,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=88d119cc0b664e08b58b00ba816e0576,,Game Management Areas - 250k
+224,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Administrative_Boundaries/Game_Management_Areas_250k/,,Game Management Areas - 250k
+224,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/88d119cc0b664e08b58b00ba816e0576/info/metadata/metadata.xml?format=default&amp;output=html,,Game Management Areas - 250k
+225,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=5e576674c89e4abbb8a7cb5dfde0c03e,,Ecoregions 2014 - 1M
+225,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biophysical/Ecoregions_2014_1M/,,Ecoregions 2014 - 1M
+225,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/5e576674c89e4abbb8a7cb5dfde0c03e/info/metadata/metadata.xml?format=default&amp;output=html,,Ecoregions 2014 - 1M
+226,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=85436480756748cb96664f7fad695bd8,,Contaminated Sites
+226,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Contaminated_Sites,,Contaminated Sites
+226,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/85436480756748cb96664f7fad695bd8/info/metadata/metadata.xml?format=default&amp;output=html,,Contaminated Sites
+227,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=36fa31f7490c4966bc9c04095f6933ac,,Biophysical plots
+227,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biophysical/Biophysical_Plots/,,Biophysical plots
+227,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/36fa31f7490c4966bc9c04095f6933ac/info/metadata/metadata.xml?format=default&amp;output=html,,Biophysical plots
+228,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=1817f21ad6dd44ba9eedc37bf4275804,,Broad Ecosystem Units - West Central Region
+228,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biophysical/Broad_Ecosystem_Units_West_Central_Region/,,Broad Ecosystem Units - West Central Region
+228,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/1817f21ad6dd44ba9eedc37bf4275804/info/metadata/metadata.xml?format=default&amp;output=html,,Broad Ecosystem Units - West Central Region
+229,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=74141f31844841f38f389925fda6f39c,,YESAA Assessment Districts - 250k
+229,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Administrative_Boundaries/YESAA_Assessment_Districts_250k/,,YESAA Assessment Districts - 250k
+229,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/74141f31844841f38f389925fda6f39c/info/metadata/metadata.xml?format=default&amp;output=html,,YESAA Assessment Districts - 250k
+230,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f06589c40b194570a12c6b5a5d0ad5c1,,Water wells
+230,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Water_Wells/,,Water wells
+230,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/f06589c40b194570a12c6b5a5d0ad5c1/info/metadata/metadata.xml?format=default&amp;output=html,,Water wells
+231,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=fd4c78bbe78141c98dcba98a726f1fc2,,Wetlands - 10k
+231,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biophysical/Wetlands_10k/,,Wetlands - 10k
+231,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/fd4c78bbe78141c98dcba98a726f1fc2/info/metadata/metadata.xml?format=default&amp;output=html,,Wetlands - 10k
+232,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=3f4992f92392475f81454813d879987a,,Water Monitoring Sites
+232,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Water_Monitoring_Sites,,Water Monitoring Sites
+232,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/3f4992f92392475f81454813d879987a/info/metadata/metadata.xml?format=default&amp;output=html,,Water Monitoring Sites
+233,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=6fde41d2c9b7408eb6d8903cb6bdb00a,,Territorial provincial borders - 1M
+233,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Administrative_Boundaries/Territorial_Provincial_Borders_1M/,,Territorial provincial borders - 1M
+233,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/6fde41d2c9b7408eb6d8903cb6bdb00a/info/metadata/metadata.xml?format=default&amp;output=html,,Territorial provincial borders - 1M
+234,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=da52eb59ff974ba28f8e55956dff6bf5,,Trapping Concessions - 250k
+234,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Administrative_Boundaries/Trapping_Concessions_250k/,,Trapping Concessions - 250k
+234,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/da52eb59ff974ba28f8e55956dff6bf5/info/metadata/metadata.xml?format=default&amp;output=html,,Trapping Concessions - 250k
+235,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=2253804187264b3da1796e7735b84647,,Forestry Resource Roads - 50k
+235,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Forest_Resource_Roads_50k/,,Forestry Resource Roads - 50k
+235,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/2253804187264b3da1796e7735b84647/info/metadata/metadata.xml?format=default&amp;output=html,,Forestry Resource Roads - 50k
+236,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=0519e28db4d948d5aed3e21a90b83d93,,Oceans - 1M
+236,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Oceans_1M/,,Oceans - 1M
+236,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/0519e28db4d948d5aed3e21a90b83d93/info/metadata/metadata.xml?format=default&amp;output=html,,Oceans - 1M
+237,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=ae70f866062c45b286fa693110f4497b,,Bioclimate zones and subzones
+237,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biophysical/Bioclimate_Zones_and_Subzones/,,Bioclimate zones and subzones
+237,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/ae70f866062c45b286fa693110f4497b/info/metadata/metadata.xml?format=default&amp;output=html,,Bioclimate zones and subzones
+238,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=273bb3994aa540baad04c2db770bf980,,Personal Use Fuelwood Areas - 50k
+238,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Personal_Use_Fuelwood_Areas_50k/,,Personal Use Fuelwood Areas - 50k
+238,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/273bb3994aa540baad04c2db770bf980/info/metadata/metadata.xml?format=default&amp;output=html,,Personal Use Fuelwood Areas - 50k
+239,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c9353929f7f645d2869465f93803a66a,,Utilities Line - 50k
+239,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Utilities_and_Communication/Utilities_Line_50k/,,Utilities Line - 50k
+239,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/c9353929f7f645d2869465f93803a66a/info/metadata/metadata.xml?format=default&amp;output=html,,Utilities Line - 50k
+240,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=59ec06a303af4d81b5ce77aebbb49525,,Historical mineral claims - 50k
+240,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Historical_Mineral_Claims_50k/,,Historical mineral claims - 50k
+240,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/59ec06a303af4d81b5ce77aebbb49525/info/metadata/metadata.xml?format=default&amp;output=html,,Historical mineral claims - 50k
+241,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=905c28bd399040c5842e5dcf26fb8b6d,,Cutting Permits - 50k
+241,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Cutting_Permits_50k/,,Cutting Permits - 50k
+241,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/905c28bd399040c5842e5dcf26fb8b6d/info/metadata/metadata.xml?format=default&amp;output=html,,Cutting Permits - 50k
+242,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=013f827d86624cc2b7bf97fb650ee932,,Roadside barriers - 25k
+242,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Roadside_Barriers_25k/,,Roadside barriers - 25k
+242,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/013f827d86624cc2b7bf97fb650ee932/info/metadata/metadata.xml?format=default&amp;output=html,,Roadside barriers - 25k
+243,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f53a111d97154a19ac7873360c19ade3,,Geotechnical borehole point
+243,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Geotechnical_Boreholes/,,Geotechnical borehole point
+243,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/f53a111d97154a19ac7873360c19ade3/info/metadata/metadata.xml?format=default&amp;output=html,,Geotechnical borehole point
+244,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=6d11e960151e4cbca5753293fba34461,,Geotechnical report point
+244,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Geotechnical_Reports_Point/,,Geotechnical report point
+244,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/6d11e960151e4cbca5753293fba34461/info/metadata/metadata.xml?format=default&amp;output=html,,Geotechnical report point
+245,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=d2e293fe678f4503af859384bbceb810,,Permafrost report point
+245,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Permafrost_Reports_Point/,,Permafrost report point
+245,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/d2e293fe678f4503af859384bbceb810/info/metadata/metadata.xml?format=default&amp;output=html,,Permafrost report point
+246,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=8607e1f0639348f69c4a945c89a0aca9,,Bedrock map index
+246,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Bedrock_Map_Index/,,Bedrock map index
+246,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/8607e1f0639348f69c4a945c89a0aca9/info/metadata/metadata.xml?format=default&amp;output=html,,Bedrock map index
+247,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=e73127ebdaba4b58a728ecb22381846e,,Geochronology
+247,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Geochronology/,,Geochronology
+247,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/e73127ebdaba4b58a728ecb22381846e/info/metadata/metadata.xml?format=default&amp;output=html,,Geochronology
+248,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=9079d87f913e4a55b19ac38e3ff8c706,,Geophysics Gravity Bouguer Anomaly - 2km
+248,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Geophysics_Gravity_Bouguer_Anomaly_2km/,,Geophysics Gravity Bouguer Anomaly - 2km
+248,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/0d6c8cd64b044cfa87f0330197238a2f/info/metadata/metadata.xml?format=default&amp;output=html,,Geophysics Gravity Bouguer Anomaly - 2km
+249,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c66b90218c884070848496cefbca9487,,Yukon road network
+249,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Yukon_road_network,,Yukon road network
+249,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/c66b90218c884070848496cefbca9487/info/metadata/metadata.xml?format=default&amp;output=html,,Yukon road network
+250,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=705735bb48ca4a278d8f66e48992da1c,,Subdivision Applications - 50k
+250,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Planning/Subdivision_Applications_50k/,,Subdivision Applications - 50k
+250,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/705735bb48ca4a278d8f66e48992da1c/info/metadata/metadata.xml?format=default&amp;output=html,,Subdivision Applications - 50k
+251,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=e88f7cfbe97f4d48907f42bf91b97087,,Geophysics First Vertical Derivatives - 50m
+251,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Geophysics_First_Vertical_Derivatives_50m/,,Geophysics First Vertical Derivatives - 50m
+251,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/e88f7cfbe97f4d48907f42bf91b97087/info/metadata/metadata.xml?format=default&amp;output=html,,Geophysics First Vertical Derivatives - 50m
+252,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=7d73a01036154f3eb3c5c0bbe5a71ea2,,Geophysics Residual Magnetic Total Fields - 50m
+252,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Geophysics_Residual_Magnetic_Total_Fields_50m/,,Geophysics Residual Magnetic Total Fields - 50m
+252,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/7d73a01036154f3eb3c5c0bbe5a71ea2/info/metadata/metadata.xml?format=default&amp;output=html,,Geophysics Residual Magnetic Total Fields - 50m
+253,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=ab4d8ea17f6a4ee1bd75d9a3cbc5540d,,Air photo locations
+253,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Imagery/Air_Photo_Locations/,,Air photo locations
+253,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/ab4d8ea17f6a4ee1bd75d9a3cbc5540d/info/metadata/metadata.xml?format=default&amp;output=html,,Air photo locations
+254,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=6312a543fda44663a7ce9ef28792d609,,Air photo flight lines
+254,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Imagery/Air_Photo_Flight_Lines/,,Air photo flight lines
+254,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/6312a543fda44663a7ce9ef28792d609/info/metadata/metadata.xml?format=default&amp;output=html,,Air photo flight lines
+255,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=de12907e41944077b5fb7f53fb6eca04,,Historic silviculture inventory - 50k
+255,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Historic_Silviculture_Inventory_50k/,,Historic silviculture inventory - 50k
+255,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/de12907e41944077b5fb7f53fb6eca04/info/metadata/metadata.xml?format=default&amp;output=html,,Historic silviculture inventory - 50k
+256,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=15392cd067264cbb8abdd316a393aebd,,Water Quality Sample Year Table
+256,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/CMI_Water_Quality_Sampling_Sites/,,Water Quality Sample Year Table
+256,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/15392cd067264cbb8abdd316a393aebd/info/metadata/metadata.xml?format=default&amp;output=html,,Water Quality Sample Year Table
+257,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=871f84d5f97942bba49f9f8e66af76b8,,Quartz Claims - 50k
+257,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Quartz_Claims_50k/,,Quartz Claims - 50k
+257,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/871f84d5f97942bba49f9f8e66af76b8/info/metadata/metadata.xml?format=default&amp;output=html,,Quartz Claims - 50k
+258,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=4bada38beb8a4d69bab598e158362d2d,,Well Report Table
+258,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Oil_and_Gas/Oil_and_Gas_Wells_50k/,,Well Report Table
+258,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/4bada38beb8a4d69bab598e158362d2d/info/metadata/metadata.xml?format=default&amp;output=html,,Well Report Table
+259,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=6337832535cd476bbcce76e19e511880,,Yukon place names
+259,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Yukon_Place_Names,,Yukon place names
+259,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/6337832535cd476bbcce76e19e511880/info/metadata/metadata.xml?format=default&amp;output=html,,Yukon place names
+260,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=128a5a44fb704016b48d00d7bc8582c5,,Surface disturbance areal features
+260,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Surface_Disturbance_Areal_Features/,,Surface disturbance areal features
+260,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/128a5a44fb704016b48d00d7bc8582c5/info/metadata/metadata.xml?format=default&amp;output=html,,Surface disturbance areal features
+261,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=05c53de07b4a4b09a92f07ed7bc5ff64,,Surface disturbance linear features
+261,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Surface_Disturbance_Linear_Features/,,Surface disturbance linear features
+261,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/05c53de07b4a4b09a92f07ed7bc5ff64/info/metadata/metadata.xml?format=default&amp;output=html,,Surface disturbance linear features
+262,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=ebf21127109740c79f35f5e4788b74aa,,Yukon Whole Rock Pb-Nd-Hf-Sr and Feldspar Pb Isotope Compilation
+262,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Yukon_Whole_Rock_Pb_Nd_Hf_Sr_and_Feldspar_Pb_Isotope_Compilation,,Yukon Whole Rock Pb-Nd-Hf-Sr and Feldspar Pb Isotope Compilation
+262,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/ebf21127109740c79f35f5e4788b74aa/info/metadata/metadata.xml?format=default&amp;output=html,,Yukon Whole Rock Pb-Nd-Hf-Sr and Feldspar Pb Isotope Compilation
+263,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=522b18abaacd4df8ae1f214d3ed337ea,,Yukon Sulphide Pb and S Isotope Compilation
+263,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Yukon_Sulphide_Pb_and_S_Isotope_Compilation,,Yukon Sulphide Pb and S Isotope Compilation
+263,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/522b18abaacd4df8ae1f214d3ed337ea/info/metadata/metadata.xml?format=default&amp;output=html,,Yukon Sulphide Pb and S Isotope Compilation
+264,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=1a8a91c7e6cb4a64a8e2995cdd993ab1,,Water Licences
+264,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Water_Licences/,,Water Licences
+264,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/1a8a91c7e6cb4a64a8e2995cdd993ab1/info/metadata/metadata.xml?format=default&amp;output=html,,Water Licences
+265,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=962fe66dc3014c7ea8b4668a1d858686,,Water licence applications
+265,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Water_Licence_Applications/,,Water licence applications
+265,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/962fe66dc3014c7ea8b4668a1d858686/info/metadata/metadata.xml?format=default&amp;output=html,,Water licence applications
+266,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=eddc69448d7b423b935bbde02799984e,,Civic Address Point
+266,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/People_and_Structures/Civic_Address_Point,,Civic Address Point
+266,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/eddc69448d7b423b935bbde02799984e/info/metadata/metadata.xml?format=default&amp;output=html,,Civic Address Point
+267,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=da9287f39a5a4f5a9d5372475da7bbc4,,Class 1 placer land use operations
+267,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Valid_Mining_Class_1_Notifications/,,Class 1 placer land use operations
+267,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/854f3555fff04efaa209837b76bae4f0/info/metadata/metadata.xml?format=default&amp;output=html,,Class 1 placer land use operations
+268,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=a6b35eb8b9b84ff1b45d14078f6422f4,,Bedrock geology
+268,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Bedrock_Geology/,,Bedrock geology
+268,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/a6b35eb8b9b84ff1b45d14078f6422f4/info/metadata/metadata.xml?format=default&amp;output=html,,Bedrock geology
+269,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c00d2072d77c4984b66cef011eb60580,,NG911 Fire Response Boundary - Whitehorse
+269,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Emergency_Management/NG911_Fire_Response_Boundary_Whitehorse/,,NG911 Fire Response Boundary - Whitehorse
+269,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/c00d2072d77c4984b66cef011eb60580/info/metadata/metadata.xml?format=default&amp;output=html,,NG911 Fire Response Boundary - Whitehorse
+270,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=510f4bd40416487a98cf169443a1c039,,NG911 Hydrology - Line - Whitehorse
+270,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Emergency_Management/NG911_Hydrology_Whitehorse/,,NG911 Hydrology - Line - Whitehorse
+270,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/510f4bd40416487a98cf169443a1c039/info/metadata/metadata.xml?format=default&amp;output=html,,NG911 Hydrology - Line - Whitehorse
+271,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=b3a14717bd4c4029aa7844f391fbf2ad,,NG911 Hydrology - Polygon - Whitehorse
+271,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Emergency_Management/NG911_Hydrology_Polygon_Whitehorse/,,NG911 Hydrology - Polygon - Whitehorse
+271,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/b3a14717bd4c4029aa7844f391fbf2ad/info/metadata/metadata.xml?format=default&amp;output=html,,NG911 Hydrology - Polygon - Whitehorse
+272,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=253f313e5e084ea2b723eb890c7a6835,,NG911 Location Markers - Whitehorse
+272,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Emergency_Management/Location_Markers_Whitehorse/,,NG911 Location Markers - Whitehorse
+272,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/253f313e5e084ea2b723eb890c7a6835/info/metadata/metadata.xml?format=default&amp;output=html,,NG911 Location Markers - Whitehorse
+273,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=5cad4ed8c91b4f0a86ae8fe2e8d52235,,NG911 Municipal Boundary - Whitehorse
+273,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Emergency_Management/NG911_Municipal_Boundary_Whitehorse/,,NG911 Municipal Boundary - Whitehorse
+273,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/5cad4ed8c91b4f0a86ae8fe2e8d52235/info/metadata/metadata.xml?format=default&amp;output=html,,NG911 Municipal Boundary - Whitehorse
+274,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=a2e13a48b8574314be69a58ea4d67d39,,NG911 Railroads - Whitehorse
+274,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Emergency_Management/NG911_Railroads_Whitehorse/,,NG911 Railroads - Whitehorse
+274,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/a2e13a48b8574314be69a58ea4d67d39/info/metadata/metadata.xml?format=default&amp;output=html,,NG911 Railroads - Whitehorse
+275,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=91ee2cf13bf947ec9cc226aacc6ee3ef,,NG911 Provisioning Boundary - Whitehorse
+275,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Emergency_Management/NG911_Provisioning_Boundary_Whitehorse/,,NG911 Provisioning Boundary - Whitehorse
+275,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/91ee2cf13bf947ec9cc226aacc6ee3ef/info/metadata/metadata.xml?format=default&amp;output=html,,NG911 Provisioning Boundary - Whitehorse
+276,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=03bf5992756d4c53a1d010a796b45a0d,,NG911 PSAP Boundary - Whitehorse
+276,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Emergency_Management/NG911_PSAP_Boundary_Whitehorse/,,NG911 PSAP Boundary - Whitehorse
+276,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/03bf5992756d4c53a1d010a796b45a0d/info/metadata/metadata.xml?format=default&amp;output=html,,NG911 PSAP Boundary - Whitehorse
+277,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=031c289e8f784788a219ff4e4f618988,,NG911 Roads - Whitehorse
+277,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Emergency_Management/Roads_Whitehorse/,,NG911 Roads - Whitehorse
+277,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/031c289e8f784788a219ff4e4f618988/info/metadata/metadata.xml?format=default&amp;output=html,,NG911 Roads - Whitehorse
+278,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=b920c0b548654dd9a1a8a30b93242c55,,NG911 Site / Structure Addresses - Whitehorse
+278,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Emergency_Management/Site_Structure_Addresses_Whitehorse/,,NG911 Site / Structure Addresses - Whitehorse
+278,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/b920c0b548654dd9a1a8a30b93242c55/info/metadata/metadata.xml?format=default&amp;output=html,,NG911 Site / Structure Addresses - Whitehorse
+279,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=1e0abb1657404b808ed40c9284ed923a,,NG911 Subdivisions - Whitehorse
+279,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Emergency_Management/NG911_Subdivisions_Whitehorse/,,NG911 Subdivisions - Whitehorse
+279,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/1e0abb1657404b808ed40c9284ed923a/info/metadata/metadata.xml?format=default&amp;output=html,,NG911 Subdivisions - Whitehorse
+280,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=d619fae8776f4b8ea61d930cb80580cb,,Education facilities - 50k
+280,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/People_and_Structures/Education_Facilities_50k,,Education facilities - 50k
+280,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/d619fae8776f4b8ea61d930cb80580cb/info/metadata/metadata.xml?format=default&amp;output=html,,Education facilities - 50k
+281,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=d28c8eda4aa14f1cb804ae6135f09e6f,,Surface disturbance mapping extent
+281,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Surface_Disturbance_Mapping_Extent/,,Surface disturbance mapping extent
+281,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/d28c8eda4aa14f1cb804ae6135f09e6f/info/metadata/metadata.xml?format=default&amp;output=html,,Surface disturbance mapping extent
+282,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=6879f10a01c342b6b3c73c90ca9374b4,,Health care facilities - 50k
+282,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/People_and_Structures/Health_Care_Facilities_50k,,Health care facilities - 50k
+282,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/6879f10a01c342b6b3c73c90ca9374b4/info/metadata/metadata.xml?format=default&amp;output=html,,Health care facilities - 50k
+283,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=5c63650e5c224590b0d59f6e1afc3553,,Surficial Geology Polygon - 25k
+283,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Surficial_Geology_Polygon/,,Surficial Geology Polygon - 25k
+283,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/5c63650e5c224590b0d59f6e1afc3553/info/metadata/metadata.xml?format=default&amp;output=html,,Surficial Geology Polygon - 25k
+284,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c95c8b6b635c49eeb2d6ca2e9b14871b,,Surficial Geology Map Index
+284,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Surficial_Geology_Map_Index/,,Surficial Geology Map Index
+284,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/c95c8b6b635c49eeb2d6ca2e9b14871b/info/metadata/metadata.xml?format=default&amp;output=html,,Surficial Geology Map Index
+285,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=d1bb282a4bb74c5e8593fe73f54af3c5,,Surficial Geology Line Age 250k
+285,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Surficial_Geology_Line,,Surficial Geology Line Age 250k
+285,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/d1bb282a4bb74c5e8593fe73f54af3c5/info/metadata/metadata.xml?format=default&amp;output=html,,Surficial Geology Line Age 250k
+286,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=01ecd817f6a94dd6af51c8a2a2edab8b,,Surficial Geology Polygon 250k
+286,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Surficial_Geology_Polygon/,,Surficial Geology Polygon 250k
+286,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/01ecd817f6a94dd6af51c8a2a2edab8b/info/metadata/metadata.xml?format=default&amp;output=html,,Surficial Geology Polygon 250k
+287,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=71dfcb585ee541aeb17d90a8ac57c5d1,,Surficial Geology Polygon 100k
+287,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Surficial_Geology_Polygon/,,Surficial Geology Polygon 100k
+287,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/71dfcb585ee541aeb17d90a8ac57c5d1/info/metadata/metadata.xml?format=default&amp;output=html,,Surficial Geology Polygon 100k
+288,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=bc11f3e948644808ac84c8c2bfc9c89c,,Surficial Geology Point 25k
+288,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Surficial_Geology_Point/,,Surficial Geology Point 25k
+288,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/bc11f3e948644808ac84c8c2bfc9c89c/info/metadata/metadata.xml?format=default&amp;output=html,,Surficial Geology Point 25k
+289,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=ce024bac3c91412ab66fea5d4eb914b9,,Surficial Geology Line Type 50k
+289,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Surficial_Geology_Line,,Surficial Geology Line Type 50k
+289,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/ce024bac3c91412ab66fea5d4eb914b9/info/metadata/metadata.xml?format=default&amp;output=html,,Surficial Geology Line Type 50k
+290,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=5c81d2a9ef12410b93ae75946d5c638b,,Surficial Geology Point 250k
+290,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Surficial_Geology_Point/,,Surficial Geology Point 250k
+290,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/5c81d2a9ef12410b93ae75946d5c638b/info/metadata/metadata.xml?format=default&amp;output=html,,Surficial Geology Point 250k
+291,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=8e987d3ddaa24f4dadfc6172ac8df862,,Surficial Geology Polygon 50k
+291,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Surficial_Geology_Polygon/,,Surficial Geology Polygon 50k
+291,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/8e987d3ddaa24f4dadfc6172ac8df862/info/metadata/metadata.xml?format=default&amp;output=html,,Surficial Geology Polygon 50k
+292,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=e544efbb7d1640c1b87cabcded9d1f3d,,Surficial Geology Line Type 250k
+292,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Surficial_Geology_Line,,Surficial Geology Line Type 250k
+292,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/e544efbb7d1640c1b87cabcded9d1f3d/info/metadata/metadata.xml?format=default&amp;output=html,,Surficial Geology Line Type 250k
+293,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=303c6a8ef7d342938158785dc25cf9ee,,Surficial Geology Line Type 25k
+293,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Surficial_Geology_Line,,Surficial Geology Line Type 25k
+293,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/303c6a8ef7d342938158785dc25cf9ee/info/metadata/metadata.xml?format=default&amp;output=html,,Surficial Geology Line Type 25k
+294,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c0a3609c166b4a959cbe9747dc8828c4,,Surficial Geology Line Type 100k
+294,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Surficial_Geology_Line,,Surficial Geology Line Type 100k
+294,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/c0a3609c166b4a959cbe9747dc8828c4/info/metadata/metadata.xml?format=default&amp;output=html,,Surficial Geology Line Type 100k
+295,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=2a576ffdadcc4bab981b6a6da9a53990,,Surficial Geology Line Age 100k
+295,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Surficial_Geology_Line,,Surficial Geology Line Age 100k
+295,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/2a576ffdadcc4bab981b6a6da9a53990/info/metadata/metadata.xml?format=default&amp;output=html,,Surficial Geology Line Age 100k
+296,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=5b11be1027a1461e803a812fb38d325d,,Surficial Geology Point 100k
+296,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Surficial_Geology_Point/,,Surficial Geology Point 100k
+296,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/5b11be1027a1461e803a812fb38d325d/info/metadata/metadata.xml?format=default&amp;output=html,,Surficial Geology Point 100k
+297,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=ac6a84adf50c48cfa3f906b85cf0c2ac,,Surficial Geology Point 50k
+297,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Surficial_Geology_Point/,,Surficial Geology Point 50k
+297,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/ac6a84adf50c48cfa3f906b85cf0c2ac/info/metadata/metadata.xml?format=default&amp;output=html,,Surficial Geology Point 50k
+298,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=b6bd9449e6244699be15e41b9b9a3c8e,,Surficial Geology Line Age 50k
+298,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Surficial_Geology_Line,,Surficial Geology Line Age 50k
+298,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/b6bd9449e6244699be15e41b9b9a3c8e/info/metadata/metadata.xml?format=default&amp;output=html,,Surficial Geology Line Age 50k
+299,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=44325e6a55be4911803a4f2f79d5567e,,Bridges - 25k
+299,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Bridges_25k/,,Bridges - 25k
+299,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/44325e6a55be4911803a4f2f79d5567e/info/metadata/metadata.xml?format=default&amp;output=html,,Bridges - 25k
+300,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=768fb685ef064b5d90ce4c315323e452,,Parks and Protected Areas Polygon - Surveyed
+300,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Parks_and_Protected_Areas/Parks_and_Protected_Areas_Polygon_Surveyed/,,Parks and Protected Areas Polygon - Surveyed
+300,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/768fb685ef064b5d90ce4c315323e452/info/metadata/metadata.xml?format=default&amp;output=html,,Parks and Protected Areas Polygon - Surveyed
+301,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=137548ce69034ec7ae5b4f93d3aebe3f,,Parks and Campgrounds - Surveyed
+301,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Parks_and_Protected_Areas/Parks_and_Campgrounds_Surveyed/,,Parks and Campgrounds - Surveyed
+301,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/137548ce69034ec7ae5b4f93d3aebe3f/info/metadata/metadata.xml?format=default&amp;output=html,,Parks and Campgrounds - Surveyed
+302,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c1f7b78a9fde46529401c66e8f1168c2,,Park and Protected Areas - 250k
+302,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Parks_and_Protected_Areas/Park_and_Protected_Areas_250k/,,Park and Protected Areas - 250k
+302,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/c1f7b78a9fde46529401c66e8f1168c2/info/metadata/metadata.xml?format=default&amp;output=html,,Park and Protected Areas - 250k
+303,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=48e15f2c3b01408e93d5d0ca5b04a4ed,,Park and Protected Areas - 1M
+303,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Parks_and_Protected_Areas/Park_and_Protected_Areas_1M/,,Park and Protected Areas - 1M
+303,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/48e15f2c3b01408e93d5d0ca5b04a4ed/info/metadata/metadata.xml?format=default&amp;output=html,,Park and Protected Areas - 1M
+304,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=2695ad28cb2c421a95112313397b844d,,Faults
+304,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Faults/,,Faults
+304,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/2695ad28cb2c421a95112313397b844d/info/metadata/metadata.xml?format=default&amp;output=html,,Faults
+305,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=8085a070842e493aadd19e66666e15ff,,Contacts
+305,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Contacts/,,Contacts
+305,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/8085a070842e493aadd19e66666e15ff/info/metadata/metadata.xml?format=default&amp;output=html,,Contacts
+306,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=79fd8fa10d8842de8670f89fded20bce,,Wetlands - Broad Scale
+306,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biophysical/Wetlands_Broad_Scale/,,Wetlands - Broad Scale
+306,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/79fd8fa10d8842de8670f89fded20bce/info/metadata/metadata.xml?format=default&amp;output=html,,Wetlands - Broad Scale
+307,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=dc4638fa38374ad3a2cb19d34a298d55,,Wetlands - Broad Scale - Project Extents
+307,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biophysical/Wetlands_Broad_Scale_Project_Extents/,,Wetlands - Broad Scale - Project Extents
+307,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/dc4638fa38374ad3a2cb19d34a298d55/info/metadata/metadata.xml?format=default&amp;output=html,,Wetlands - Broad Scale - Project Extents
+308,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=0281ff57826f4ff0acb932fbb5a165e7,,Land Parcels Polygon - Surveyed
+308,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/Land_Parcels_Polygon_Surveyed/,,Land Parcels Polygon - Surveyed
+308,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/0281ff57826f4ff0acb932fbb5a165e7/info/metadata/metadata.xml?format=default&amp;output=html,,Land Parcels Polygon - Surveyed
+309,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=9b0edfedbd1842cfbac4387d8e97a0dd,,Mineral Deposits by Property
+309,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Deposits_by_Property,,Mineral Deposits by Property
+309,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/9b0edfedbd1842cfbac4387d8e97a0dd/info/metadata/metadata.xml?format=default&amp;output=html,,Mineral Deposits by Property
+310,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=9b0edfedbd1842cfbac4387d8e97a0dd,,Mineral Deposits by Zone
+310,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Deposits_by_Property,,Mineral Deposits by Zone
+310,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/27d0f624941f4afdad12f3d47caca197/info/metadata/metadata.xml?format=default&amp;output=html,,Mineral Deposits by Zone
+311,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=3974e3b8410f4906801bb31710537d57,,Geothermal Radiogenic Heat Production
+311,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Geothermal_Radiogenic_Heat_Production,,Geothermal Radiogenic Heat Production
+311,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/3974e3b8410f4906801bb31710537d57/info/metadata/metadata.xml?format=default&amp;output=html,,Geothermal Radiogenic Heat Production
+312,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=795176978a5645b687f89d3b5cc80756,,Geothermal Thermal Springs
+312,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Geothermal_Thermal_Springs,,Geothermal Thermal Springs
+312,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/795176978a5645b687f89d3b5cc80756/info/metadata/metadata.xml?format=default&amp;output=html,,Geothermal Thermal Springs
+313,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=a0ff7549ba654a15a7eb23c684112d04,,Geothermal Boreholes
+313,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Geothermal_Boreholes,,Geothermal Boreholes
+313,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/a0ff7549ba654a15a7eb23c684112d04/info/metadata/metadata.xml?format=default&amp;output=html,,Geothermal Boreholes
+314,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=8adb49682c3742e8ad734781906a9727#overview,,Morel Mushroom Areas
+314,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Morel_Mushroom_Areas,,Morel Mushroom Areas
+314,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/8adb49682c3742e8ad734781906a9727/info/metadata/metadata.xml?format=default&amp;output=html,,Morel Mushroom Areas
+315,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=de644dc6486f40b3a01a689ef837ff7f,,Assessment Report Geochemistry
+315,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Assessment_Report_Geochemistry,,Assessment Report Geochemistry
+315,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/de644dc6486f40b3a01a689ef837ff7f/info/metadata/metadata.xml?format=default&amp;output=html,,Assessment Report Geochemistry
+316,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=cc50b1edcf7f4d82bcee18c0dc1a13b1,,Curie Point Depth Contours
+316,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Curie_Point_Depth_Contours/,,Curie Point Depth Contours
+316,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/cc50b1edcf7f4d82bcee18c0dc1a13b1/info/metadata/metadata.xml?format=default&amp;output=html,,Curie Point Depth Contours
+317,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=94f7c0257a35449f802d58aa3849ac65,,Curie Point Depth
+317,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Curie_Point_Depth/,,Curie Point Depth
+317,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/94f7c0257a35449f802d58aa3849ac65/info/metadata/metadata.xml?format=default&amp;output=html,,Curie Point Depth
+318,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=7d34e4834b734939acd4222827ba9899,,Designated Historic Sites
+318,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Culture_and_Heritage/Designated_Historic_Sites/,,Designated Historic Sites
+318,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/7d34e4834b734939acd4222827ba9899/info/metadata/metadata.xml?format=default&amp;output=html,,Designated Historic Sites
+319,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=7867110e787d48c4b0624c52192b5016,,Dawson Land Management Units - 250k
+319,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Planning/Dawson_Land_Management_Units_250k/,,Dawson Land Management Units - 250k
+319,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/7867110e787d48c4b0624c52192b5016/info/metadata/metadata.xml?format=default&amp;output=html,,Dawson Land Management Units - 250k
+320,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=02ea345bb1964a13952e51092618aff5,,Landscape Management Units - North Yukon Land Use Plan - 250k
+320,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Planning/Landscape_Management_Units_North_Yukon_Land_Use_Plan_250k/,,Landscape Management Units - North Yukon Land Use Plan - 250k
+320,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/02ea345bb1964a13952e51092618aff5/info/metadata/metadata.xml?format=default&amp;output=html,,Landscape Management Units - North Yukon Land Use Plan - 250k
+321,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=706c631dc2e049bdb5e2b7dfd945b1f9,,Yukon Planning Regions - 250k
+321,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Planning/Yukon_Planning_Regions_250k/,,Yukon Planning Regions - 250k
+321,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/706c631dc2e049bdb5e2b7dfd945b1f9/info/metadata/metadata.xml?format=default&amp;output=html,,Yukon Planning Regions - 250k
+322,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=8f7dc38b7c36477eb9136560f81274ed,,Glacial limits - 1M
+322,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Glacial_Limits_1M/,,Glacial limits - 1M
+322,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/8f7dc38b7c36477eb9136560f81274ed/info/metadata/metadata.xml?format=default&amp;output=html,,Glacial limits - 1M
+323,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=3c81c06626524399844a3f40d9f47d87,,Water well capture zones
+323,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Water_Well_Capture_Zones/,,Water well capture zones
+323,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/3c81c06626524399844a3f40d9f47d87/info/metadata/metadata.xml?format=default&amp;output=html,,Water well capture zones
+324,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=da52eb59ff974ba28f8e55956dff6bf5,,Conservation Officer Districts - 250K
+324,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Administrative_Boundaries/Trapping_Concessions_250k/,,Conservation Officer Districts - 250K
+324,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/1c5dd9189cb445869b9b8702818b6537/info/metadata/metadata.xml?format=default&amp;output=html,,Conservation Officer Districts - 250K
+325,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=2253804187264b3da1796e7735b84647,,Conservation Officer Districts - 50K
+325,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Forest_Resource_Roads_50k/,,Conservation Officer Districts - 50K
+325,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/53103098fd8e4b2cbebb5fb1633e61a5/info/metadata/metadata.xml?format=default&amp;output=html,,Conservation Officer Districts - 50K
+326,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=b33266c8907b4bf0859558fadd6a8f11,,Conservation Officer Districts - 1M
+326,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Quartz_Mining_Licences_50k/,,Conservation Officer Districts - 1M
+326,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/df586457e8444b7d95be71b325b52c8c/info/metadata/metadata.xml?format=default&amp;output=html,,Conservation Officer Districts - 1M
+327,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=3afeba64646d40919e319606d3bd3051,,Wood Bison - Wildlife Key Area - 250k
+327,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Crown_Grants_50k/,,Wood Bison - Wildlife Key Area - 250k
+327,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/38fc8144f3474ea18f1efd6a29074ad5/info/metadata/metadata.xml?format=default&amp;output=html,,Wood Bison - Wildlife Key Area - 250k
+328,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=0519e28db4d948d5aed3e21a90b83d93,,Muskox - Level 3 - Wildlife Key Area - 250k
+328,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Oceans_1M/,,Muskox - Level 3 - Wildlife Key Area - 250k
+328,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/688c4b8a81f04db0b87a3cb5c503d178/info/metadata/metadata.xml?format=default&amp;output=html,,Muskox - Level 3 - Wildlife Key Area - 250k
+329,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=ae70f866062c45b286fa693110f4497b,,Gull - Wildlife Key Area - 250k
+329,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biophysical/Bioclimate_Zones_and_Subzones/,,Gull - Wildlife Key Area - 250k
+329,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/dc42bd62f7714146abca2030458d1ea3/info/metadata/metadata.xml?format=default&amp;output=html,,Gull - Wildlife Key Area - 250k
+330,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=273bb3994aa540baad04c2db770bf980,,Muskox - Level 2 - Wildlife Key Area - 250k
+330,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Personal_Use_Fuelwood_Areas_50k/,,Muskox - Level 2 - Wildlife Key Area - 250k
+330,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/191c8221dab8430391860e8f625b5e99/info/metadata/metadata.xml?format=default&amp;output=html,,Muskox - Level 2 - Wildlife Key Area - 250k
+331,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c9353929f7f645d2869465f93803a66a,,Black Guillemot - Wildlife Key Area - 250k
+331,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Utilities_and_Communication/Utilities_Line_50k/,,Black Guillemot - Wildlife Key Area - 250k
+331,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/9ab2150c85a5481cbdfd31ed6ccd2de2/info/metadata/metadata.xml?format=default&amp;output=html,,Black Guillemot - Wildlife Key Area - 250k
+332,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=59ec06a303af4d81b5ce77aebbb49525,,Whale - Wildlife Key Area - 250k
+332,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Historical_Mineral_Claims_50k/,,Whale - Wildlife Key Area - 250k
+332,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/a2198861d7244b54aca7a904332873fc/info/metadata/metadata.xml?format=default&amp;output=html,,Whale - Wildlife Key Area - 250k
+333,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=905c28bd399040c5842e5dcf26fb8b6d,,Seal - Wildlife Key Area - 250k
+333,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Cutting_Permits_50k/,,Seal - Wildlife Key Area - 250k
+333,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/f43cc5db02e0402d99032bf796c29576/info/metadata/metadata.xml?format=default&amp;output=html,,Seal - Wildlife Key Area - 250k
+334,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=013f827d86624cc2b7bf97fb650ee932,,Fox - Wildlife Key Area - 250k
+334,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Roadside_Barriers_25k/,,Fox - Wildlife Key Area - 250k
+334,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/f1965d0e7ef64facbb36cad3992a3218/info/metadata/metadata.xml?format=default&amp;output=html,,Fox - Wildlife Key Area - 250k
+335,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=4ac1b6d2e4ea4f3c8483175d1f9cb40d,,Shorebird - Wildlife Key Area - 250k
+335,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Permafrost_Reports_Polygon/,,Shorebird - Wildlife Key Area - 250k
+335,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/7aeca9127ccc41bfbdfce86c29d7c897/info/metadata/metadata.xml?format=default&amp;output=html,,Shorebird - Wildlife Key Area - 250k
+336,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f53a111d97154a19ac7873360c19ade3,,Polar Bear - Wildlife Key Area - 250k
+336,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Geotechnical_Boreholes/,,Polar Bear - Wildlife Key Area - 250k
+336,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/940e735d905f4a5abd793cf785fac933/info/metadata/metadata.xml?format=default&amp;output=html,,Polar Bear - Wildlife Key Area - 250k
+337,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=6d11e960151e4cbca5753293fba34461,,Waterfowl - Wildlife Key Area - 250k
+337,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Geotechnical_Reports_Point/,,Waterfowl - Wildlife Key Area - 250k
+337,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/f199411d267947b7b2a6059156067175/info/metadata/metadata.xml?format=default&amp;output=html,,Waterfowl - Wildlife Key Area - 250k
+338,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=d2e293fe678f4503af859384bbceb810,,Mountain Goat - Wildlife Key Area - 250k
+338,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Permafrost_Reports_Point/,,Mountain Goat - Wildlife Key Area - 250k
+338,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/8bcac1c6eefe4e34b7ab7220d3d98988/info/metadata/metadata.xml?format=default&amp;output=html,,Mountain Goat - Wildlife Key Area - 250k
+339,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=d83d8d7543e744e69d13f65d86277812,,Thinhorn Sheep - Wildlife Key Area - 250k
+339,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Temperature_Sensors/,,Thinhorn Sheep - Wildlife Key Area - 250k
+339,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/ebbac8d5042a48ed8a1e4fda337a3995/info/metadata/metadata.xml?format=default&amp;output=html,,Thinhorn Sheep - Wildlife Key Area - 250k
+340,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=8607e1f0639348f69c4a945c89a0aca9,,Wolf - Wildlife Key Area - 250k
+340,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Bedrock_Map_Index/,,Wolf - Wildlife Key Area - 250k
+340,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/53cd400ec10b44fda32135555c705a6a/info/metadata/metadata.xml?format=default&amp;output=html,,Wolf - Wildlife Key Area - 250k
+341,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=e73127ebdaba4b58a728ecb22381846e,,Mineral Lick - Wildlife Key Area - 250k
+341,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Geochronology/,,Mineral Lick - Wildlife Key Area - 250k
+341,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/196764943e174565925be57ab4cb7d04/info/metadata/metadata.xml?format=default&amp;output=html,,Mineral Lick - Wildlife Key Area - 250k
+342,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=9079d87f913e4a55b19ac38e3ff8c706,,Barren-ground caribou - wildlife key area - 250k
+342,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Geophysics_Gravity_Bouguer_Anomaly_2km/,,Barren-ground caribou - wildlife key area - 250k
+342,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/f6d45a494b834ecfb132319c90be8279/info/metadata/metadata.xml?format=default&amp;output=html,,Barren-ground caribou - wildlife key area - 250k
+343,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c66b90218c884070848496cefbca9487,,Mule Deer - Wildlife Key Area - 250k
+343,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Yukon_road_network,,Mule Deer - Wildlife Key Area - 250k
+343,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/387f61905e3d4691b80523566c1d19b1/info/metadata/metadata.xml?format=default&amp;output=html,,Mule Deer - Wildlife Key Area - 250k
+344,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=04ff4e79ad4046dbabcefd763238bd07,,Woodland Caribou - Level 2 - Wildlife Key Area - 250k
+344,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Planning/Subdivision_Applications_Historical/,,Woodland Caribou - Level 2 - Wildlife Key Area - 250k
+344,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/85d6254b97084d0c8834ba951f3981b9/info/metadata/metadata.xml?format=default&amp;output=html,,Woodland Caribou - Level 2 - Wildlife Key Area - 250k
+345,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=705735bb48ca4a278d8f66e48992da1c,,Moose - Wildlife Key Area - 250k
+345,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Planning/Subdivision_Applications_50k/,,Moose - Wildlife Key Area - 250k
+345,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/3de70ff22bae4376ba27c99ce354d4e5/info/metadata/metadata.xml?format=default&amp;output=html,,Moose - Wildlife Key Area - 250k
+346,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=e88f7cfbe97f4d48907f42bf91b97087,,Elk - Wildlife Key Area - 250k
+346,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Geophysics_First_Vertical_Derivatives_50m/,,Elk - Wildlife Key Area - 250k
+346,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/dfb8189d75b34fbb95ea3ac3a7fe5e2d/info/metadata/metadata.xml?format=default&amp;output=html,,Elk - Wildlife Key Area - 250k
+347,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=7d73a01036154f3eb3c5c0bbe5a71ea2,,Beaver and muskrat - wildlife key area - 250k
+347,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Geophysics_Residual_Magnetic_Total_Fields_50m/,,Beaver and muskrat - wildlife key area - 250k
+347,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/009a97fb704c4753a26992a145049fd4/info/metadata/metadata.xml?format=default&amp;output=html,,Beaver and muskrat - wildlife key area - 250k
+348,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=ab4d8ea17f6a4ee1bd75d9a3cbc5540d,,Woodland Caribou - Level 3 - Wildlife Key Area - 250k
+348,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Imagery/Air_Photo_Locations/,,Woodland Caribou - Level 3 - Wildlife Key Area - 250k
+348,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/d9fd9654635646fea7b95fe93a0bc98d/info/metadata/metadata.xml?format=default&amp;output=html,,Woodland Caribou - Level 3 - Wildlife Key Area - 250k
+349,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=6312a543fda44663a7ce9ef28792d609,,Sharp-tailed Grouse - Wildlife Key Area - 250k
+349,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Imagery/Air_Photo_Flight_Lines/,,Sharp-tailed Grouse - Wildlife Key Area - 250k
+349,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/978fad47eceb497ab755d1fa9f4dfc40/info/metadata/metadata.xml?format=default&amp;output=html,,Sharp-tailed Grouse - Wildlife Key Area - 250k
+350,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=de12907e41944077b5fb7f53fb6eca04,,Bear - wildlife key area - 250k
+350,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Historic_Silviculture_Inventory_50k/,,Bear - wildlife key area - 250k
+350,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/3f27090d2336415b9163fd7d83aa0f5a/info/metadata/metadata.xml?format=default&amp;output=html,,Bear - wildlife key area - 250k
+351,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=15392cd067264cbb8abdd316a393aebd,,Raptor - Wildlife Key Area - 250k
+351,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/CMI_Water_Quality_Sampling_Sites/,,Raptor - Wildlife Key Area - 250k
+351,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/7916accbbb6b4e1584cc2fe9b3f14510/info/metadata/metadata.xml?format=default&amp;output=html,,Raptor - Wildlife Key Area - 250k
+352,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=94f2aa26f5c040b6a0fd44698afedc90,,CDC Species of Conservation Concern
+352,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biological/CDC_Species_of_Conservation_Concern/,,CDC Species of Conservation Concern
+352,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/94f2aa26f5c040b6a0fd44698afedc90/info/metadata/metadata.xml?format=default&amp;output=html,,CDC Species of Conservation Concern
+353,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=8134850dfeb14b1a94775fb9b8aca183,,CDC Species of Conservation Concern - Restricted
+353,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biological/CDC_Species_of_Conservation_Concern_Restricted/,,CDC Species of Conservation Concern - Restricted
+353,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/8134850dfeb14b1a94775fb9b8aca183/info/metadata/metadata.xml?format=default&amp;output=html,,CDC Species of Conservation Concern - Restricted
+354,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=97f4f7ccf79e44fa8aa8503fae923054,,CDC Species of Conservation Concern - Centroids
+354,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biological/CDC_Species_of_Conservation_Concern_Centroids/,,CDC Species of Conservation Concern - Centroids
+354,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/97f4f7ccf79e44fa8aa8503fae923054/info/metadata/metadata.xml?format=default&amp;output=html,,CDC Species of Conservation Concern - Centroids
+355,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=4b8c50a1118e42fe9db4305c068ba113,,Footprints Yukon High Resolution Satellite Imagery
+355,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Footprints_High_Resolution_Satellites/,,Footprints Yukon High Resolution Satellite Imagery
+355,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/4b8c50a1118e42fe9db4305c068ba113/info/metadata/metadata.xml?format=default&amp;output=html,,Footprints Yukon High Resolution Satellite Imagery
+356,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=128a5a44fb704016b48d00d7bc8582c5,,Yukon Medium Resolution Satellite Imagery
+356,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Surface_Disturbance_Areal_Features/,,Yukon Medium Resolution Satellite Imagery
+356,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/ed388209a43947b9872b3a9228776365/info/metadata/metadata.xml?format=default&amp;output=html,,Yukon Medium Resolution Satellite Imagery
+357,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=18cea5cb481f48fe82305bdd05c554bb,,Footprints Medium Resolution Satellites
+357,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Footprints_Medium_Resolution_Satellites/,,Footprints Medium Resolution Satellites
+357,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/18cea5cb481f48fe82305bdd05c554bb/info/metadata/metadata.xml?format=default&amp;output=html,,Footprints Medium Resolution Satellites
+358,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=8a27507f1f0e4f59bb40c2d74b178dc8,,Footprints Yukon Aerial Photographs - Before 2021
+358,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Footprints_Aerial_Photographs/,,Footprints Yukon Aerial Photographs - Before 2021
+358,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/8a27507f1f0e4f59bb40c2d74b178dc8/info/metadata/metadata.xml?format=default&amp;output=html,,Footprints Yukon Aerial Photographs - Before 2021
+359,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=522b18abaacd4df8ae1f214d3ed337ea,,Footprints Yukon Aerial Imagery - Most Recent
+359,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Yukon_Sulphide_Pb_and_S_Isotope_Compilation,,Footprints Yukon Aerial Imagery - Most Recent
+359,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/373bb94ffcbb475691d9ce7e1e250f9f/info/metadata/metadata.xml?format=default&amp;output=html,,Footprints Yukon Aerial Imagery - Most Recent
+360,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=1a8a91c7e6cb4a64a8e2995cdd993ab1,,Yukon High Resolution Satellite Imagery
+360,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Water_Licences/,,Yukon High Resolution Satellite Imagery
+360,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/1b86ee0e279044939eb0045cf8a6dad1/info/metadata/metadata.xml?format=default&amp;output=html,,Yukon High Resolution Satellite Imagery
+361,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=bedb4e55cbb44db89800822547098f55,,Peel Landscape Management Units - 250k
+361,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Planning/Peel_Landscape_Management_Units_250k/,,Peel Landscape Management Units - 250k
+361,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/bedb4e55cbb44db89800822547098f55/info/metadata/metadata.xml?format=default&amp;output=html,,Peel Landscape Management Units - 250k
+362,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=eddc69448d7b423b935bbde02799984e,,Yukon Aerial Photographs - Before 2021
+362,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/People_and_Structures/Civic_Address_Point,,Yukon Aerial Photographs - Before 2021
+362,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/70c5f36a82a74a49860fd4aa4398203a/info/metadata/metadata.xml?format=default&amp;output=html,,Yukon Aerial Photographs - Before 2021
+363,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=da9287f39a5a4f5a9d5372475da7bbc4,,Yukon Aerial Imagery - Most Recent
+363,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Valid_Mining_Class_1_Notifications/,,Yukon Aerial Imagery - Most Recent
+363,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/2ec1e0ae0b4446e3baba2dfa15afaf4b/info/metadata/metadata.xml?format=default&amp;output=html,,Yukon Aerial Imagery - Most Recent
+364,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=da9287f39a5a4f5a9d5372475da7bbc4,,First Nation Traditional Territories - 250k
+364,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Valid_Mining_Class_1_Notifications/,,First Nation Traditional Territories - 250k
+364,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/2fcc234fe562439d9b62cc9f0ad23b7a/info/metadata/metadata.xml?format=default&amp;output=html,,First Nation Traditional Territories - 250k
+365,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=a6b35eb8b9b84ff1b45d14078f6422f4,,First Nation Traditional Territories - 1M
+365,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Bedrock_Geology/,,First Nation Traditional Territories - 1M
+365,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/ce3bf7211c914a63ad4179c46a6e618b/info/metadata/metadata.xml?format=default&amp;output=html,,First Nation Traditional Territories - 1M
+366,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c00d2072d77c4984b66cef011eb60580,,Footprints Yukon Composite 150 cm
+366,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Emergency_Management/NG911_Fire_Response_Boundary_Whitehorse/,,Footprints Yukon Composite 150 cm
+366,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/4d458130c7734dd9b58f8b550b7b38de/info/metadata/metadata.xml?format=default&amp;output=html,,Footprints Yukon Composite 150 cm
+367,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=bae82ebea942452bb319ce28c3487fe3,,First Nation Settlement Lands - Unsurveyed
+367,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/First_Nations/First_Nation_Settlement_Lands_Unsurveyed/,,First Nation Settlement Lands - Unsurveyed
+367,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/bae82ebea942452bb319ce28c3487fe3/info/metadata/metadata.xml?format=default&amp;output=html,,First Nation Settlement Lands - Unsurveyed
+368,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c4fc1d8c9fe44b949f5f9ba3d697a856,,Landscape Management Units - 250k
+368,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Landscape_Management_Units_250k/,,Landscape Management Units - 250k
+368,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/c4fc1d8c9fe44b949f5f9ba3d697a856/info/metadata/metadata.xml?format=default&amp;output=html,,Landscape Management Units - 250k
+369,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=b33266c8907b4bf0859558fadd6a8f11,,Quartz mining licences - 50k
+369,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Quartz_Mining_Licences_50k/,,Quartz mining licences - 50k
+369,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/b33266c8907b4bf0859558fadd6a8f11/info/metadata/metadata.xml?format=default&amp;output=html,,Quartz mining licences - 50k
+370,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=fb54f273b27a412baa227d24f91f0b6c,,Placer Claims - 1M
+370,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Placer_Claims_1M/,,Placer Claims - 1M
+370,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/fb54f273b27a412baa227d24f91f0b6c/info/metadata/metadata.xml?format=default&amp;output=html,,Placer Claims - 1M
+371,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=309527954a1940bda961c62a13e9f3c9,,Lots For Sale Point - Surveyed
+371,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/Lots_For_Sale_Point_Surveyed/,,Lots For Sale Point - Surveyed
+371,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/309527954a1940bda961c62a13e9f3c9/info/metadata/metadata.xml?format=default&amp;output=html,,Lots For Sale Point - Surveyed
+372,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=d89e7350cb3c419187f4ff7fb3b63c6a,,Agriculture Land Capability Class - Field Analysis
+372,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biophysical/Agriculture_Land_Capability_Class_Field_Analysis,,Agriculture Land Capability Class - Field Analysis
+372,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/d89e7350cb3c419187f4ff7fb3b63c6a/info/metadata/metadata.xml?format=default&amp;output=html,,Agriculture Land Capability Class - Field Analysis
+373,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=04ff4e79ad4046dbabcefd763238bd07,,Subdivision Applications - Historical
+373,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Planning/Subdivision_Applications_Historical/,,Subdivision Applications - Historical
+373,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/04ff4e79ad4046dbabcefd763238bd07/info/metadata/metadata.xml?format=default&amp;output=html,,Subdivision Applications - Historical
+374,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=3c30dd2c61644302adde38a3f5750d2c,,Fire Ignition Locations
+374,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Emergency_Management/Fire_Ignition_Locations/,,Fire Ignition Locations
+374,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/3c30dd2c61644302adde38a3f5750d2c/info/metadata/metadata.xml?format=default&amp;output=html,,Fire Ignition Locations
+375,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=14d9e3cf6cb44b7f86acf02db4323e0e,,Lots For Sale - Surveyed
+375,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/Lots_For_Sale_Surveyed/,,Lots For Sale - Surveyed
+375,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/14d9e3cf6cb44b7f86acf02db4323e0e/info/metadata/metadata.xml?format=default&amp;output=html,,Lots For Sale - Surveyed
+376,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f336fb5e3259415cbf7cdb994f318bfe,,Quartz Claims - 1M
+376,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Quartz_Claims_1M/,,Quartz Claims - 1M
+376,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/f336fb5e3259415cbf7cdb994f318bfe/info/metadata/metadata.xml?format=default&amp;output=html,,Quartz Claims - 1M
+377,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=da9287f39a5a4f5a9d5372475da7bbc4,,Class 1 quartz land use operations
+377,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Valid_Mining_Class_1_Notifications/,,Class 1 quartz land use operations
+377,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/bc218aecb3fa4c8e836a0cca770b4d61/info/metadata/metadata.xml?format=default&amp;output=html,,Class 1 quartz land use operations
+378,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=3afeba64646d40919e319606d3bd3051,,Crown grants - 50k
+378,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Crown_Grants_50k/,,Crown grants - 50k
+378,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/3afeba64646d40919e319606d3bd3051/info/metadata/metadata.xml?format=default&amp;output=html,,Crown grants - 50k
+379,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=5e576674c89e4abbb8a7cb5dfde0c03e,,Agricultural Land Parcels - Surveyed
+379,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biophysical/Ecoregions_2014_1M/,,Agricultural Land Parcels - Surveyed
+379,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/4c7259f4d84f4f6fb7e490d309b53449/info/metadata/metadata.xml?format=default&amp;output=html,,Agricultural Land Parcels - Surveyed
+380,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=db451f666b56455aa4f4aa8e9878fa5b,,Coal Exploration Licenses - 50k
+380,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Coal_Exploration_Licenses_50k/,,Coal Exploration Licenses - 50k
+380,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/db451f666b56455aa4f4aa8e9878fa5b/info/metadata/metadata.xml?format=default&amp;output=html,,Coal Exploration Licenses - 50k
+381,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=18ced49f8f804f92a7cdf864bf549bc2,,Land Licences
+381,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/Land_Licences/,,Land Licences
+381,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/18ced49f8f804f92a7cdf864bf549bc2/info/metadata/metadata.xml?format=default&amp;output=html,,Land Licences
+382,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f5c15b0117924445a32413bc1be705d4,,Agriculture land dispositions
+382,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/Agriculture_Land_Dispositions/,,Agriculture land dispositions
+382,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/b20999e872254b9c878a57c6fe6941ca/info/metadata/metadata.xml?format=default&amp;output=html,,Agriculture land dispositions
+383,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=378e60e22ea74955bd9dcaa6e869c5ab,,Land Notations
+383,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/Land_Notations/,,Land Notations
+383,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/378e60e22ea74955bd9dcaa6e869c5ab/info/metadata/metadata.xml?format=default&amp;output=html,,Land Notations
+384,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=b03b1ed982de4429acd682a720633821,,Quartz Land Use Permits - 50k
+384,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Quartz_Land_Use_Permits_50k/,,Quartz Land Use Permits - 50k
+384,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/b03b1ed982de4429acd682a720633821/info/metadata/metadata.xml?format=default&amp;output=html,,Quartz Land Use Permits - 50k
+385,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=e8c56dfb65f74c2187592ebd03095c09,,Agriculture land applications
+385,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/Agriculture_Land_Applications/,,Agriculture land applications
+385,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/e8c56dfb65f74c2187592ebd03095c09/info/metadata/metadata.xml?format=default&amp;output=html,,Agriculture land applications
+386,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=4ac1b6d2e4ea4f3c8483175d1f9cb40d,,Permafrost report polygon
+386,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Permafrost_Reports_Polygon/,,Permafrost report polygon
+386,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/4ac1b6d2e4ea4f3c8483175d1f9cb40d/info/metadata/metadata.xml?format=default&amp;output=html,,Permafrost report polygon
+387,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=d83d8d7543e744e69d13f65d86277812,,Temperature sensor point
+387,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Temperature_Sensors/,,Temperature sensor point
+387,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/d83d8d7543e744e69d13f65d86277812/info/metadata/metadata.xml?format=default&amp;output=html,,Temperature sensor point
+388,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=456ce90495604cb191c2d496a15bb14d,,{{name}}
+388,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Air_Photo_Locations/,,{{name}}
+388,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/45cbbe89dfa244b9985fc58b08e69f35/info/metadata/metadata.xml?format=default&amp;output=html,,{{name}}
