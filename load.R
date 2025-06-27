@@ -6,12 +6,12 @@ library(readxl)
 # Source files ------------------------------------------------------------
 
 # Source data file to import
-source_dataset_file <- "input/20250515/YG_Open_Gov_DKAN_dataset_export.xlsx"
-source_atipp_requests_file <- "input/20250515/YG_Open_Gov_DKAN_ATIPP_export.xlsx"
-source_pia_summaries_file <- "input/20250515/YG_Open_Gov_DKAN_PIA_export.xlsx"
+source_dataset_file <- "input/20250627/YG_Open_Gov_DKAN_dataset_export_20250627.xlsx"
+source_atipp_requests_file <- "input/20250627/YG_Open_Gov_DKAN_ATIPP_export_20250627.xlsx"
+source_pia_summaries_file <- "input/20250627/YG_Open_Gov_DKAN_PIA_export_20250627.xlsx"
 
-source_dataset_resources_file <- "input/20250515/YG_Open_Gov_DKAN_resource_export.xlsx"
-source_atipp_requests_resources_file <- "input/20250515/YG_Open_Gov_DKAN_ATIPP_response_export.xlsx"
+source_dataset_resources_file <- "input/20250627/YG_Open_Gov_DKAN_resource_export_20250627.xlsx"
+source_atipp_requests_resources_file <- "input/20250627/YG_Open_Gov_DKAN_ATIPP_response_export_20250627.xlsx"
 
 
 
