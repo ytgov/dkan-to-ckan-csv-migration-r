@@ -18,7 +18,7 @@ source_atipp_requests_resources_file <- "input/20250627/YG_Open_Gov_DKAN_ATIPP_r
 source_geoyukon_dataset_file <- "input/20250624/geoyukon_datasets.csv"
 source_geoyukon_resources_file <- "input/20250624/geoyukon_resources.csv"
 
-setting_run_pandoc_markdown_conversions <- FALSE
+setting_run_pandoc_markdown_conversions <- TRUE
 
 # Start time logging ------------------------------------------------------
 
@@ -1108,6 +1108,64 @@ dataset_resources <- dataset_resources |>
     format_raw, .before = "local_file_name"
   )
 
+
+# dataset_resources |> count(format_raw) |> arrange(desc(n)) |> View()
+# dataset_resources |> count(format) |> arrange(desc(n)) |> View()
+
+
+# SC03. Import GeoYukon resources and associate them together.
+geoyukon_resources <- read_csv(source_geoyukon_resources_file) |> 
+  clean_names()
+
+geoyukon_resources <- geoyukon_resources |> 
+  filter(title != "{{name}}")
+
+geoyukon_resources <- geoyukon_resources |> 
+  mutate(
+    dataset_id = dataset_id + geoyukon_node_starting_id,
+    # schema_type = "data",
+    format_raw = str_to_upper(format)
+  )
+
+geoyukon_resources <- geoyukon_resources |> 
+  rename(
+    url = "link",
+    dataset_node_id = dataset_id
+  )
+
+geoyukon_dataset_resource_parents <- geoyukon_datasets |> 
+  select(schema_type, node_id, title, publishers_groups, last_revised, authored) |> 
+  rename(
+    dataset_node_id = "node_id",
+    dataset_title = "title",
+    organization_title = "publishers_groups"
+  )
+
+geoyukon_resources <- geoyukon_resources |> 
+  left_join(geoyukon_dataset_resource_parents, by = "dataset_node_id")
+
+# Update resource titles to be more descriptive
+geoyukon_resources <- geoyukon_resources |> 
+  mutate(
+    title = case_when(
+      format == "html" ~ "ArcGIS Online layers",
+      format == "ftp" ~ "Shape files",
+      format == "xml" ~ "XML metadata"
+    )
+  )
+
+# Fix for &amp; URL errors from ArcGIS Online
+geoyukon_resources <- geoyukon_resources |> 
+  mutate(
+    url = str_replace_all(url, "&amp;", "&")
+  )
+
+# Bind these together
+dataset_resources <- dataset_resources |> 
+  bind_rows(geoyukon_resources)
+
+
+# After merging other imports, clean up file formats:
 # Based on the current resources export
 valid_format_types = c(
   "PDF",
@@ -1134,10 +1192,6 @@ dataset_resources <- dataset_resources |>
     format, .before = "format_raw"
   )
 
-# dataset_resources |> count(format_raw) |> arrange(desc(n)) |> View()
-# dataset_resources |> count(format) |> arrange(desc(n)) |> View()
-
-# 7. Include size for local files (TODO)
 
 
 # 8. Split into data and information resource exports separately
