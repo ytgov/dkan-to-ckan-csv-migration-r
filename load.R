@@ -2,6 +2,7 @@ library(tidyverse)
 library(fs)
 library(readxl)
 library(rmarkdown)
+library(janitor)
 
 
 # Source files ------------------------------------------------------------
@@ -14,7 +15,8 @@ source_pia_summaries_file <- "input/20250627/YG_Open_Gov_DKAN_PIA_export_2025062
 source_dataset_resources_file <- "input/20250627/YG_Open_Gov_DKAN_resource_export_20250627.xlsx"
 source_atipp_requests_resources_file <- "input/20250627/YG_Open_Gov_DKAN_ATIPP_response_export_20250627.xlsx"
 
-
+source_geoyukon_dataset_file <- "input/20250624/geoyukon_datasets.csv"
+source_geoyukon_resources_file <- "input/20250624/geoyukon_resources.csv"
 
 
 # Helper functions --------------------------------------------------------
@@ -251,6 +253,44 @@ datasets <- datasets |>
 # Remove datasets that are part of active harvest sources from the export
 datasets <- datasets |>
   filter(is_active_harvest_source == FALSE)
+
+# SC02. Special case: import GeoYukon datasets and resources, and create imitation DKAN node ID and node parent IDs.
+
+geoyukon_node_starting_id = 110000
+
+geoyukon_datasets <- read_csv(source_geoyukon_dataset_file) |> 
+  clean_names()
+
+# Used by rename(), where new = "old"
+field_mapping <- c(
+  node_id = "id",
+  publishers_groups = "publisher",
+  homepage_url = "homepage",
+  custodian = "author_name"
+  
+)
+
+geoyukon_datasets <- geoyukon_datasets |> 
+  rename(all_of(field_mapping))
+
+geoyukon_datasets <- geoyukon_datasets |> 
+  mutate(
+    tags = str_c(tags, ",geoyukon-import,geoyukon-import-20250627"),
+    content_type = "dataset",
+    schema_type = "data",
+    node_id = node_id + geoyukon_node_starting_id
+  )
+
+# TODO - additional cleanup here
+# fix mailto: emails
+# move tag cleanup afterwards
+# move frequency cleanup afterwards
+# remove data dictionary
+# check that dates created and modified look good.
+
+# Bind these together
+datasets <- datasets |> 
+  bind_rows(geoyukon_datasets)
 
 # 10. Set canonical publisher organizations
 # (remove multiple entries; consolidate across related DKAN fields)
