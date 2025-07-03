@@ -1269,6 +1269,10 @@ ygs_resources <- ygs_resources |>
     last_revised = "last_modified"
   )
 
+# Ignore entries that don't have a URL
+ygs_resources <- ygs_resources |> 
+  filter(! is.na(url))
+
 ygs_dataset_resource_parents <- ygs_datasets |> 
   select(node_id, title, publishers_groups) |> 
   rename(
