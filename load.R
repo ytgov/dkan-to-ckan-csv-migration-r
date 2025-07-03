@@ -19,6 +19,11 @@ source_geoyukon_dataset_file <- "input/20250624/geoyukon_datasets.csv"
 source_geoyukon_resources_file <- "input/20250624/geoyukon_resources.csv"
 
 
+# Start time logging ------------------------------------------------------
+
+run_start_time <- now()
+paste("Start time:", run_start_time)
+
 # Helper functions --------------------------------------------------------
 
 # Note: DKAN currently expects CRLF line endings (not LF) and so those have been specified in the project-specific R settings.
@@ -83,6 +88,13 @@ str_datetime_to_time <- function(str) {
   
 }
 
+str_fme_datetime_to_datetime <- function(str) {
+  # From 2025-06-24T10:08:15.914Z
+  # to   2025-06-24 19:46:34
+  
+  str_replace_all(str_sub(str, 0L, 19L), "T", " ")
+  
+}
 
 # Dataset processing ------------------------------------------------------
 
@@ -115,6 +127,106 @@ datasets <- datasets |>
 
 datasets <- datasets |> 
   filter_is_published()
+
+# 9. Exclude active Harvest sources
+# This includes 
+# -	GeoYukon layers / CSW items
+# -	Yukon Geological Survey publications and data
+# -	YBS Community Statistics items
+# - Yukon Register of Historic Places
+
+# The sources to remove also includes harvested documents that have already been removed, as indicated below.
+# datasets |> select(harvest_source, harvest_source_modified) |> arrange(harvest_source_modified) |> distinct() |> View()
+# xlsx_dataset_nodes |> count(harvest_source) |> arrange(desc(n)) |> View()
+
+active_harvest_sources_to_remove <- c(
+  "GEOMATICS 43_08052019",
+  "YGS_Comp_21_08052019",
+  "YGS_PUB_OTHER_97_10052019",
+  "YGS_Pub_559_10052019",
+  "Geomatics layers_10052019",
+  "HERITAGE 27_17062019", 
+  "CommunityServices_49", # All removed and replaced with redirects to a newer geo application
+  "ATIPP AIR", # Replaced by newer ATIPP Registry documents
+  "Geomatics Metadata",
+  "YBS 105_18092018" # Re-assigned to newer consolidated dataset entries in SC01 below
+  
+)
+
+datasets <- datasets |>
+  mutate(
+    is_active_harvest_source = case_when(
+      harvest_source %in% active_harvest_sources_to_remove ~ TRUE,
+      .default = FALSE
+    )
+  )
+
+# Remove datasets that are part of active harvest sources from the export
+datasets <- datasets |>
+  filter(is_active_harvest_source == FALSE)
+
+# SC02. Special case: import GeoYukon datasets and resources, and create imitation DKAN node ID and node parent IDs.
+
+geoyukon_node_starting_id = 110000
+
+geoyukon_datasets <- read_csv(source_geoyukon_dataset_file) |> 
+  clean_names()
+
+# Used by rename(), where new = "old"
+field_mapping <- c(
+  node_id = "id",
+  publishers_groups = "publisher",
+  homepage_url = "homepage",
+  custodian = "author_name",
+  last_revised = "modified_date"
+  
+)
+
+geoyukon_datasets <- geoyukon_datasets |> 
+  rename(all_of(field_mapping))
+
+geoyukon_datasets <- geoyukon_datasets |> 
+  mutate(
+    tags = str_c(tags, ",geoyukon-import,geoyukon-import-20250627"),
+    content_type = "dataset",
+    schema_type = "data",
+    node_id = node_id + geoyukon_node_starting_id,
+    last_revised = str_fme_datetime_to_datetime(last_revised),
+    # topics = str_to_sentence(topics)
+  )
+
+# TODO - additional cleanup here
+# [done] fix mailto: emails
+# [done] move tag cleanup afterwards
+# [done] move frequency cleanup afterwards
+# [done] remove data dictionary
+# [done] check that dates created and modified look good.
+# [done] fix topics
+# [done] fix frequency
+# add created date to original FME output
+
+# Remove single template(?) entry with a description of {{description}}
+geoyukon_datasets <- geoyukon_datasets |> 
+  filter(description != "{{description}}")
+
+# Fix a single entry with a topic of "Nature and evnvironment"
+# Should be "Nature and environment"
+geoyukon_datasets <- geoyukon_datasets |> 
+  mutate(
+    topics = str_replace_all(topics, "Nature and evnvironment", "Nature and environment")
+  )
+
+geoyukon_datasets <- geoyukon_datasets |> 
+  mutate(
+    contact_email = "Geomatics.Help@yukon.ca",
+    data_dictionary = NA_character_,
+    authored = last_revised # Update if FME created date is available.
+  )
+
+
+# Bind these together
+datasets <- datasets |> 
+  bind_rows(geoyukon_datasets)
 
 
 # 3. Update languages to match the new possible values
@@ -159,6 +271,19 @@ datasets <- datasets |>
       is.na(how_often_updated) & frequency == "R/PT1S" ~ "daily", # continuously updated
       is.na(how_often_updated) & frequency == "irregular" ~ "ad_hoc",
       
+      # GeoYukon frequency labels
+      is.na(how_often_updated) & frequency == "Annually" ~ "annual",
+      is.na(how_often_updated) & frequency == "As Needed" ~ "ad_hoc",
+      is.na(how_often_updated) & frequency == "Continual" ~ "daily",
+      is.na(how_often_updated) & frequency == "Daily" ~ "daily",
+      is.na(how_often_updated) & frequency == "Irregular" ~ "ad_hoc",
+      is.na(how_often_updated) & frequency == "Monthly" ~ "monthly",
+      is.na(how_often_updated) & frequency == "Not Planned" ~ "none",
+      is.na(how_often_updated) & frequency == "Quarterly" ~ "quarterly",
+      is.na(how_often_updated) & frequency == "Unknown" ~ "none",
+      is.na(how_often_updated) & frequency == "Weekly" ~ "weekly",
+      
+      # Additional DKAN frequency labels
       how_often_updated == "Annually" ~ "annual",
       how_often_updated == "Irregularly" ~ "ad_hoc",
       how_often_updated == "Monthly" ~ "monthly",
@@ -217,80 +342,6 @@ datasets <- datasets |>
   )
 
 
-# 9. Exclude active Harvest sources
-# This includes 
-# -	GeoYukon layers / CSW items
-# -	Yukon Geological Survey publications and data
-# -	YBS Community Statistics items
-# - Yukon Register of Historic Places
-
-# The sources to remove also includes harvested documents that have already been removed, as indicated below.
-# datasets |> select(harvest_source, harvest_source_modified) |> arrange(harvest_source_modified) |> distinct() |> View()
-# xlsx_dataset_nodes |> count(harvest_source) |> arrange(desc(n)) |> View()
-
-active_harvest_sources_to_remove <- c(
-  "GEOMATICS 43_08052019",
-  "YGS_Comp_21_08052019",
-  "YGS_PUB_OTHER_97_10052019",
-  "YGS_Pub_559_10052019",
-  "Geomatics layers_10052019",
-  "HERITAGE 27_17062019", 
-  "CommunityServices_49", # All removed and replaced with redirects to a newer geo application
-  "ATIPP AIR", # Replaced by newer ATIPP Registry documents
-  "Geomatics Metadata",
-  "YBS 105_18092018" # Re-assigned to newer consolidated dataset entries in SC01 below
-  
-)
-
-datasets <- datasets |>
-  mutate(
-    is_active_harvest_source = case_when(
-      harvest_source %in% active_harvest_sources_to_remove ~ TRUE,
-      .default = FALSE
-    )
-  )
-
-# Remove datasets that are part of active harvest sources from the export
-datasets <- datasets |>
-  filter(is_active_harvest_source == FALSE)
-
-# SC02. Special case: import GeoYukon datasets and resources, and create imitation DKAN node ID and node parent IDs.
-
-geoyukon_node_starting_id = 110000
-
-geoyukon_datasets <- read_csv(source_geoyukon_dataset_file) |> 
-  clean_names()
-
-# Used by rename(), where new = "old"
-field_mapping <- c(
-  node_id = "id",
-  publishers_groups = "publisher",
-  homepage_url = "homepage",
-  custodian = "author_name"
-  
-)
-
-geoyukon_datasets <- geoyukon_datasets |> 
-  rename(all_of(field_mapping))
-
-geoyukon_datasets <- geoyukon_datasets |> 
-  mutate(
-    tags = str_c(tags, ",geoyukon-import,geoyukon-import-20250627"),
-    content_type = "dataset",
-    schema_type = "data",
-    node_id = node_id + geoyukon_node_starting_id
-  )
-
-# TODO - additional cleanup here
-# fix mailto: emails
-# move tag cleanup afterwards
-# move frequency cleanup afterwards
-# remove data dictionary
-# check that dates created and modified look good.
-
-# Bind these together
-datasets <- datasets |> 
-  bind_rows(geoyukon_datasets)
 
 # 10. Set canonical publisher organizations
 # (remove multiple entries; consolidate across related DKAN fields)
@@ -362,7 +413,8 @@ dataset_tags <- datasets |>
   mutate(
     tags = str_replace(tags, "–", "-")
   ) |> 
-  separate_longer_delim(tags, ",")
+  separate_longer_delim(tags, ",") |> 
+  distinct() # Remove multiple identical entries for the same dataset
 
 # Filter out tags with strange punctuation
 dataset_tags <- dataset_tags |> 
@@ -370,11 +422,19 @@ dataset_tags <- dataset_tags |>
     tags = str_to_lower(str_replace(tags, " no. ", " "))
   ) |> 
   filter(! str_detect(tags, "[:.()]"))
-  
-# Testing regex here:
-# dataset_tags |> 
-#   filter(str_detect(tags, "[:.()]")) |> 
-#   View()
+
+# Filter out tags that are just "yukon", "yukon territory", or "yt" etc.
+tags_to_remove = c(
+  "yukon",
+  "yukon territory",
+  "yt",
+  "yg",
+  "ytg"
+)
+
+dataset_tags <- dataset_tags |> 
+  filter(! tags %in% tags_to_remove)
+
   
 dataset_tags <- dataset_tags |> 
   group_by(tags) |> 
@@ -492,6 +552,9 @@ datasets <- datasets |>
 topics <- datasets |> 
   select(title, topics) |> 
   separate_longer_delim(cols = topics, delim = ",") |> 
+  mutate(
+    topics = str_to_sentence(topics)
+  ) |> 
   filter(! is.na(topics))
 
 topics <- topics |> 
@@ -509,8 +572,8 @@ topics_to_remove = c(
   "Access",
   "Compliance",
   "Manual",
-  "Annual Reports",
-  "ATIPP office",
+  "Annual reports",
+  "Atipp office",
   "Forms and templates",
   "Guidance"
 )
@@ -1270,3 +1333,14 @@ topics <- datasets |>
   filter(! is.na(topics))
 
 write_out_csv(topics, "output/topics")
+
+
+
+# End time logging --------------------------------------------------------
+
+run_end_time <- now()
+paste("Start time was:", run_start_time)
+paste("End time was:", run_end_time)
+
+paste("Run duration:", round(time_length(interval(run_start_time, run_end_time), "seconds"), digits = 2), "seconds")
+
