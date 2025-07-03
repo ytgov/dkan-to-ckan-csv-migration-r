@@ -18,6 +18,7 @@ source_atipp_requests_resources_file <- "input/20250627/YG_Open_Gov_DKAN_ATIPP_r
 source_geoyukon_dataset_file <- "input/20250624/geoyukon_datasets.csv"
 source_geoyukon_resources_file <- "input/20250624/geoyukon_resources.csv"
 
+setting_run_pandoc_markdown_conversions <- FALSE
 
 # Start time logging ------------------------------------------------------
 
@@ -642,62 +643,68 @@ html_descriptions <- datasets |>
   filter(is_html_description == TRUE) |> 
   select(node_id, title, description)
 
-# Write HTML files
-for(i in seq_along(html_descriptions[[1]])) {
+# Optionally turn this off since it's quite slow:
+if(setting_run_pandoc_markdown_conversions) {
   
-  # print(html_descriptions[[1]][i])
-  # html_descriptions[[1]][i]
+  # Write HTML files
+  for(i in seq_along(html_descriptions[[1]])) {
+    
+    # print(html_descriptions[[1]][i])
+    # html_descriptions[[1]][i]
+    
+    # Thanks to https://stackoverflow.com/a/55225065/756641
+    html_descriptions[[3]][i] |> 
+      write_lines( str_c("html_conversion/html/", html_descriptions[[1]][i], ".html"))
+    
+  }
   
-  # Thanks to https://stackoverflow.com/a/55225065/756641
-  html_descriptions[[3]][i] |> 
-    write_lines( str_c("html_conversion/html/", html_descriptions[[1]][i], ".html"))
+  # Convert them with Pandoc
+  for(i in seq_along(html_descriptions[[1]])) {
+    
+    # Thanks to https://stackoverflow.com/a/78140357
+    # also thanks to https://www.reddit.com/r/pandoc/comments/wa8pun/comment/ii061ce/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+    pandoc_convert(
+      input = path_wd(str_c("html_conversion/html/", html_descriptions[[1]][i], ".html")),
+      to = "markdown",
+      options = c("--wrap=preserve"),
+      output = path_wd(str_c("html_conversion/md/", html_descriptions[[1]][i], ".md")),
+    )
+    
+  }
   
-}
-
-# Convert them with Pandoc
-for(i in seq_along(html_descriptions[[1]])) {
+  # Bring back in the Markdown descriptions
+  html_descriptions <- html_descriptions |> 
+    mutate(
+      description_updated = NA_character_
+    )
   
-  # Thanks to https://stackoverflow.com/a/78140357
-  # also thanks to https://www.reddit.com/r/pandoc/comments/wa8pun/comment/ii061ce/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
-  pandoc_convert(
-    input = path_wd(str_c("html_conversion/html/", html_descriptions[[1]][i], ".html")),
-    to = "markdown",
-    options = c("--wrap=preserve"),
-    output = path_wd(str_c("html_conversion/md/", html_descriptions[[1]][i], ".md")),
+  for(i in seq_along(html_descriptions[[1]])) {
+    
+    html_descriptions[[4]][i] = read_file(str_c("html_conversion/md/", html_descriptions[[1]][i], ".md"))
+    
+  }
+  
+  # Re-join the updated descriptions back to the original datasets table
+  html_descriptions <- html_descriptions |> 
+    select(node_id, description_updated)
+  
+  datasets <- datasets |> 
+    left_join(html_descriptions, by = "node_id") |> 
+    relocate(
+      description_updated, .before = "description"
+    )
+  
+  # Re-combine the description column
+  datasets <- datasets |> 
+    mutate(
+      description = case_when(
+        !is.na(description_updated) ~ description_updated,
+        .default = description
+      )
     )
   
 }
 
-# Bring back in the Markdown descriptions
-html_descriptions <- html_descriptions |> 
-  mutate(
-    description_updated = NA_character_
-  )
-
-for(i in seq_along(html_descriptions[[1]])) {
-  
-  html_descriptions[[4]][i] = read_file(str_c("html_conversion/md/", html_descriptions[[1]][i], ".md"))
-  
-}
-
-# Re-join the updated descriptions back to the original datasets table
-html_descriptions <- html_descriptions |> 
-  select(node_id, description_updated)
-
-datasets <- datasets |> 
-  left_join(html_descriptions, by = "node_id") |> 
-  relocate(
-    description_updated, .before = "description"
-  )
-
-# Re-combine the description column
-datasets <- datasets |> 
-  mutate(
-    description = case_when(
-      !is.na(description_updated) ~ description_updated,
-      .default = description
-    )
-  )
 
 
 # x. Rename columns to match the field names in the CKAN schema
