@@ -18,6 +18,9 @@ source_atipp_requests_resources_file <- "input/20250627/YG_Open_Gov_DKAN_ATIPP_r
 source_geoyukon_dataset_file <- "input/20250624/geoyukon_datasets.csv"
 source_geoyukon_resources_file <- "input/20250624/geoyukon_resources.csv"
 
+source_ygs_dataset_file <- "input/20250703/publications.csv"
+source_ygs_resources_file <- "input/20250703/resources_publications.csv"
+
 setting_run_pandoc_markdown_conversions <- TRUE
 
 # Start time logging ------------------------------------------------------
@@ -230,6 +233,66 @@ datasets <- datasets |>
   bind_rows(geoyukon_datasets)
 
 
+# SC05. Special case - import YGS datasets (publications)
+
+ygs_node_starting_id = 210000
+
+ygs_datasets <- read_csv(source_ygs_dataset_file) |> 
+  clean_names()
+
+# Used by rename(), where new = "old"
+field_mapping <- c(
+  node_id = "publication_id",
+  publishers_groups = "organization_title",
+  last_revised = "metadata_modified",
+  authored = "metadata_created",
+  description = "notes",
+  topics = "topic",
+  contact_name = "internal_contact_name",
+  contact_email = "internal_contact_email"
+)
+
+ygs_datasets <- ygs_datasets |> 
+  rename(all_of(field_mapping))
+
+ygs_datasets <- ygs_datasets |> 
+  mutate(
+    tags = str_c(tags, ",ygs-import,ygs-import-20250703"),
+    content_type = "dataset",
+    schema_type = "information",
+    authored = as.character(authored),
+    last_revised = as.character(last_revised),
+    ygs_publication_id = node_id,
+    node_id = node_id + ygs_node_starting_id,
+  ) |> 
+  mutate(
+    last_revised = case_when(
+      last_revised == "2023-12-12 10:12:34" ~ authored, # Handling for a bunch of entries sharing a last modified time
+      .default = last_revised
+    )
+  )
+
+ygs_datasets <- ygs_datasets |>
+  select(
+    node_id,
+    content_type,
+    schema_type,
+    title,
+    description,
+    publishers_groups,
+    tags,
+    topics,
+    authored,
+    last_revised,
+    contact_name,
+    contact_email,
+    ygs_publication_id
+  )
+
+# Bind these together
+datasets <- datasets |> 
+  bind_rows(ygs_datasets)
+
 # 3. Update languages to match the new possible values
 # english / french / multiple_languages / other / ""
 # TODO - review if we can use ISO language codes while also supporting Yukon First Nations languages
@@ -415,6 +478,8 @@ dataset_tags <- datasets |>
     tags = str_replace(tags, "–", "-")
   ) |> 
   separate_longer_delim(tags, ",") |> 
+  filter(! is.na(tags)) |> # Remove "empty" tag entries caused by leading or trailing commas
+  filter(tags != "") |> # Remove "empty" tag entries caused by leading or trailing commas
   distinct() # Remove multiple identical entries for the same dataset
 
 # Filter out tags with strange punctuation
@@ -1174,6 +1239,65 @@ geoyukon_resources <- geoyukon_resources |>
 # Bind these together
 dataset_resources <- dataset_resources |> 
   bind_rows(geoyukon_resources)
+
+
+# SC06. Special case, import YGS resources and match them.
+ygs_resources <- read_csv(source_ygs_resources_file) |> 
+  clean_names()
+
+
+ygs_resources <- ygs_resources |> 
+  mutate(
+    dataset_id = parent_id + ygs_node_starting_id,
+    # schema_type = "data",
+    format_raw = str_replace_all(format, ".", ""),
+    created = as.character(created),
+    last_modified = as.character(last_modified)
+  ) |> 
+  mutate(
+    last_modified = case_when(
+      last_modified == "2021-03-02 04:03:03" ~ created, # Handling for a bunch of entries sharing a last modified time
+      .default = last_modified
+    )
+  )
+
+ygs_resources <- ygs_resources |> 
+  rename(
+    dataset_node_id = dataset_id,
+    title = "name",
+    authored = "created",
+    last_revised = "last_modified"
+  )
+
+ygs_dataset_resource_parents <- ygs_datasets |> 
+  select(node_id, title, publishers_groups) |> 
+  rename(
+    dataset_node_id = "node_id",
+    dataset_title = "title",
+    organization_title = "publishers_groups"
+  )
+
+ygs_resources <- ygs_resources |> 
+  left_join(ygs_dataset_resource_parents, by = "dataset_node_id") |> 
+  select(
+    schema_type,
+    title,
+    description,
+    format,
+    format_raw,
+    authored,
+    last_revised,
+    url,
+    parent_id,
+    organization_title,
+    dataset_node_id
+  )
+
+# Bind these together
+dataset_resources <- dataset_resources |>
+  bind_rows(ygs_resources)
+
+
 
 
 # After merging other imports, clean up file formats:
