@@ -454,6 +454,7 @@ reduced_dataset_tags <- dataset_tags |>
 # str_flatten_comma() adds spaces, so we'll use the normal str_flatten()
 reduced_dataset_tags <- reduced_dataset_tags |> 
   ungroup() |> 
+  arrange(tags) |> 
   group_by(title) |> 
   mutate(
     tags_combined = str_flatten(tags, collapse = ",")
