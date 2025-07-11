@@ -730,7 +730,7 @@ if(setting_run_pandoc_markdown_conversions) {
     # also thanks to https://www.reddit.com/r/pandoc/comments/wa8pun/comment/ii061ce/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
     pandoc_convert(
       input = path_wd(str_c("html_conversion/html/", html_descriptions[[1]][i], ".html")),
-      to = "commonmark",
+      to = "markdown",
       options = c("--wrap=preserve"),
       output = path_wd(str_c("html_conversion/md/", html_descriptions[[1]][i], ".md")),
     )
@@ -759,16 +759,16 @@ if(setting_run_pandoc_markdown_conversions) {
       description_updated, .before = "description"
     )
   
-  # SC04. Special case for Geomatics endnotes that aren't formatted properly.
-  datasets <- datasets |> 
-    mutate(
-      description_updated = str_replace_all(description_updated, "<a href=\"https://yukon.ca/geoyukon\" rel=\"nofollow ugc\" style=\"text-decoration:underline;\">GeoYukon</a> by the <a href=\"https://yukon.ca/maps\" rel=\"nofollow ugc\" style=\"text-decoration:underline;\">Government of Yukon</a>", "[GeoYukon](https://yukon.ca/geoyukon) by the [Government of Yukon](https://yukon.ca/maps)"),
-      description_updated = str_replace_all(description_updated, "<a href=\"https://yukon.ca/geoyukon\" rel=\"nofollow ugc\">GeoYukon</a> by the <a href=\"https://yukon.ca/maps\" rel=\"nofollow ugc\">Government of Yukon</a>", "[GeoYukon](https://yukon.ca/geoyukon) by the [Government of Yukon](https://yukon.ca/maps)"),
-      
-      description_updated = str_replace_all(description_updated, "<a href=\"mailto:geomatics.help@yukon.ca\" rel=\"nofollow ugc\" style=\"text-decoration:underline;\">geomatics.help@yukon.ca</a>", "[geomatics.help@yukon.ca](mailto:geomatics.help@yukon.ca)"),
-      description_updated = str_replace_all(description_updated, "<a href=\"mailto:geomatics.help@yukon.ca\" rel=\"nofollow ugc\">geomatics.help@yukon.ca</a>", "[geomatics.help@yukon.ca](mailto:geomatics.help@yukon.ca)")
-      
-    )
+  # # SC04. Special case for Geomatics endnotes that aren't formatted properly.
+  # datasets <- datasets |>
+  #   mutate(
+  #     description_updated = str_replace_all(description_updated, "<a href=\"https://yukon.ca/geoyukon\" rel=\"nofollow ugc\" style=\"text-decoration:underline;\">GeoYukon</a> by the <a href=\"https://yukon.ca/maps\" rel=\"nofollow ugc\" style=\"text-decoration:underline;\">Government of Yukon</a>", "[GeoYukon](https://yukon.ca/geoyukon) by the [Government of Yukon](https://yukon.ca/maps)"),
+  #     description_updated = str_replace_all(description_updated, "<a href=\"https://yukon.ca/geoyukon\" rel=\"nofollow ugc\">GeoYukon</a> by the <a href=\"https://yukon.ca/maps\" rel=\"nofollow ugc\">Government of Yukon</a>", "[GeoYukon](https://yukon.ca/geoyukon) by the [Government of Yukon](https://yukon.ca/maps)"),
+  # 
+  #     description_updated = str_replace_all(description_updated, "<a href=\"mailto:geomatics.help@yukon.ca\" rel=\"nofollow ugc\" style=\"text-decoration:underline;\">geomatics.help@yukon.ca</a>", "[geomatics.help@yukon.ca](mailto:geomatics.help@yukon.ca)"),
+  #     description_updated = str_replace_all(description_updated, "<a href=\"mailto:geomatics.help@yukon.ca\" rel=\"nofollow ugc\">geomatics.help@yukon.ca</a>", "[geomatics.help@yukon.ca](mailto:geomatics.help@yukon.ca)")
+  # 
+  #   )
   
   # Re-combine the description column
   datasets <- datasets |> 
