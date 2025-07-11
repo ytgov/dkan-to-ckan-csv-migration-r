@@ -15,8 +15,8 @@ source_pia_summaries_file <- "input/20250627/YG_Open_Gov_DKAN_PIA_export_2025062
 source_dataset_resources_file <- "input/20250627/YG_Open_Gov_DKAN_resource_export_20250627.xlsx"
 source_atipp_requests_resources_file <- "input/20250627/YG_Open_Gov_DKAN_ATIPP_response_export_20250627.xlsx"
 
-source_geoyukon_dataset_file <- "input/20250624/geoyukon_datasets.csv"
-source_geoyukon_resources_file <- "input/20250624/geoyukon_resources.csv"
+source_geoyukon_dataset_file <- "input/20250711/datasets.csv"
+source_geoyukon_resources_file <- "input/20250711/resources.csv"
 
 source_ygs_dataset_file <- "input/20250703/publications.csv"
 source_ygs_resources_file <- "input/20250703/resources_publications.csv"
