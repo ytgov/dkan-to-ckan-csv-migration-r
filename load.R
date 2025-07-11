@@ -191,7 +191,7 @@ geoyukon_datasets <- geoyukon_datasets |>
 
 geoyukon_datasets <- geoyukon_datasets |> 
   mutate(
-    tags = str_c(tags, ",geoyukon-import,geoyukon-import-20250627"),
+    tags = str_c(tags, ",geoyukon-import,geoyukon-import-20250711"),
     content_type = "dataset",
     schema_type = "data",
     node_id = node_id + geoyukon_node_starting_id,
