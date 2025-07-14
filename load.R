@@ -15,8 +15,8 @@ source_pia_summaries_file <- "input/20250627/YG_Open_Gov_DKAN_PIA_export_2025062
 source_dataset_resources_file <- "input/20250627/YG_Open_Gov_DKAN_resource_export_20250627.xlsx"
 source_atipp_requests_resources_file <- "input/20250627/YG_Open_Gov_DKAN_ATIPP_response_export_20250627.xlsx"
 
-source_geoyukon_dataset_file <- "input/20250711/datasets.csv"
-source_geoyukon_resources_file <- "input/20250711/resources.csv"
+source_geoyukon_dataset_file <- "input/20250714/geoyukon_datasets.csv"
+source_geoyukon_resources_file <- "input/20250714/geoyukon_resources.csv"
 
 source_ygs_dataset_file <- "input/20250703/publications.csv"
 source_ygs_resources_file <- "input/20250703/resources_publications.csv"
@@ -191,7 +191,7 @@ geoyukon_datasets <- geoyukon_datasets |>
 
 geoyukon_datasets <- geoyukon_datasets |> 
   mutate(
-    tags = str_c(tags, ",geoyukon-import,geoyukon-import-20250711"),
+    tags = str_c(tags, ",geoyukon-import,geoyukon-import-20250714"),
     content_type = "dataset",
     schema_type = "data",
     node_id = node_id + geoyukon_node_starting_id,
@@ -759,16 +759,18 @@ if(setting_run_pandoc_markdown_conversions) {
       description_updated, .before = "description"
     )
   
-  # # SC04. Special case for Geomatics endnotes that aren't formatted properly.
-  # datasets <- datasets |>
-  #   mutate(
-  #     description_updated = str_replace_all(description_updated, "<a href=\"https://yukon.ca/geoyukon\" rel=\"nofollow ugc\" style=\"text-decoration:underline;\">GeoYukon</a> by the <a href=\"https://yukon.ca/maps\" rel=\"nofollow ugc\" style=\"text-decoration:underline;\">Government of Yukon</a>", "[GeoYukon](https://yukon.ca/geoyukon) by the [Government of Yukon](https://yukon.ca/maps)"),
-  #     description_updated = str_replace_all(description_updated, "<a href=\"https://yukon.ca/geoyukon\" rel=\"nofollow ugc\">GeoYukon</a> by the <a href=\"https://yukon.ca/maps\" rel=\"nofollow ugc\">Government of Yukon</a>", "[GeoYukon](https://yukon.ca/geoyukon) by the [Government of Yukon](https://yukon.ca/maps)"),
-  # 
-  #     description_updated = str_replace_all(description_updated, "<a href=\"mailto:geomatics.help@yukon.ca\" rel=\"nofollow ugc\" style=\"text-decoration:underline;\">geomatics.help@yukon.ca</a>", "[geomatics.help@yukon.ca](mailto:geomatics.help@yukon.ca)"),
-  #     description_updated = str_replace_all(description_updated, "<a href=\"mailto:geomatics.help@yukon.ca\" rel=\"nofollow ugc\">geomatics.help@yukon.ca</a>", "[geomatics.help@yukon.ca](mailto:geomatics.help@yukon.ca)")
-  # 
-  #   )
+  # SC04. Special case for Geomatics endnotes that aren't formatted properly.
+  datasets <- datasets |>
+    mutate(
+      description_updated = str_replace_all(description_updated, "\\{rel=\"nofollow ugc\" style=\"text-decoration:underline;\"\\}", ""),
+      description_updated = str_replace_all(description_updated, "\\{rel=\"nofollow ugc\"\\}", ""),
+      description_updated = str_replace_all(description_updated, "\\{target=\"_blank\" rel=\"nofollow ugc noopener noreferrer\"\\}", ""),
+      
+      description_updated = str_replace_all(description_updated, '\\{style="text-decoration:underline;" rel="nofollow ugc"\\}', ""),
+      description_updated = str_replace_all(description_updated, '\\{rel="nofollow ugc" target="_blank"\\}', "")
+
+
+    )
   
   # Re-combine the description column
   datasets <- datasets |> 
