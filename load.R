@@ -21,6 +21,9 @@ source_geoyukon_resources_file <- "input/20250714/geoyukon_resources.csv"
 source_ygs_dataset_file <- "input/20250704/publications.csv"
 source_ygs_resources_file <- "input/20250704/resources_publications.csv"
 
+source_ygs_compilations_dataset_file <- "input/20250711/compilations_data_with_titles.xlsx" # Manually added in titles; saved as an Excel file
+source_ygs_compilations_resources_file <- "input/20250711/resource_compilations_data.csv"
+
 setting_run_pandoc_markdown_conversions <- TRUE
 
 # Start time logging ------------------------------------------------------
@@ -258,7 +261,7 @@ ygs_datasets <- ygs_datasets |>
 
 ygs_datasets <- ygs_datasets |> 
   mutate(
-    tags = str_c(tags, ",ygs-import,ygs-import-20250703"),
+    tags = str_c(tags, ",ygs-import,ygs-import-20250711,ygs-publications"),
     content_type = "dataset",
     schema_type = "information",
     authored = as.character(authored),
@@ -293,6 +296,73 @@ ygs_datasets <- ygs_datasets |>
 # Bind these together
 datasets <- datasets |> 
   bind_rows(ygs_datasets)
+
+# SC05b. Special case - import YGS datasets (compilations)
+
+ygs_compilations_node_starting_id = 410000
+
+ygs_compilations_datasets <- read_excel(source_ygs_compilations_dataset_file) |> 
+  clean_names()
+
+# Used by rename(), where new = "old"
+field_mapping <- c(
+  node_id = "data_id",
+  publishers_groups = "organization_title",
+  last_revised = "metadata_modified",
+  authored = "metadata_created",
+  description = "notes",
+  topics = "topic",
+  contact_name = "internal_contact_name",
+  contact_email = "internal_contact_email"
+)
+
+ygs_compilations_datasets <- ygs_compilations_datasets |> 
+  rename(all_of(field_mapping))
+
+ygs_compilations_datasets <- ygs_compilations_datasets |> 
+  mutate(
+    tags = "ygs-import,ygs-import-20250711,ygs-compilations",
+    content_type = "dataset",
+    # schema_type = "data", # already set
+    authored = as.character(authored),
+    last_revised = as.character(last_revised),
+    ygs_compilation_id = node_id,
+    node_id = node_id + ygs_compilations_node_starting_id,
+  ) |> 
+  mutate(
+    last_revised = case_when(
+      last_revised == "2023-12-12 10:12:34" ~ authored, # Handling for a bunch of entries sharing a last modified time
+      .default = last_revised
+    )
+  ) |> 
+  mutate(
+    contact_email = case_when(
+      contact_email == "ygs-minerals@gov.yk.ca; geology@gov.yk.ca" ~ "ygs-minerals@gov.yk.ca",
+      .default = contact_email
+    )
+  )
+
+ygs_compilations_datasets <- ygs_compilations_datasets |>
+  select(
+    node_id,
+    content_type,
+    schema_type,
+    title,
+    description,
+    publishers_groups,
+    tags,
+    topics,
+    authored,
+    last_revised,
+    contact_name,
+    contact_email,
+    ygs_compilation_id
+  )
+
+# Bind these together
+datasets <- datasets |> 
+  bind_rows(ygs_compilations_datasets)
+
 
 # 3. Update languages to match the new possible values
 # english / french / multiple_languages / other / ""
@@ -1258,7 +1328,7 @@ dataset_resources <- dataset_resources |>
   bind_rows(geoyukon_resources)
 
 
-# SC06. Special case, import YGS resources and match them.
+# SC06. Special case, import YGS resources (publications) and match them.
 ygs_resources <- read_csv(source_ygs_resources_file) |> 
   clean_names()
 
@@ -1317,6 +1387,67 @@ ygs_resources <- ygs_resources |>
 # Bind these together
 dataset_resources <- dataset_resources |>
   bind_rows(ygs_resources)
+
+
+# SC06b. Special case, import YGS resources (compilations) and match them.
+ygs_compilations_resources <- read_csv(source_ygs_compilations_resources_file) |> 
+  clean_names()
+
+
+ygs_compilations_resources <- ygs_compilations_resources |> 
+  mutate(
+    dataset_id = parent_id + ygs_compilations_node_starting_id,
+    # schema_type = "data",
+    format_raw = str_replace_all(format, ".", ""),
+    created = as.character(created),
+    last_modified = as.character(last_modified)
+  ) |> 
+  mutate(
+    last_modified = case_when(
+      last_modified == "2021-03-02 04:03:03" ~ created, # Handling for a bunch of entries sharing a last modified time
+      .default = last_modified
+    )
+  )
+
+ygs_compilations_resources <- ygs_compilations_resources |> 
+  rename(
+    dataset_node_id = dataset_id,
+    title = "name",
+    authored = "created",
+    last_revised = "last_modified"
+  )
+
+# Ignore entries that don't have a URL
+ygs_compilations_resources <- ygs_compilations_resources |> 
+  filter(! is.na(url))
+
+ygs_compilations_resources_parents <- ygs_compilations_datasets |> 
+  select(node_id, title, publishers_groups) |> 
+  rename(
+    dataset_node_id = "node_id",
+    dataset_title = "title",
+    organization_title = "publishers_groups"
+  )
+
+ygs_compilations_resources <- ygs_compilations_resources |> 
+  left_join(ygs_compilations_resources_parents, by = "dataset_node_id") |> 
+  select(
+    schema_type,
+    title,
+    description,
+    format,
+    format_raw,
+    authored,
+    last_revised,
+    url,
+    parent_id,
+    organization_title,
+    dataset_node_id
+  )
+
+# Bind these together
+dataset_resources <- dataset_resources |>
+  bind_rows(ygs_compilations_resources)
 
 
 
