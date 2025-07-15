@@ -697,7 +697,8 @@ datasets <- datasets |>
 datasets <- datasets |> 
   mutate(
     is_html_description = case_when(
-      str_detect(description, "<") ~ TRUE,
+      str_detect(description, "</") ~ TRUE,
+      str_detect(description, "<br>") ~ TRUE,
       .default = FALSE
     )
   ) |> relocate(
