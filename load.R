@@ -693,7 +693,8 @@ topics <- datasets |>
   mutate(
     topics = str_to_sentence(topics)
   ) |> 
-  filter(! is.na(topics))
+  filter(! is.na(topics)) |> 
+  distinct()
 
 topics <- topics |> 
   group_by(topics) |> 
