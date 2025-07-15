@@ -196,6 +196,7 @@ geoyukon_datasets <- geoyukon_datasets |>
     schema_type = "data",
     node_id = node_id + geoyukon_node_starting_id,
     last_revised = str_fme_datetime_to_datetime(last_revised),
+    released_date = str_fme_datetime_to_datetime(released_date),
     # topics = str_to_sentence(topics)
   )
 
@@ -207,7 +208,7 @@ geoyukon_datasets <- geoyukon_datasets |>
 # [done] check that dates created and modified look good.
 # [done] fix topics
 # [done] fix frequency
-# add created date to original FME output
+# [done] add created date to original FME output
 
 # Remove single template(?) entry with a description of {{description}}
 geoyukon_datasets <- geoyukon_datasets |> 
@@ -224,7 +225,7 @@ geoyukon_datasets <- geoyukon_datasets |>
   mutate(
     contact_email = "Geomatics.Help@yukon.ca",
     data_dictionary = NA_character_,
-    authored = last_revised # Update if FME created date is available.
+    authored = released_date
   )
 
 

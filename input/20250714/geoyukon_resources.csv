@@ -635,8 +635,8 @@ DATASET_ID,COMMENT,FIELD,FORMAT,LINK,MIME_TYPE,TITLE
 212,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c23a5f55cc734f34ae99ddfc8b133d0a,,Fire Districts
 212,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Administrative_Boundaries/Fire_Districts/,,Fire Districts
 212,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/c23a5f55cc734f34ae99ddfc8b133d0a/info/metadata/metadata.xml?format=default&amp;output=html,,Fire Districts
-213,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=1a6f1badda264d169cc54bdcb022813b,,Forest Inventory Label Additional Table
-213,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Oil_and_Gas/Oil_and_Gas_Grid_Areas/,,Forest Inventory Label Additional Table
+213,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=d4d8088b967041298e1bd128db5520b7,,Forest Inventory Label Additional Table
+213,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Quartz_Leases_50k/,,Forest Inventory Label Additional Table
 213,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/46fa66d927ed4caf8daee29a9f38588a/info/metadata/metadata.xml?format=default&amp;output=html,,Forest Inventory Label Additional Table
 214,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=42f16c31fcc74dae92d1f750cc791f4b,,Flight Lines 1946 to 1950
 214,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Air_Photo_Flight_Lines/,,Flight Lines 1946 to 1950
@@ -992,8 +992,8 @@ DATASET_ID,COMMENT,FIELD,FORMAT,LINK,MIME_TYPE,TITLE
 331,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=4b8c50a1118e42fe9db4305c068ba113,,Footprints Yukon High Resolution Satellite Imagery
 331,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Footprints_High_Resolution_Satellites/,,Footprints Yukon High Resolution Satellite Imagery
 331,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/4b8c50a1118e42fe9db4305c068ba113/info/metadata/metadata.xml?format=default&amp;output=html,,Footprints Yukon High Resolution Satellite Imagery
-332,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=cc0ca69a74884790b292962b238a01dd,,Yukon Medium Resolution Satellite Imagery
-332,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Administrative_Boundaries/Outfitting_Concessions_250k/,,Yukon Medium Resolution Satellite Imagery
+332,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=764bebddc400438cafd1cf34ccdccf01,,Yukon Medium Resolution Satellite Imagery
+332,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Watercourses_1M/,,Yukon Medium Resolution Satellite Imagery
 332,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/ed388209a43947b9872b3a9228776365/info/metadata/metadata.xml?format=default&amp;output=html,,Yukon Medium Resolution Satellite Imagery
 333,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=18cea5cb481f48fe82305bdd05c554bb,,Footprints Medium Resolution Satellites
 333,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Footprints_Medium_Resolution_Satellites/,,Footprints Medium Resolution Satellites
@@ -1001,26 +1001,26 @@ DATASET_ID,COMMENT,FIELD,FORMAT,LINK,MIME_TYPE,TITLE
 334,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=8a27507f1f0e4f59bb40c2d74b178dc8,,Footprints Yukon Aerial Photographs - Before 2021
 334,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Footprints_Aerial_Photographs/,,Footprints Yukon Aerial Photographs - Before 2021
 334,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/8a27507f1f0e4f59bb40c2d74b178dc8/info/metadata/metadata.xml?format=default&amp;output=html,,Footprints Yukon Aerial Photographs - Before 2021
-335,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=85436480756748cb96664f7fad695bd8,,Footprints Yukon Aerial Imagery - Most Recent
-335,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Contaminated_Sites,,Footprints Yukon Aerial Imagery - Most Recent
+335,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f99d1dbabc4e4ee3896952e663088d43,,Footprints Yukon Aerial Imagery - Most Recent
+335,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Whitehorse_Trails_10k/,,Footprints Yukon Aerial Imagery - Most Recent
 335,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/373bb94ffcbb475691d9ce7e1e250f9f/info/metadata/metadata.xml?format=default&amp;output=html,,Footprints Yukon Aerial Imagery - Most Recent
-336,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=36fa31f7490c4966bc9c04095f6933ac,,Yukon High Resolution Satellite Imagery
-336,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biophysical/Biophysical_Plots/,,Yukon High Resolution Satellite Imagery
+336,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=62e008b08f864bd68a0d9e9507cf3090,,Yukon High Resolution Satellite Imagery
+336,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Emergency_Management/Attack_Bases/,,Yukon High Resolution Satellite Imagery
 336,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/1b86ee0e279044939eb0045cf8a6dad1/info/metadata/metadata.xml?format=default&amp;output=html,,Yukon High Resolution Satellite Imagery
-337,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=1817f21ad6dd44ba9eedc37bf4275804,,Yukon Aerial Photographs - Before 2021
-337,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biophysical/Broad_Ecosystem_Units_West_Central_Region/,,Yukon Aerial Photographs - Before 2021
+337,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f91870062ef2413eb3b0a642eeaba28d,,Yukon Aerial Photographs - Before 2021
+337,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biophysical/Ecoregions_1995_1M/,,Yukon Aerial Photographs - Before 2021
 337,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/70c5f36a82a74a49860fd4aa4398203a/info/metadata/metadata.xml?format=default&amp;output=html,,Yukon Aerial Photographs - Before 2021
-338,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=74141f31844841f38f389925fda6f39c,,Yukon Aerial Imagery - Most Recent
-338,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Administrative_Boundaries/YESAA_Assessment_Districts_250k/,,Yukon Aerial Imagery - Most Recent
+338,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f9588f95c62e4bf69ef02145d91c92ab,,Yukon Aerial Imagery - Most Recent
+338,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Emergency_Management/Fire_History/,,Yukon Aerial Imagery - Most Recent
 338,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/2ec1e0ae0b4446e3baba2dfa15afaf4b/info/metadata/metadata.xml?format=default&amp;output=html,,Yukon Aerial Imagery - Most Recent
-339,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f06589c40b194570a12c6b5a5d0ad5c1,,First Nation Traditional Territories - 250k
-339,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Water_Wells/,,First Nation Traditional Territories - 250k
+339,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=3c30dd2c61644302adde38a3f5750d2c,,First Nation Traditional Territories - 250k
+339,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Emergency_Management/Fire_Ignition_Locations/,,First Nation Traditional Territories - 250k
 339,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/2fcc234fe562439d9b62cc9f0ad23b7a/info/metadata/metadata.xml?format=default&amp;output=html,,First Nation Traditional Territories - 250k
-340,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=fd4c78bbe78141c98dcba98a726f1fc2,,First Nation Traditional Territories - 1M
-340,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biophysical/Wetlands_10k/,,First Nation Traditional Territories - 1M
+340,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=8d8e0dbd229544b8bcec3492e345d933,,First Nation Traditional Territories - 1M
+340,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Emergency_Management/Fire_Management_Zones/,,First Nation Traditional Territories - 1M
 340,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/ce3bf7211c914a63ad4179c46a6e618b/info/metadata/metadata.xml?format=default&amp;output=html,,First Nation Traditional Territories - 1M
-341,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=3f4992f92392475f81454813d879987a,,Footprints Yukon Composite 150 cm
-341,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Water_Monitoring_Sites,,Footprints Yukon Composite 150 cm
+341,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=180410825beb4086ab562b54989e1339,,Footprints Yukon Composite 150 cm
+341,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Utilities_and_Communication/Hydro_Energy/,,Footprints Yukon Composite 150 cm
 341,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/4d458130c7734dd9b58f8b550b7b38de/info/metadata/metadata.xml?format=default&amp;output=html,,Footprints Yukon Composite 150 cm
 342,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=bedb4e55cbb44db89800822547098f55,,Peel Landscape Management Units - 250k
 342,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Planning/Peel_Landscape_Management_Units_250k/,,Peel Landscape Management Units - 250k
@@ -1028,83 +1028,83 @@ DATASET_ID,COMMENT,FIELD,FORMAT,LINK,MIME_TYPE,TITLE
 343,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=7867110e787d48c4b0624c52192b5016,,Dawson Land Management Units - 250k
 343,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Planning/Dawson_Land_Management_Units_250k/,,Dawson Land Management Units - 250k
 343,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/7867110e787d48c4b0624c52192b5016/info/metadata/metadata.xml?format=default&amp;output=html,,Dawson Land Management Units - 250k
-344,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=2253804187264b3da1796e7735b84647,,Conservation Officer Districts - 50K
-344,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Forest_Resource_Roads_50k/,,Conservation Officer Districts - 50K
+344,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c271094c3c4a4c949fec8230130b5601,,Conservation Officer Districts - 50K
+344,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Utilities_and_Communication/YEC_Power_Distribution_Lines/,,Conservation Officer Districts - 50K
 344,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/53103098fd8e4b2cbebb5fb1633e61a5/info/metadata/metadata.xml?format=default&amp;output=html,,Conservation Officer Districts - 50K
-345,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=b33266c8907b4bf0859558fadd6a8f11,,Moose - Wildlife Key Area - 250k
-345,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Quartz_Mining_Licences_50k/,,Moose - Wildlife Key Area - 250k
+345,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=0adbe1965c154e4dbec92e81e3969dfd,,Moose - Wildlife Key Area - 250k
+345,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Utilities_and_Communication/YEC_Power_Generating_Stations/,,Moose - Wildlife Key Area - 250k
 345,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/3de70ff22bae4376ba27c99ce354d4e5/info/metadata/metadata.xml?format=default&amp;output=html,,Moose - Wildlife Key Area - 250k
-346,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=3afeba64646d40919e319606d3bd3051,,Beaver and muskrat - wildlife key area - 250k
-346,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Crown_Grants_50k/,,Beaver and muskrat - wildlife key area - 250k
+346,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=1322ee9fef1c40559e5ac5ec2f2dc3ea,,Beaver and muskrat - wildlife key area - 250k
+346,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Utilities_and_Communication/YEC_Power_Lines/,,Beaver and muskrat - wildlife key area - 250k
 346,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/009a97fb704c4753a26992a145049fd4/info/metadata/metadata.xml?format=default&amp;output=html,,Beaver and muskrat - wildlife key area - 250k
-347,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=0519e28db4d948d5aed3e21a90b83d93,,Sharp-tailed Grouse - Wildlife Key Area - 250k
-347,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Oceans_1M/,,Sharp-tailed Grouse - Wildlife Key Area - 250k
+347,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=373c74ec6b294361964eac7b6b63c37b,,Sharp-tailed Grouse - Wildlife Key Area - 250k
+347,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Utilities_and_Communication/YEC_Power_Substations/,,Sharp-tailed Grouse - Wildlife Key Area - 250k
 347,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/978fad47eceb497ab755d1fa9f4dfc40/info/metadata/metadata.xml?format=default&amp;output=html,,Sharp-tailed Grouse - Wildlife Key Area - 250k
-348,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=ae70f866062c45b286fa693110f4497b,,Woodland Caribou - Level 3 - Wildlife Key Area - 250k
-348,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biophysical/Bioclimate_Zones_and_Subzones/,,Woodland Caribou - Level 3 - Wildlife Key Area - 250k
+348,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=902878e3b38b4b6ca8c93d5f1d024ca7,,Woodland Caribou - Level 3 - Wildlife Key Area - 250k
+348,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Yukon_Communities/,,Woodland Caribou - Level 3 - Wildlife Key Area - 250k
 348,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/d9fd9654635646fea7b95fe93a0bc98d/info/metadata/metadata.xml?format=default&amp;output=html,,Woodland Caribou - Level 3 - Wildlife Key Area - 250k
-349,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=273bb3994aa540baad04c2db770bf980,,Raptor - Wildlife Key Area - 250k
-349,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Personal_Use_Fuelwood_Areas_50k/,,Raptor - Wildlife Key Area - 250k
+349,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=71d5b453a69b4e85b790f9fb9cc94663,,Raptor - Wildlife Key Area - 250k
+349,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Trails_50k_Canvec/,,Raptor - Wildlife Key Area - 250k
 349,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/7916accbbb6b4e1584cc2fe9b3f14510/info/metadata/metadata.xml?format=default&amp;output=html,,Raptor - Wildlife Key Area - 250k
-350,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c9353929f7f645d2869465f93803a66a,,Bear - wildlife key area - 250k
-350,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Utilities_and_Communication/Utilities_Line_50k/,,Bear - wildlife key area - 250k
+350,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=884c18e921a04adfb038bcb5483cb0a5,,Bear - wildlife key area - 250k
+350,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Waterbodies_250k_Canvec/,,Bear - wildlife key area - 250k
 350,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/3f27090d2336415b9163fd7d83aa0f5a/info/metadata/metadata.xml?format=default&amp;output=html,,Bear - wildlife key area - 250k
-351,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=59ec06a303af4d81b5ce77aebbb49525,,Elk - Wildlife Key Area - 250k
-351,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Historical_Mineral_Claims_50k/,,Elk - Wildlife Key Area - 250k
+351,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=a97d253ed410451ea27c2dcea8cc8c4c,,Elk - Wildlife Key Area - 250k
+351,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Watercourses_250k_Canvec/,,Elk - Wildlife Key Area - 250k
 351,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/dfb8189d75b34fbb95ea3ac3a7fe5e2d/info/metadata/metadata.xml?format=default&amp;output=html,,Elk - Wildlife Key Area - 250k
-352,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=905c28bd399040c5842e5dcf26fb8b6d,,Waterfowl - Wildlife Key Area - 250k
-352,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Cutting_Permits_50k/,,Waterfowl - Wildlife Key Area - 250k
+352,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=7d2acc6ce21c4a8faf2459669ba8d1b9,,Waterfowl - Wildlife Key Area - 250k
+352,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Watercourses_50k_Canvec/,,Waterfowl - Wildlife Key Area - 250k
 352,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/f199411d267947b7b2a6059156067175/info/metadata/metadata.xml?format=default&amp;output=html,,Waterfowl - Wildlife Key Area - 250k
-353,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=013f827d86624cc2b7bf97fb650ee932,,Whale - Wildlife Key Area - 250k
-353,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Roadside_Barriers_25k/,,Whale - Wildlife Key Area - 250k
+353,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=5a89c3fdd4ab47e181d44f18a257cf41,,Whale - Wildlife Key Area - 250k
+353,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Roads_250k_Canvec/,,Whale - Wildlife Key Area - 250k
 353,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/a2198861d7244b54aca7a904332873fc/info/metadata/metadata.xml?format=default&amp;output=html,,Whale - Wildlife Key Area - 250k
-354,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=4ac1b6d2e4ea4f3c8483175d1f9cb40d,,Shorebird - Wildlife Key Area - 250k
-354,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Permafrost_Reports_Polygon/,,Shorebird - Wildlife Key Area - 250k
+354,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=3e2a57f85072456598461f36a77286c7,,Shorebird - Wildlife Key Area - 250k
+354,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Roads_50k_Canvec/,,Shorebird - Wildlife Key Area - 250k
 354,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/7aeca9127ccc41bfbdfce86c29d7c897/info/metadata/metadata.xml?format=default&amp;output=html,,Shorebird - Wildlife Key Area - 250k
-355,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f53a111d97154a19ac7873360c19ade3,,Wood Bison - Wildlife Key Area - 250k
-355,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Geotechnical_Boreholes/,,Wood Bison - Wildlife Key Area - 250k
+355,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=96f8bdd9ee40490bb7d6f726afc6032d,,Wood Bison - Wildlife Key Area - 250k
+355,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Trails_250k_Canvec/,,Wood Bison - Wildlife Key Area - 250k
 355,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/38fc8144f3474ea18f1efd6a29074ad5/info/metadata/metadata.xml?format=default&amp;output=html,,Wood Bison - Wildlife Key Area - 250k
-356,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=6d11e960151e4cbca5753293fba34461,,Fox - Wildlife Key Area - 250k
-356,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Geotechnical_Reports_Point/,,Fox - Wildlife Key Area - 250k
+356,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=6aadb762687a4f23890d8ab2a8397720,,Fox - Wildlife Key Area - 250k
+356,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Geographic_Place_Names_Point_50k_Canvec/,,Fox - Wildlife Key Area - 250k
 356,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/f1965d0e7ef64facbb36cad3992a3218/info/metadata/metadata.xml?format=default&amp;output=html,,Fox - Wildlife Key Area - 250k
-357,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=d2e293fe678f4503af859384bbceb810,,Black Guillemot - Wildlife Key Area - 250k
-357,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Permafrost_Reports_Point/,,Black Guillemot - Wildlife Key Area - 250k
+357,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=e3c16ab482c44fbbbc5608368939416e,,Black Guillemot - Wildlife Key Area - 250k
+357,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Ice_and_Snow_50k_Canvec/,,Black Guillemot - Wildlife Key Area - 250k
 357,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/9ab2150c85a5481cbdfd31ed6ccd2de2/info/metadata/metadata.xml?format=default&amp;output=html,,Black Guillemot - Wildlife Key Area - 250k
-358,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=d83d8d7543e744e69d13f65d86277812,,Muskox - Level 2 - Wildlife Key Area - 250k
-358,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Temperature_Sensors/,,Muskox - Level 2 - Wildlife Key Area - 250k
+358,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=0a1bf60e7d9b437abb4f422dc62a9fe1,,Muskox - Level 2 - Wildlife Key Area - 250k
+358,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Railroads_250k_Canvec/,,Muskox - Level 2 - Wildlife Key Area - 250k
 358,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/191c8221dab8430391860e8f625b5e99/info/metadata/metadata.xml?format=default&amp;output=html,,Muskox - Level 2 - Wildlife Key Area - 250k
-359,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=e73127ebdaba4b58a728ecb22381846e,,Gull - Wildlife Key Area - 250k
-359,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Geochronology/,,Gull - Wildlife Key Area - 250k
+359,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=c37de6eb6c74438a82a5242ec0ba2e9c,,Gull - Wildlife Key Area - 250k
+359,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Elevation/Contours_50k_Canvec/,,Gull - Wildlife Key Area - 250k
 359,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/dc42bd62f7714146abca2030458d1ea3/info/metadata/metadata.xml?format=default&amp;output=html,,Gull - Wildlife Key Area - 250k
-360,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=9079d87f913e4a55b19ac38e3ff8c706,,Muskox - Level 3 - Wildlife Key Area - 250k
-360,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Geophysics_Gravity_Bouguer_Anomaly_2km/,,Muskox - Level 3 - Wildlife Key Area - 250k
+360,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=e09f12c2a9924eb79150efceccf7b639,,Muskox - Level 3 - Wildlife Key Area - 250k
+360,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Water_Obstacles_Line_50k_Canvec/,,Muskox - Level 3 - Wildlife Key Area - 250k
 360,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/688c4b8a81f04db0b87a3cb5c503d178/info/metadata/metadata.xml?format=default&amp;output=html,,Muskox - Level 3 - Wildlife Key Area - 250k
-361,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=04ff4e79ad4046dbabcefd763238bd07,,Woodland Caribou - Level 2 - Wildlife Key Area - 250k
-361,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Planning/Subdivision_Applications_Historical/,,Woodland Caribou - Level 2 - Wildlife Key Area - 250k
+361,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=a8229d2a59fe4e0496bbec32daf31b71,,Woodland Caribou - Level 2 - Wildlife Key Area - 250k
+361,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Landform_Features_Polygon_50k_Canvec/,,Woodland Caribou - Level 2 - Wildlife Key Area - 250k
 361,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/85d6254b97084d0c8834ba951f3981b9/info/metadata/metadata.xml?format=default&amp;output=html,,Woodland Caribou - Level 2 - Wildlife Key Area - 250k
-362,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=e88f7cfbe97f4d48907f42bf91b97087,,Barren-ground caribou - wildlife key area - 250k
-362,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Geophysics_First_Vertical_Derivatives_50m/,,Barren-ground caribou - wildlife key area - 250k
+362,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=ecdc5eeaa84c48e59317f5a7a8fbcc1a,,Barren-ground caribou - wildlife key area - 250k
+362,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Ice_and_Snow_250k_Canvec/,,Barren-ground caribou - wildlife key area - 250k
 362,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/f6d45a494b834ecfb132319c90be8279/info/metadata/metadata.xml?format=default&amp;output=html,,Barren-ground caribou - wildlife key area - 250k
-363,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=7d73a01036154f3eb3c5c0bbe5a71ea2,,Mineral Lick - Wildlife Key Area - 250k
-363,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Geophysics_Residual_Magnetic_Total_Fields_50m/,,Mineral Lick - Wildlife Key Area - 250k
+363,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=53090c39a91f4eb4a470afd6ba7a516f,,Mineral Lick - Wildlife Key Area - 250k
+363,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Wetlands_50k_Canvec/,,Mineral Lick - Wildlife Key Area - 250k
 363,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/196764943e174565925be57ab4cb7d04/info/metadata/metadata.xml?format=default&amp;output=html,,Mineral Lick - Wildlife Key Area - 250k
-364,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=ab4d8ea17f6a4ee1bd75d9a3cbc5540d,,Polar Bear - Wildlife Key Area - 250k
-364,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Imagery/Air_Photo_Locations/,,Polar Bear - Wildlife Key Area - 250k
+364,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=16936352ada3400b85efe0c466620579,,Polar Bear - Wildlife Key Area - 250k
+364,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Elevation/Contours_250k_Canvec/,,Polar Bear - Wildlife Key Area - 250k
 364,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/940e735d905f4a5abd793cf785fac933/info/metadata/metadata.xml?format=default&amp;output=html,,Polar Bear - Wildlife Key Area - 250k
-365,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=6312a543fda44663a7ce9ef28792d609,,Mule Deer - Wildlife Key Area - 250k
-365,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Imagery/Air_Photo_Flight_Lines/,,Mule Deer - Wildlife Key Area - 250k
+365,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=3fed023b933343d887ae95f1039b915b,,Mule Deer - Wildlife Key Area - 250k
+365,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Transportation/Cut_Lines_50k_Canvec/,,Mule Deer - Wildlife Key Area - 250k
 365,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/387f61905e3d4691b80523566c1d19b1/info/metadata/metadata.xml?format=default&amp;output=html,,Mule Deer - Wildlife Key Area - 250k
-366,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=de12907e41944077b5fb7f53fb6eca04,,Seal - Wildlife Key Area - 250k
-366,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Forestry/Historic_Silviculture_Inventory_50k/,,Seal - Wildlife Key Area - 250k
+366,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=2a6a16f3fd2b4c309682b9241441e71b,,Seal - Wildlife Key Area - 250k
+366,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Waterbody_Lines_250k_Canvec/,,Seal - Wildlife Key Area - 250k
 366,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/f43cc5db02e0402d99032bf796c29576/info/metadata/metadata.xml?format=default&amp;output=html,,Seal - Wildlife Key Area - 250k
-367,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=15392cd067264cbb8abdd316a393aebd,,Thinhorn Sheep - Wildlife Key Area - 250k
-367,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/CMI_Water_Quality_Sampling_Sites/,,Thinhorn Sheep - Wildlife Key Area - 250k
+367,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=b3f2989b5ac748dcad3828dcf8163c25,,Thinhorn Sheep - Wildlife Key Area - 250k
+367,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Land_Cover_50k_Canvec/,,Thinhorn Sheep - Wildlife Key Area - 250k
 367,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/ebbac8d5042a48ed8a1e4fda337a3995/info/metadata/metadata.xml?format=default&amp;output=html,,Thinhorn Sheep - Wildlife Key Area - 250k
-368,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f5c15b0117924445a32413bc1be705d4,,Wolf - Wildlife Key Area - 250k
-368,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Land_Tenure/Agriculture_Land_Dispositions/,,Wolf - Wildlife Key Area - 250k
+368,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=f53dd71acab44a90b8652e01d8721ce5,,Wolf - Wildlife Key Area - 250k
+368,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Land_Cover_250k_Canvec/,,Wolf - Wildlife Key Area - 250k
 368,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/53cd400ec10b44fda32135555c705a6a/info/metadata/metadata.xml?format=default&amp;output=html,,Wolf - Wildlife Key Area - 250k
-369,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=871f84d5f97942bba49f9f8e66af76b8,,Mountain Goat - Wildlife Key Area - 250k
-369,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Mining/Quartz_Claims_50k/,,Mountain Goat - Wildlife Key Area - 250k
+369,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=2fab9dae147a424b9cc66dad708fff27,,Mountain Goat - Wildlife Key Area - 250k
+369,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Water_Flow_50k_Canvec/,,Mountain Goat - Wildlife Key Area - 250k
 369,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/8bcac1c6eefe4e34b7ab7220d3d98988/info/metadata/metadata.xml?format=default&amp;output=html,,Mountain Goat - Wildlife Key Area - 250k
 370,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=94f7c0257a35449f802d58aa3849ac65,,Curie Point Depth
 370,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Curie_Point_Depth/,,Curie Point Depth
@@ -1112,11 +1112,11 @@ DATASET_ID,COMMENT,FIELD,FORMAT,LINK,MIME_TYPE,TITLE
 371,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=cc50b1edcf7f4d82bcee18c0dc1a13b1,,Curie Point Depth Contours
 371,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Curie_Point_Depth_Contours/,,Curie Point Depth Contours
 371,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/cc50b1edcf7f4d82bcee18c0dc1a13b1/info/metadata/metadata.xml?format=default&amp;output=html,,Curie Point Depth Contours
-372,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=ebf21127109740c79f35f5e4788b74aa,,Conservation Officer Districts - 1M
-372,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Yukon_Whole_Rock_Pb_Nd_Hf_Sr_and_Feldspar_Pb_Isotope_Compilation,,Conservation Officer Districts - 1M
+372,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=861dcc249e614fffa32c3798961d3343,,Conservation Officer Districts - 1M
+372,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Waterbody_Lines_50k_Canvec/,,Conservation Officer Districts - 1M
 372,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/df586457e8444b7d95be71b325b52c8c/info/metadata/metadata.xml?format=default&amp;output=html,,Conservation Officer Districts - 1M
-373,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=522b18abaacd4df8ae1f214d3ed337ea,,Conservation Officer Districts - 250K
-373,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Yukon_Sulphide_Pb_and_S_Isotope_Compilation,,Conservation Officer Districts - 250K
+373,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=57a7f9cbdf8741b08dd23b37c7955779,,Conservation Officer Districts - 250K
+373,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Base/Wetlands_250k_Canvec/,,Conservation Officer Districts - 250K
 373,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/1c5dd9189cb445869b9b8702818b6537/info/metadata/metadata.xml?format=default&amp;output=html,,Conservation Officer Districts - 250K
 374,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=d89e7350cb3c419187f4ff7fb3b63c6a,,Agriculture Land Capability Class - Field Analysis
 374,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biophysical/Agriculture_Land_Capability_Class_Field_Analysis,,Agriculture Land Capability Class - Field Analysis
@@ -1145,8 +1145,8 @@ DATASET_ID,COMMENT,FIELD,FORMAT,LINK,MIME_TYPE,TITLE
 382,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=8607e1f0639348f69c4a945c89a0aca9,,Bedrock map index
 382,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Geological/Bedrock_Map_Index/,,Bedrock map index
 382,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/8607e1f0639348f69c4a945c89a0aca9/info/metadata/metadata.xml?format=default&amp;output=html,,Bedrock map index
-383,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=253f313e5e084ea2b723eb890c7a6835,,Agricultural Land Parcels - Surveyed
-383,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Emergency_Management/Location_Markers_Whitehorse/,,Agricultural Land Parcels - Surveyed
+383,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=505ecf24da7d4f66bb027f88dce57615,,Agricultural Land Parcels - Surveyed
+383,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Reference/Geographic_Place_Names_Line_50k_Canvec/,,Agricultural Land Parcels - Surveyed
 383,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/4c7259f4d84f4f6fb7e490d309b53449/info/metadata/metadata.xml?format=default&amp;output=html,,Agricultural Land Parcels - Surveyed
 384,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=d28c8eda4aa14f1cb804ae6135f09e6f,,Surface disturbance mapping extent
 384,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Environmental_Monitoring/Surface_Disturbance_Mapping_Extent/,,Surface disturbance mapping extent
@@ -1160,6 +1160,6 @@ DATASET_ID,COMMENT,FIELD,FORMAT,LINK,MIME_TYPE,TITLE
 387,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=97f4f7ccf79e44fa8aa8503fae923054,,CDC Species of Conservation Concern - Centroids
 387,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Biological/CDC_Species_of_Conservation_Concern_Centroids/,,CDC Species of Conservation Concern - Centroids
 387,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/97f4f7ccf79e44fa8aa8503fae923054/info/metadata/metadata.xml?format=default&amp;output=html,,CDC Species of Conservation Concern - Centroids
-388,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=5b26e5172fee4c25b6104ab089fb4048,,{{name}}
-388,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Administrative_Boundaries/ORV_Management_Areas_250k/,,{{name}}
+388,,API,html,https://yukon.maps.arcgis.com/home/item.html?id=ee272fcb3bcd4c65bd2f572c6d95e98a,,{{name}}
+388,,API,ftp,https://map-data.service.yukon.ca/GeoYukon/Administrative_Boundaries/Yukon_Electoral_Districts_2015/,,{{name}}
 388,,API,xml,https://yukon.maps.arcgis.com/sharing/rest/content/items/45cbbe89dfa244b9985fc58b08e69f35/info/metadata/metadata.xml?format=default&amp;output=html,,{{name}}
