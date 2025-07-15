@@ -1360,6 +1360,31 @@ ygs_resources <- ygs_resources |>
 ygs_resources <- ygs_resources |> 
   filter(! is.na(url))
 
+
+# Add in YGS publications metadata links
+ygs_publications_site_metadata_resources <- ygs_datasets |> 
+  select(
+    node_id, 
+    ygs_publication_id,
+    authored,
+    last_revised
+    ) |> 
+  rename(
+    dataset_node_id = node_id
+  )
+
+ygs_publications_site_metadata_resources <- ygs_publications_site_metadata_resources |> 
+  mutate(
+    title = "Yukon Geological Survey publication metadata",
+    format = "HTML",
+    schema_type = "information",
+    url = str_c("https://data.geology.gov.yk.ca/Reference/", ygs_publication_id)
+  )
+
+ygs_resources <- ygs_publications_site_metadata_resources |> 
+  bind_rows(ygs_resources)
+
+
 ygs_dataset_resource_parents <- ygs_datasets |> 
   select(node_id, title, publishers_groups) |> 
   rename(
