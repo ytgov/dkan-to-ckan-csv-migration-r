@@ -1446,6 +1446,30 @@ ygs_compilations_resources <- ygs_compilations_resources |>
 ygs_compilations_resources <- ygs_compilations_resources |> 
   filter(! is.na(url))
 
+# Add in YGS compilations metadata links
+ygs_compilations_site_metadata_resources <- ygs_compilations_datasets |> 
+  select(
+    node_id, 
+    ygs_compilation_id,
+    authored,
+    last_revised
+  ) |> 
+  rename(
+    dataset_node_id = node_id
+  )
+
+ygs_compilations_site_metadata_resources <- ygs_compilations_site_metadata_resources |> 
+  mutate(
+    title = "Yukon Geological Survey compilation metadata",
+    format = "HTML",
+    schema_type = "data",
+    url = str_c("https://data.geology.gov.yk.ca/Compilation/", ygs_compilation_id)
+  )
+
+ygs_compilations_resources <- ygs_compilations_site_metadata_resources |> 
+  bind_rows(ygs_compilations_resources)
+
+
 ygs_compilations_resources_parents <- ygs_compilations_datasets |> 
   select(node_id, title, publishers_groups) |> 
   rename(
