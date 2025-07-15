@@ -772,6 +772,19 @@ if(setting_run_pandoc_markdown_conversions) {
 
     )
   
+  # SC04b. Handling for trailing slashes (single line breaks or <br>'s in the original formatting) that CKAN doesn't parse well.
+  # Thanks to https://stackoverflow.com/a/61489519/756641
+  datasets <- datasets |>
+    mutate(
+      # Replace leading slashes on line breaks
+      description_updated = str_replace_all(description_updated, "\\\\\r\\\n", "\\\r\\\n"),
+      # Replace leading slashes on single quotes
+      description_updated = str_replace_all(description_updated, "\\\\'", "'"),
+      # Replace leading slashes on double quotes
+      description_updated = str_replace_all(description_updated, '\\\\"', '"')
+    )
+  
+  
   # Re-combine the description column
   datasets <- datasets |> 
     mutate(
