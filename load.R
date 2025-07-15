@@ -18,8 +18,8 @@ source_atipp_requests_resources_file <- "input/20250627/YG_Open_Gov_DKAN_ATIPP_r
 source_geoyukon_dataset_file <- "input/20250714/geoyukon_datasets.csv"
 source_geoyukon_resources_file <- "input/20250714/geoyukon_resources.csv"
 
-source_ygs_dataset_file <- "input/20250703/publications.csv"
-source_ygs_resources_file <- "input/20250703/resources_publications.csv"
+source_ygs_dataset_file <- "input/20250704/publications.csv"
+source_ygs_resources_file <- "input/20250704/resources_publications.csv"
 
 setting_run_pandoc_markdown_conversions <- TRUE
 
