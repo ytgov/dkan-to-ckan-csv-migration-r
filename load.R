@@ -1238,12 +1238,21 @@ dataset_resources <- dataset_resources |>
     url_type, .before = "local_file_name"
   )
 
+# 4b. Use the `local_file_path` field instead of `local_file_name` but truncate off the start:
+# e.g. /var/www/open-data/sites/default/files/MT001- OTT via vehicle 2021.pdf
+# should become
+# MT001- OTT via vehicle 2021.pdf
+dataset_resources <- dataset_resources |> 
+  mutate(
+    local_file_path_suffix = str_sub(local_file_path, start = 40L)
+  )
+
 # 5. Create a public URL from the local_file_name
 # https://open.yukon.ca/sites/default/files/ + local_file_name
 dataset_resources <- dataset_resources |> 
   mutate(
     url = case_when(
-      ! is.na(local_file_name) ~ str_c(dkan_files_base_url, local_file_name),
+      ! is.na(local_file_name) ~ str_c(dkan_files_base_url, local_file_path_suffix),
       ! is.na(remote_uri) ~ remote_uri,
       ! is.na(linked_file_uri) ~ linked_file_uri,
       .default = NA_character_
