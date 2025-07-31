@@ -168,6 +168,11 @@ datasets <- datasets |>
     )
   )
 
+# Prior to removing these active harvest sources, keep a log of their titles and URLs to help with creating redirects later
+active_harvest_dataset_urls <- datasets |> 
+  filter(is_active_harvest_source == TRUE) |> 
+  select(title, uri)
+
 # Remove datasets that are part of active harvest sources from the export
 datasets <- datasets |>
   filter(is_active_harvest_source == FALSE)
@@ -363,6 +368,71 @@ ygs_compilations_datasets <- ygs_compilations_datasets |>
 datasets <- datasets |> 
   bind_rows(ygs_compilations_datasets)
 
+# Add in missing titles where available
+active_harvest_dataset_urls <- active_harvest_dataset_urls |> 
+  rename(
+    historical_uri = "uri"
+  )
+
+dataset_titles <- datasets |> 
+  select(title, node_id)
+
+active_harvest_dataset_urls <- active_harvest_dataset_urls |> 
+  full_join(dataset_titles, by = "title", relationship = "many-to-many")
+
+# Only include one URI per title
+active_harvest_dataset_urls <- active_harvest_dataset_urls |> 
+  distinct(title, .keep_all = TRUE) |> 
+  filter(!is.na(historical_uri)) |> 
+  select(title, historical_uri)
+
+datasets <- datasets |> 
+  left_join(active_harvest_dataset_urls, by = "title")
+
+# datasets |> 
+#   filter(!is.na(historical_uri)) |> 
+#   select(node_id, title, uri, historical_uri) |> 
+#   View()
+
+# Checking for duplicates here
+# datasets |>
+#   filter(!is.na(historical_uri)) |>
+#   get_dupes(historical_uri) |>
+#   View()
+
+# Use the most recent dataset entry for non-duplicated historical_uri entries
+datasets <- datasets |> 
+  group_by(historical_uri) |> 
+  mutate(
+    historical_uri_newest_node_id = last(node_id)
+  ) |> 
+  ungroup() |> 
+  mutate(
+    historical_uri = case_when(
+      node_id == historical_uri_newest_node_id ~ historical_uri,
+      .default = NA_character_
+    )
+  )
+
+datasets <- datasets |> 
+  mutate(
+    uri = case_when(
+      ! is.na(uri) ~ uri,
+      ! is.na(historical_uri) ~ historical_uri,
+      .default = NA_character_
+    )
+  )
+
+# Double-checking the results here
+# datasets |> 
+#   filter(
+#     title == "Terranes"
+#   ) |> 
+#   View()
+# 
+# datasets |>
+#   get_dupes(title) |>
+#   View()
 
 # 3. Update languages to match the new possible values
 # english / french / multiple_languages / other / ""
