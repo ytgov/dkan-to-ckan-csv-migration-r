@@ -369,6 +369,11 @@ datasets <- datasets |>
   bind_rows(ygs_compilations_datasets)
 
 # Add in missing titles where available
+# datasets |>
+#   filter(!is.na(uri)) |> 
+#   select(uri) |> 
+#   count()
+
 active_harvest_dataset_urls <- active_harvest_dataset_urls |> 
   rename(
     historical_uri = "uri"
@@ -963,6 +968,13 @@ field_mapping <- c(
 
 datasets <- datasets |> 
   rename(all_of(field_mapping))
+
+# Count the number of URIs (now that we're including historical URIs for active harvest sources)
+# datasets |>
+#   filter(!is.na(dkan_uri)) |> 
+#   select(dkan_uri) |> 
+#   count()
+
 
 # Select actually-used columns for export
 # Do this in 2 parts: data, and information
